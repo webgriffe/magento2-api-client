@@ -1,0 +1,11 @@
+# EavDataAttributeFrontendLabelInterface
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**storeId** | **int** | Store id | [optional] 
+**label** | **string** | Option label | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

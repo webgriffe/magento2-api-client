@@ -1,0 +1,60 @@
+# SalesDataCreditmemoInterface
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**adjustment** | **float** | Credit memo adjustment. | [optional] 
+**adjustmentNegative** | **float** | Credit memo negative adjustment. | [optional] 
+**adjustmentPositive** | **float** | Credit memo positive adjustment. | [optional] 
+**baseAdjustment** | **float** | Credit memo base adjustment. | [optional] 
+**baseAdjustmentNegative** | **float** | Credit memo negative base adjustment. | [optional] 
+**baseAdjustmentPositive** | **float** | Credit memo positive base adjustment. | [optional] 
+**baseCurrencyCode** | **string** | Credit memo base currency code. | [optional] 
+**baseDiscountAmount** | **float** | Credit memo base discount amount. | [optional] 
+**baseGrandTotal** | **float** | Credit memo base grand total. | [optional] 
+**baseDiscountTaxCompensationAmount** | **float** | Credit memo base discount tax compensation amount. | [optional] 
+**baseShippingAmount** | **float** | Credit memo base shipping amount. | [optional] 
+**baseShippingDiscountTaxCompensationAmnt** | **float** | Credit memo base shipping discount tax compensation amount. | [optional] 
+**baseShippingInclTax** | **float** | Credit memo base shipping including tax. | [optional] 
+**baseShippingTaxAmount** | **float** | Credit memo base shipping tax amount. | [optional] 
+**baseSubtotal** | **float** | Credit memo base subtotal. | [optional] 
+**baseSubtotalInclTax** | **float** | Credit memo base subtotal including tax. | [optional] 
+**baseTaxAmount** | **float** | Credit memo base tax amount. | [optional] 
+**baseToGlobalRate** | **float** | Credit memo base-to-global rate. | [optional] 
+**baseToOrderRate** | **float** | Credit memo base-to-order rate. | [optional] 
+**billingAddressId** | **int** | Credit memo billing address ID. | [optional] 
+**createdAt** | **string** | Credit memo created-at timestamp. | [optional] 
+**creditmemoStatus** | **int** | Credit memo status. | [optional] 
+**discountAmount** | **float** | Credit memo discount amount. | [optional] 
+**discountDescription** | **string** | Credit memo discount description. | [optional] 
+**emailSent** | **int** | Credit memo email sent flag value. | [optional] 
+**entityId** | **int** | Credit memo ID. | [optional] 
+**globalCurrencyCode** | **string** | Credit memo global currency code. | [optional] 
+**grandTotal** | **float** | Credit memo grand total. | [optional] 
+**discountTaxCompensationAmount** | **float** | Credit memo discount tax compensation amount. | [optional] 
+**incrementId** | **string** | Credit memo increment ID. | [optional] 
+**invoiceId** | **int** | Credit memo invoice ID. | [optional] 
+**orderCurrencyCode** | **string** | Credit memo order currency code. | [optional] 
+**orderId** | **int** | Credit memo order ID. | 
+**shippingAddressId** | **int** | Credit memo shipping address ID. | [optional] 
+**shippingAmount** | **float** | Credit memo shipping amount. | [optional] 
+**shippingDiscountTaxCompensationAmount** | **float** | Credit memo shipping discount tax compensation amount. | [optional] 
+**shippingInclTax** | **float** | Credit memo shipping including tax. | [optional] 
+**shippingTaxAmount** | **float** | Credit memo shipping tax amount. | [optional] 
+**state** | **int** | Credit memo state. | [optional] 
+**storeCurrencyCode** | **string** | Credit memo store currency code. | [optional] 
+**storeId** | **int** | Credit memo store ID. | [optional] 
+**storeToBaseRate** | **float** | Credit memo store-to-base rate. | [optional] 
+**storeToOrderRate** | **float** | Credit memo store-to-order rate. | [optional] 
+**subtotal** | **float** | Credit memo subtotal. | [optional] 
+**subtotalInclTax** | **float** | Credit memo subtotal including tax. | [optional] 
+**taxAmount** | **float** | Credit memo tax amount. | [optional] 
+**transactionId** | **string** | Credit memo transaction ID. | [optional] 
+**updatedAt** | **string** | Credit memo updated-at timestamp. | [optional] 
+**items** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemInterface[]**](SalesDataCreditmemoItemInterface.md) | Array of credit memo items. | 
+**comments** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentInterface[]**](SalesDataCreditmemoCommentInterface.md) | Array of any credit memo comments. Otherwise, null. | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoExtensionInterface**](SalesDataCreditmemoExtensionInterface.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

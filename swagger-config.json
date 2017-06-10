@@ -1,0 +1,12 @@
+{
+    "invokerPackage": "Webgriffe\\MagentoApiClient",
+    "modelPackage": "Webgriffe\\MagentoApiClient\\Model",
+    "apiPackage": "Webgriffe\\MagentoApiClient\\Api",
+    "packagePath": "magento2-api-client",
+    "composerProjectName": "magento2-api-client",
+    "composerVendorName": "webgriffe",
+    "artifactVersion": "2.1",
+    "gitUserId": "webgriffe",
+    "gitRepoId": "magento2-api-client",
+    "variableNamingConvention": "camelCase"
+}
