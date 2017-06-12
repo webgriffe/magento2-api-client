@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **catalogCategoryAttributeRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryAttributeInterface catalogCategoryAttributeRepositoryV1GetGet($attributeCode)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataCategoryAttributeInterface catalogCategoryAttributeRepositoryV1GetGet($attributeCode)
 
 
 
@@ -40,7 +40,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryAttributeInterface**](../Model/CatalogDataCategoryAttributeInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryAttributeInterface**](../Model/CatalogDataCategoryAttributeInterface.md)
 
 ### Authorization
 
@@ -54,7 +54,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogCategoryAttributeRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryAttributeSearchResultsInterface catalogCategoryAttributeRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataCategoryAttributeSearchResultsInterface catalogCategoryAttributeRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -97,7 +97,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryAttributeSearchResultsInterface**](../Model/CatalogDataCategoryAttributeSearchResultsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryAttributeSearchResultsInterface**](../Model/CatalogDataCategoryAttributeSearchResultsInterface.md)
 
 ### Authorization
 

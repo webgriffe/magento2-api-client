@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -65,8 +65,8 @@ class SalesDataTransactionInterface implements ArrayAccess
         'isClosed' => 'int',
         'additionalInformation' => 'string[]',
         'createdAt' => 'string',
-        'childTransactions' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataTransactionInterface[]',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataTransactionExtensionInterface'
+        'childTransactions' => '\Webgriffe\MagentoApiClient\Model\SalesDataTransactionInterface[]',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataTransactionExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -469,7 +469,7 @@ class SalesDataTransactionInterface implements ArrayAccess
 
     /**
      * Gets childTransactions
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataTransactionInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataTransactionInterface[]
      */
     public function getChildTransactions()
     {
@@ -478,7 +478,7 @@ class SalesDataTransactionInterface implements ArrayAccess
 
     /**
      * Sets childTransactions
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataTransactionInterface[] $childTransactions Array of child transactions.
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataTransactionInterface[] $childTransactions Array of child transactions.
      * @return $this
      */
     public function setChildTransactions($childTransactions)
@@ -490,7 +490,7 @@ class SalesDataTransactionInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataTransactionExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataTransactionExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -499,7 +499,7 @@ class SalesDataTransactionInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataTransactionExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataTransactionExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

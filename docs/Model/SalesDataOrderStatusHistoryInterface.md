@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **isVisibleOnFront** | **int** | Is-visible-on-storefront flag value. | 
 **parentId** | **int** | Parent ID. | 
 **status** | **string** | Status. | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryExtensionInterface**](SalesDataOrderStatusHistoryExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryExtensionInterface**](SalesDataOrderStatusHistoryExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

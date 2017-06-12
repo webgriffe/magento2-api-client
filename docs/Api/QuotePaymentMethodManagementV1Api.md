@@ -13,7 +13,7 @@ Method | HTTP request | Description
 
 
 # **quotePaymentMethodManagementV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface quotePaymentMethodManagementV1GetGet($cartId)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface quotePaymentMethodManagementV1GetGet($cartId)
 
 
 
@@ -44,7 +44,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface**](../Model/QuoteDataPaymentInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface**](../Model/QuoteDataPaymentInterface.md)
 
 ### Authorization
 
@@ -58,7 +58,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **quotePaymentMethodManagementV1GetGet_0**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface quotePaymentMethodManagementV1GetGet_0()
+> \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface quotePaymentMethodManagementV1GetGet_0()
 
 
 
@@ -85,7 +85,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface**](../Model/QuoteDataPaymentInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface**](../Model/QuoteDataPaymentInterface.md)
 
 ### Authorization
 
@@ -99,7 +99,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **quotePaymentMethodManagementV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[] quotePaymentMethodManagementV1GetListGet($cartId)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[] quotePaymentMethodManagementV1GetListGet($cartId)
 
 
 
@@ -130,7 +130,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]**](../Model/QuoteDataPaymentMethodInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]**](../Model/QuoteDataPaymentMethodInterface.md)
 
 ### Authorization
 
@@ -144,7 +144,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **quotePaymentMethodManagementV1GetListGet_0**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[] quotePaymentMethodManagementV1GetListGet_0()
+> \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[] quotePaymentMethodManagementV1GetListGet_0()
 
 
 
@@ -171,7 +171,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]**](../Model/QuoteDataPaymentMethodInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]**](../Model/QuoteDataPaymentMethodInterface.md)
 
 ### Authorization
 
@@ -198,7 +198,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuotePaymentMethodManagementV1Api();
 $cartId = 56; // int | The cart ID.
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body63(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body63 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body63(); // \Webgriffe\MagentoApiClient\Model\Body63 | 
 
 try {
     $result = $api_instance->quotePaymentMethodManagementV1SetPut($cartId, $body);
@@ -214,7 +214,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **int**| The cart ID. |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body63**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body63.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body63**](../Model/\Webgriffe\MagentoApiClient\Model\Body63.md)|  | [optional]
 
 ### Return type
 
@@ -244,7 +244,7 @@ Adds a specified payment method to a specified shopping cart.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuotePaymentMethodManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body64(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body64 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body64(); // \Webgriffe\MagentoApiClient\Model\Body64 | 
 
 try {
     $result = $api_instance->quotePaymentMethodManagementV1SetPut_0($body);
@@ -259,7 +259,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body64**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body64.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body64**](../Model/\Webgriffe\MagentoApiClient\Model\Body64.md)|  | [optional]
 
 ### Return type
 

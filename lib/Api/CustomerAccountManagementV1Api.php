@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Api;
+namespace Webgriffe\MagentoApiClient\Api;
 
 use \Webgriffe\MagentoApiClient\ApiClient;
 use \Webgriffe\MagentoApiClient\ApiException;
@@ -92,9 +92,9 @@ class CustomerAccountManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body7 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body7 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface
      */
     public function customerAccountManagementV1ActivateByIdPut($body = null)
     {
@@ -107,9 +107,9 @@ class CustomerAccountManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body7 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body7 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function customerAccountManagementV1ActivateByIdPutWithHttpInfo($body = null)
     {
@@ -148,27 +148,27 @@ class CustomerAccountManagementV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface',
+                '\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface',
                 '/V1/customers/me/activate'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 500:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -183,9 +183,9 @@ class CustomerAccountManagementV1Api
      * 
      *
      * @param string $email  (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body8 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body8 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface
      */
     public function customerAccountManagementV1ActivatePut($email, $body = null)
     {
@@ -199,9 +199,9 @@ class CustomerAccountManagementV1Api
      * 
      *
      * @param string $email  (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body8 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body8 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function customerAccountManagementV1ActivatePutWithHttpInfo($email, $body = null)
     {
@@ -252,27 +252,27 @@ class CustomerAccountManagementV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface',
+                '\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface',
                 '/V1/customers/{email}/activate'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 500:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -286,7 +286,7 @@ class CustomerAccountManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body9 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body9 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return bool
      */
@@ -301,7 +301,7 @@ class CustomerAccountManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body9 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body9 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return array of bool, HTTP status code, HTTP response headers (array of strings)
      */
@@ -354,15 +354,15 @@ class CustomerAccountManagementV1Api
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 500:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -376,9 +376,9 @@ class CustomerAccountManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body6 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body6 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface
      */
     public function customerAccountManagementV1CreateAccountPost($body = null)
     {
@@ -391,9 +391,9 @@ class CustomerAccountManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body6 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body6 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function customerAccountManagementV1CreateAccountPostWithHttpInfo($body = null)
     {
@@ -432,23 +432,23 @@ class CustomerAccountManagementV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface',
+                '\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface',
                 '/V1/customers'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 500:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -537,15 +537,15 @@ class CustomerAccountManagementV1Api
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 500:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -560,7 +560,7 @@ class CustomerAccountManagementV1Api
      * 
      *
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface
      */
     public function customerAccountManagementV1GetDefaultBillingAddressGet()
     {
@@ -574,7 +574,7 @@ class CustomerAccountManagementV1Api
      * 
      *
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function customerAccountManagementV1GetDefaultBillingAddressGetWithHttpInfo()
     {
@@ -608,31 +608,31 @@ class CustomerAccountManagementV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface',
+                '\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface',
                 '/V1/customers/me/billingAddress'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 500:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -648,7 +648,7 @@ class CustomerAccountManagementV1Api
      *
      * @param int $customerId  (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface
      */
     public function customerAccountManagementV1GetDefaultBillingAddressGet_0($customerId)
     {
@@ -663,7 +663,7 @@ class CustomerAccountManagementV1Api
      *
      * @param int $customerId  (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function customerAccountManagementV1GetDefaultBillingAddressGet_0WithHttpInfo($customerId)
     {
@@ -709,31 +709,31 @@ class CustomerAccountManagementV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface',
+                '\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface',
                 '/V1/customers/{customerId}/billingAddress'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 500:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -748,7 +748,7 @@ class CustomerAccountManagementV1Api
      * 
      *
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface
      */
     public function customerAccountManagementV1GetDefaultShippingAddressGet()
     {
@@ -762,7 +762,7 @@ class CustomerAccountManagementV1Api
      * 
      *
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function customerAccountManagementV1GetDefaultShippingAddressGetWithHttpInfo()
     {
@@ -796,31 +796,31 @@ class CustomerAccountManagementV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface',
+                '\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface',
                 '/V1/customers/me/shippingAddress'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 500:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -836,7 +836,7 @@ class CustomerAccountManagementV1Api
      *
      * @param int $customerId  (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface
      */
     public function customerAccountManagementV1GetDefaultShippingAddressGet_0($customerId)
     {
@@ -851,7 +851,7 @@ class CustomerAccountManagementV1Api
      *
      * @param int $customerId  (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function customerAccountManagementV1GetDefaultShippingAddressGet_0WithHttpInfo($customerId)
     {
@@ -897,31 +897,31 @@ class CustomerAccountManagementV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface',
+                '\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface',
                 '/V1/customers/{customerId}/shippingAddress'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 500:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -935,7 +935,7 @@ class CustomerAccountManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body10 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body10 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return bool
      */
@@ -950,7 +950,7 @@ class CustomerAccountManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body10 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body10 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return array of bool, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1003,11 +1003,11 @@ class CustomerAccountManagementV1Api
                     $e->setResponseObject($data);
                     break;
                 case 500:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1021,7 +1021,7 @@ class CustomerAccountManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body13 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body13 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return bool
      */
@@ -1036,7 +1036,7 @@ class CustomerAccountManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body13 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body13 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return array of bool, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1089,11 +1089,11 @@ class CustomerAccountManagementV1Api
                     $e->setResponseObject($data);
                     break;
                 case 500:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1182,19 +1182,19 @@ class CustomerAccountManagementV1Api
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 500:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1208,7 +1208,7 @@ class CustomerAccountManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body11 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body11 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return bool
      */
@@ -1223,7 +1223,7 @@ class CustomerAccountManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body11 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body11 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return array of bool, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1276,15 +1276,15 @@ class CustomerAccountManagementV1Api
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 500:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1298,9 +1298,9 @@ class CustomerAccountManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body12 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body12 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataValidationResultsInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataValidationResultsInterface
      */
     public function customerAccountManagementV1ValidatePut($body = null)
     {
@@ -1313,9 +1313,9 @@ class CustomerAccountManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body12 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body12 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataValidationResultsInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\CustomerDataValidationResultsInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function customerAccountManagementV1ValidatePutWithHttpInfo($body = null)
     {
@@ -1354,27 +1354,27 @@ class CustomerAccountManagementV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataValidationResultsInterface',
+                '\Webgriffe\MagentoApiClient\Model\CustomerDataValidationResultsInterface',
                 '/V1/customers/validate'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataValidationResultsInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\CustomerDataValidationResultsInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataValidationResultsInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\CustomerDataValidationResultsInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 500:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1477,15 +1477,15 @@ class CustomerAccountManagementV1Api
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 500:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

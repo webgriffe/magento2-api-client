@@ -36,7 +36,7 @@ Name | Type | Description | Notes
 **weeeTaxAppliedRowAmount** | **float** | WEEE tax applied row amount. | [optional] 
 **weeeTaxDisposition** | **float** | WEEE tax disposition. | [optional] 
 **weeeTaxRowDisposition** | **float** | WEEE tax row disposition. | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemExtensionInterface**](SalesDataCreditmemoItemExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemExtensionInterface**](SalesDataCreditmemoItemExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

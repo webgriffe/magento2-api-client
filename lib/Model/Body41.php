@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body41 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'stockItem' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface'
+        'stockItem' => '\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body41 implements ArrayAccess
 
     /**
      * Gets stockItem
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface
      */
     public function getStockItem()
     {
@@ -164,7 +164,7 @@ class Body41 implements ArrayAccess
 
     /**
      * Sets stockItem
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface $stockItem
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface $stockItem
      * @return $this
      */
     public function setStockItem($stockItem)

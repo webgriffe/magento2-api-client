@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Api;
+namespace Webgriffe\MagentoApiClient\Api;
 
 use \Webgriffe\MagentoApiClient\ApiClient;
 use \Webgriffe\MagentoApiClient\ApiException;
@@ -181,15 +181,15 @@ class QuoteCartItemRepositoryV1Api
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -278,15 +278,15 @@ class QuoteCartItemRepositoryV1Api
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -302,7 +302,7 @@ class QuoteCartItemRepositoryV1Api
      *
      * @param int $cartId The cart ID. (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]
      */
     public function quoteCartItemRepositoryV1GetListGet($cartId)
     {
@@ -317,7 +317,7 @@ class QuoteCartItemRepositoryV1Api
      *
      * @param int $cartId The cart ID. (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[], HTTP status code, HTTP response headers (array of strings)
      */
     public function quoteCartItemRepositoryV1GetListGetWithHttpInfo($cartId)
     {
@@ -363,27 +363,27 @@ class QuoteCartItemRepositoryV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]',
+                '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]',
                 '/V1/carts/{cartId}/items'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -398,7 +398,7 @@ class QuoteCartItemRepositoryV1Api
      * 
      *
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]
      */
     public function quoteCartItemRepositoryV1GetListGet_0()
     {
@@ -412,7 +412,7 @@ class QuoteCartItemRepositoryV1Api
      * 
      *
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[], HTTP status code, HTTP response headers (array of strings)
      */
     public function quoteCartItemRepositoryV1GetListGet_0WithHttpInfo()
     {
@@ -446,27 +446,27 @@ class QuoteCartItemRepositoryV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]',
+                '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]',
                 '/V1/carts/mine/items'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -481,9 +481,9 @@ class QuoteCartItemRepositoryV1Api
      * 
      *
      * @param string $quoteId  (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body57 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body57 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface
      */
     public function quoteCartItemRepositoryV1SavePost($quoteId, $body = null)
     {
@@ -497,9 +497,9 @@ class QuoteCartItemRepositoryV1Api
      * 
      *
      * @param string $quoteId  (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body57 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body57 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function quoteCartItemRepositoryV1SavePostWithHttpInfo($quoteId, $body = null)
     {
@@ -550,27 +550,27 @@ class QuoteCartItemRepositoryV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface',
+                '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface',
                 '/V1/carts/{quoteId}/items'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -584,9 +584,9 @@ class QuoteCartItemRepositoryV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body59 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body59 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface
      */
     public function quoteCartItemRepositoryV1SavePost_0($body = null)
     {
@@ -599,9 +599,9 @@ class QuoteCartItemRepositoryV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body59 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body59 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function quoteCartItemRepositoryV1SavePost_0WithHttpInfo($body = null)
     {
@@ -640,27 +640,27 @@ class QuoteCartItemRepositoryV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface',
+                '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface',
                 '/V1/carts/mine/items'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -676,9 +676,9 @@ class QuoteCartItemRepositoryV1Api
      *
      * @param string $cartId  (required)
      * @param string $itemId  (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body58 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body58 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface
      */
     public function quoteCartItemRepositoryV1SavePut($cartId, $itemId, $body = null)
     {
@@ -693,9 +693,9 @@ class QuoteCartItemRepositoryV1Api
      *
      * @param string $cartId  (required)
      * @param string $itemId  (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body58 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body58 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function quoteCartItemRepositoryV1SavePutWithHttpInfo($cartId, $itemId, $body = null)
     {
@@ -758,27 +758,27 @@ class QuoteCartItemRepositoryV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface',
+                '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface',
                 '/V1/carts/{cartId}/items/{itemId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -793,9 +793,9 @@ class QuoteCartItemRepositoryV1Api
      * 
      *
      * @param string $itemId  (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body60 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body60 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface
      */
     public function quoteCartItemRepositoryV1SavePut_0($itemId, $body = null)
     {
@@ -809,9 +809,9 @@ class QuoteCartItemRepositoryV1Api
      * 
      *
      * @param string $itemId  (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body60 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body60 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function quoteCartItemRepositoryV1SavePut_0WithHttpInfo($itemId, $body = null)
     {
@@ -862,27 +862,27 @@ class QuoteCartItemRepositoryV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface',
+                '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface',
                 '/V1/carts/mine/items/{itemId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

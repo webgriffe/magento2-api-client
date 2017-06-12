@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,9 +55,9 @@ class FrameworkSearchSearchResultInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'items' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchDocumentInterface[]',
-        'aggregations' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchAggregationInterface',
-        'searchCriteria' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchSearchCriteriaInterface',
+        'items' => '\Webgriffe\MagentoApiClient\Model\FrameworkSearchDocumentInterface[]',
+        'aggregations' => '\Webgriffe\MagentoApiClient\Model\FrameworkSearchAggregationInterface',
+        'searchCriteria' => '\Webgriffe\MagentoApiClient\Model\FrameworkSearchSearchCriteriaInterface',
         'totalCount' => 'int'
     ];
 
@@ -189,7 +189,7 @@ class FrameworkSearchSearchResultInterface implements ArrayAccess
 
     /**
      * Gets items
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchDocumentInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkSearchDocumentInterface[]
      */
     public function getItems()
     {
@@ -198,7 +198,7 @@ class FrameworkSearchSearchResultInterface implements ArrayAccess
 
     /**
      * Sets items
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchDocumentInterface[] $items
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkSearchDocumentInterface[] $items
      * @return $this
      */
     public function setItems($items)
@@ -210,7 +210,7 @@ class FrameworkSearchSearchResultInterface implements ArrayAccess
 
     /**
      * Gets aggregations
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchAggregationInterface
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkSearchAggregationInterface
      */
     public function getAggregations()
     {
@@ -219,7 +219,7 @@ class FrameworkSearchSearchResultInterface implements ArrayAccess
 
     /**
      * Sets aggregations
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchAggregationInterface $aggregations
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkSearchAggregationInterface $aggregations
      * @return $this
      */
     public function setAggregations($aggregations)
@@ -231,7 +231,7 @@ class FrameworkSearchSearchResultInterface implements ArrayAccess
 
     /**
      * Gets searchCriteria
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchSearchCriteriaInterface
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkSearchSearchCriteriaInterface
      */
     public function getSearchCriteria()
     {
@@ -240,7 +240,7 @@ class FrameworkSearchSearchResultInterface implements ArrayAccess
 
     /**
      * Sets searchCriteria
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchSearchCriteriaInterface $searchCriteria
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkSearchSearchCriteriaInterface $searchCriteria
      * @return $this
      */
     public function setSearchCriteria($searchCriteria)

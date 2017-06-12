@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -56,8 +56,8 @@ class FrameworkSearchSearchCriteriaInterface implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'requestName' => 'string',
-        'filterGroups' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchFilterGroup[]',
-        'sortOrders' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSortOrder[]',
+        'filterGroups' => '\Webgriffe\MagentoApiClient\Model\FrameworkSearchFilterGroup[]',
+        'sortOrders' => '\Webgriffe\MagentoApiClient\Model\FrameworkSortOrder[]',
         'pageSize' => 'int',
         'currentPage' => 'int'
     ];
@@ -203,7 +203,7 @@ class FrameworkSearchSearchCriteriaInterface implements ArrayAccess
 
     /**
      * Gets filterGroups
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchFilterGroup[]
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkSearchFilterGroup[]
      */
     public function getFilterGroups()
     {
@@ -212,7 +212,7 @@ class FrameworkSearchSearchCriteriaInterface implements ArrayAccess
 
     /**
      * Sets filterGroups
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchFilterGroup[] $filterGroups A list of filter groups.
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkSearchFilterGroup[] $filterGroups A list of filter groups.
      * @return $this
      */
     public function setFilterGroups($filterGroups)
@@ -224,7 +224,7 @@ class FrameworkSearchSearchCriteriaInterface implements ArrayAccess
 
     /**
      * Gets sortOrders
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSortOrder[]
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkSortOrder[]
      */
     public function getSortOrders()
     {
@@ -233,7 +233,7 @@ class FrameworkSearchSearchCriteriaInterface implements ArrayAccess
 
     /**
      * Sets sortOrders
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSortOrder[] $sortOrders Sort order.
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkSortOrder[] $sortOrders Sort order.
      * @return $this
      */
     public function setSortOrders($sortOrders)

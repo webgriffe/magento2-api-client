@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,12 +55,12 @@ class CatalogDataProductExtensionInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'stockItem' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface',
-        'bundleProductOptions' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataOptionInterface[]',
-        'downloadableProductLinks' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataLinkInterface[]',
-        'downloadableProductSamples' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataSampleInterface[]',
-        'giftcardAmounts' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardDataGiftcardAmountInterface[]',
-        'configurableProductOptions' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface[]',
+        'stockItem' => '\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface',
+        'bundleProductOptions' => '\Webgriffe\MagentoApiClient\Model\BundleDataOptionInterface[]',
+        'downloadableProductLinks' => '\Webgriffe\MagentoApiClient\Model\DownloadableDataLinkInterface[]',
+        'downloadableProductSamples' => '\Webgriffe\MagentoApiClient\Model\DownloadableDataSampleInterface[]',
+        'giftcardAmounts' => '\Webgriffe\MagentoApiClient\Model\GiftCardDataGiftcardAmountInterface[]',
+        'configurableProductOptions' => '\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface[]',
         'configurableProductLinks' => 'int[]'
     ];
 
@@ -180,7 +180,7 @@ class CatalogDataProductExtensionInterface implements ArrayAccess
 
     /**
      * Gets stockItem
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface
      */
     public function getStockItem()
     {
@@ -189,7 +189,7 @@ class CatalogDataProductExtensionInterface implements ArrayAccess
 
     /**
      * Sets stockItem
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface $stockItem
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface $stockItem
      * @return $this
      */
     public function setStockItem($stockItem)
@@ -201,7 +201,7 @@ class CatalogDataProductExtensionInterface implements ArrayAccess
 
     /**
      * Gets bundleProductOptions
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataOptionInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\BundleDataOptionInterface[]
      */
     public function getBundleProductOptions()
     {
@@ -210,7 +210,7 @@ class CatalogDataProductExtensionInterface implements ArrayAccess
 
     /**
      * Sets bundleProductOptions
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataOptionInterface[] $bundleProductOptions
+     * @param \Webgriffe\MagentoApiClient\Model\BundleDataOptionInterface[] $bundleProductOptions
      * @return $this
      */
     public function setBundleProductOptions($bundleProductOptions)
@@ -222,7 +222,7 @@ class CatalogDataProductExtensionInterface implements ArrayAccess
 
     /**
      * Gets downloadableProductLinks
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataLinkInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\DownloadableDataLinkInterface[]
      */
     public function getDownloadableProductLinks()
     {
@@ -231,7 +231,7 @@ class CatalogDataProductExtensionInterface implements ArrayAccess
 
     /**
      * Sets downloadableProductLinks
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataLinkInterface[] $downloadableProductLinks
+     * @param \Webgriffe\MagentoApiClient\Model\DownloadableDataLinkInterface[] $downloadableProductLinks
      * @return $this
      */
     public function setDownloadableProductLinks($downloadableProductLinks)
@@ -243,7 +243,7 @@ class CatalogDataProductExtensionInterface implements ArrayAccess
 
     /**
      * Gets downloadableProductSamples
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataSampleInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\DownloadableDataSampleInterface[]
      */
     public function getDownloadableProductSamples()
     {
@@ -252,7 +252,7 @@ class CatalogDataProductExtensionInterface implements ArrayAccess
 
     /**
      * Sets downloadableProductSamples
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataSampleInterface[] $downloadableProductSamples
+     * @param \Webgriffe\MagentoApiClient\Model\DownloadableDataSampleInterface[] $downloadableProductSamples
      * @return $this
      */
     public function setDownloadableProductSamples($downloadableProductSamples)
@@ -264,7 +264,7 @@ class CatalogDataProductExtensionInterface implements ArrayAccess
 
     /**
      * Gets giftcardAmounts
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardDataGiftcardAmountInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\GiftCardDataGiftcardAmountInterface[]
      */
     public function getGiftcardAmounts()
     {
@@ -273,7 +273,7 @@ class CatalogDataProductExtensionInterface implements ArrayAccess
 
     /**
      * Sets giftcardAmounts
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardDataGiftcardAmountInterface[] $giftcardAmounts
+     * @param \Webgriffe\MagentoApiClient\Model\GiftCardDataGiftcardAmountInterface[] $giftcardAmounts
      * @return $this
      */
     public function setGiftcardAmounts($giftcardAmounts)
@@ -285,7 +285,7 @@ class CatalogDataProductExtensionInterface implements ArrayAccess
 
     /**
      * Gets configurableProductOptions
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface[]
      */
     public function getConfigurableProductOptions()
     {
@@ -294,7 +294,7 @@ class CatalogDataProductExtensionInterface implements ArrayAccess
 
     /**
      * Sets configurableProductOptions
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface[] $configurableProductOptions
+     * @param \Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface[] $configurableProductOptions
      * @return $this
      */
     public function setConfigurableProductOptions($configurableProductOptions)

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -73,16 +73,16 @@ class CatalogDataProductAttributeInterface implements ArrayAccess
         'usedInProductListing' => 'string',
         'isVisible' => 'bool',
         'scope' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataEavAttributeExtensionInterface',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\CatalogDataEavAttributeExtensionInterface',
         'attributeId' => 'int',
         'attributeCode' => 'string',
         'frontendInput' => 'string',
         'entityTypeId' => 'string',
         'isRequired' => 'bool',
-        'options' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface[]',
+        'options' => '\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface[]',
         'isUserDefined' => 'bool',
         'defaultFrontendLabel' => 'string',
-        'frontendLabels' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeFrontendLabelInterface[]',
+        'frontendLabels' => '\Webgriffe\MagentoApiClient\Model\EavDataAttributeFrontendLabelInterface[]',
         'note' => 'string',
         'backendType' => 'string',
         'backendModel' => 'string',
@@ -90,8 +90,8 @@ class CatalogDataProductAttributeInterface implements ArrayAccess
         'defaultValue' => 'string',
         'isUnique' => 'string',
         'frontendClass' => 'string',
-        'validationRules' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeValidationRuleInterface[]',
-        'customAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]'
+        'validationRules' => '\Webgriffe\MagentoApiClient\Model\EavDataAttributeValidationRuleInterface[]',
+        'customAttributes' => '\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]'
     ];
 
     public static function swaggerTypes()
@@ -732,7 +732,7 @@ class CatalogDataProductAttributeInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataEavAttributeExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataEavAttributeExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -741,7 +741,7 @@ class CatalogDataProductAttributeInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataEavAttributeExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataEavAttributeExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)
@@ -858,7 +858,7 @@ class CatalogDataProductAttributeInterface implements ArrayAccess
 
     /**
      * Gets options
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface[]
      */
     public function getOptions()
     {
@@ -867,7 +867,7 @@ class CatalogDataProductAttributeInterface implements ArrayAccess
 
     /**
      * Sets options
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface[] $options Options of the attribute (key => value pairs for select)
+     * @param \Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface[] $options Options of the attribute (key => value pairs for select)
      * @return $this
      */
     public function setOptions($options)
@@ -921,7 +921,7 @@ class CatalogDataProductAttributeInterface implements ArrayAccess
 
     /**
      * Gets frontendLabels
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeFrontendLabelInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\EavDataAttributeFrontendLabelInterface[]
      */
     public function getFrontendLabels()
     {
@@ -930,7 +930,7 @@ class CatalogDataProductAttributeInterface implements ArrayAccess
 
     /**
      * Sets frontendLabels
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeFrontendLabelInterface[] $frontendLabels Frontend label for each store
+     * @param \Webgriffe\MagentoApiClient\Model\EavDataAttributeFrontendLabelInterface[] $frontendLabels Frontend label for each store
      * @return $this
      */
     public function setFrontendLabels($frontendLabels)
@@ -1089,7 +1089,7 @@ class CatalogDataProductAttributeInterface implements ArrayAccess
 
     /**
      * Gets validationRules
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeValidationRuleInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\EavDataAttributeValidationRuleInterface[]
      */
     public function getValidationRules()
     {
@@ -1098,7 +1098,7 @@ class CatalogDataProductAttributeInterface implements ArrayAccess
 
     /**
      * Sets validationRules
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeValidationRuleInterface[] $validationRules Validation rules.
+     * @param \Webgriffe\MagentoApiClient\Model\EavDataAttributeValidationRuleInterface[] $validationRules Validation rules.
      * @return $this
      */
     public function setValidationRules($validationRules)
@@ -1110,7 +1110,7 @@ class CatalogDataProductAttributeInterface implements ArrayAccess
 
     /**
      * Gets customAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]
      */
     public function getCustomAttributes()
     {
@@ -1119,7 +1119,7 @@ class CatalogDataProductAttributeInterface implements ArrayAccess
 
     /**
      * Sets customAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[] $customAttributes Custom attributes values.
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[] $customAttributes Custom attributes values.
      * @return $this
      */
     public function setCustomAttributes($customAttributes)

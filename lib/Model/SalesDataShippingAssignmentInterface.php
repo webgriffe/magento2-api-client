@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,10 +55,10 @@ class SalesDataShippingAssignmentInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'shipping' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShippingInterface',
-        'items' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface[]',
+        'shipping' => '\Webgriffe\MagentoApiClient\Model\SalesDataShippingInterface',
+        'items' => '\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface[]',
         'stockId' => 'int',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShippingAssignmentExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataShippingAssignmentExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -177,7 +177,7 @@ class SalesDataShippingAssignmentInterface implements ArrayAccess
 
     /**
      * Gets shipping
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShippingInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShippingInterface
      */
     public function getShipping()
     {
@@ -186,7 +186,7 @@ class SalesDataShippingAssignmentInterface implements ArrayAccess
 
     /**
      * Sets shipping
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShippingInterface $shipping
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShippingInterface $shipping
      * @return $this
      */
     public function setShipping($shipping)
@@ -198,7 +198,7 @@ class SalesDataShippingAssignmentInterface implements ArrayAccess
 
     /**
      * Gets items
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface[]
      */
     public function getItems()
     {
@@ -207,7 +207,7 @@ class SalesDataShippingAssignmentInterface implements ArrayAccess
 
     /**
      * Sets items
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface[] $items Order items of shipping assignment
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface[] $items Order items of shipping assignment
      * @return $this
      */
     public function setItems($items)
@@ -240,7 +240,7 @@ class SalesDataShippingAssignmentInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShippingAssignmentExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShippingAssignmentExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -249,7 +249,7 @@ class SalesDataShippingAssignmentInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShippingAssignmentExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShippingAssignmentExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

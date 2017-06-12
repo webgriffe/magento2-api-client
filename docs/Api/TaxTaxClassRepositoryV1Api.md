@@ -57,7 +57,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **taxTaxClassRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxClassInterface taxTaxClassRepositoryV1GetGet($taxClassId)
+> \Webgriffe\MagentoApiClient\Model\TaxDataTaxClassInterface taxTaxClassRepositoryV1GetGet($taxClassId)
 
 
 
@@ -88,7 +88,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxClassInterface**](../Model/TaxDataTaxClassInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\TaxDataTaxClassInterface**](../Model/TaxDataTaxClassInterface.md)
 
 ### Authorization
 
@@ -102,7 +102,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **taxTaxClassRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxClassSearchResultsInterface taxTaxClassRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\TaxDataTaxClassSearchResultsInterface taxTaxClassRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -145,7 +145,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxClassSearchResultsInterface**](../Model/TaxDataTaxClassSearchResultsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\TaxDataTaxClassSearchResultsInterface**](../Model/TaxDataTaxClassSearchResultsInterface.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ Create a Tax Class
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\TaxTaxClassRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body116(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body116 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body116(); // \Webgriffe\MagentoApiClient\Model\Body116 | 
 
 try {
     $result = $api_instance->taxTaxClassRepositoryV1SavePost($body);
@@ -186,7 +186,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body116**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body116.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body116**](../Model/\Webgriffe\MagentoApiClient\Model\Body116.md)|  | [optional]
 
 ### Return type
 
@@ -217,7 +217,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\TaxTaxClassRepositoryV1Api();
 $classId = "classId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body117(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body117 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body117(); // \Webgriffe\MagentoApiClient\Model\Body117 | 
 
 try {
     $result = $api_instance->taxTaxClassRepositoryV1SavePut($classId, $body);
@@ -233,7 +233,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **classId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body117**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body117.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body117**](../Model/\Webgriffe\MagentoApiClient\Model\Body117.md)|  | [optional]
 
 ### Return type
 

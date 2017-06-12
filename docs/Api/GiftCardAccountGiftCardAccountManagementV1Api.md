@@ -150,7 +150,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **giftCardAccountGiftCardAccountManagementV1GetListByQuoteIdGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface giftCardAccountGiftCardAccountManagementV1GetListByQuoteIdGet($quoteId)
+> \Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface giftCardAccountGiftCardAccountManagementV1GetListByQuoteIdGet($quoteId)
 
 
 
@@ -181,7 +181,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface**](../Model/GiftCardAccountDataGiftCardAccountInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface**](../Model/GiftCardAccountDataGiftCardAccountInterface.md)
 
 ### Authorization
 
@@ -207,7 +207,7 @@ No authorization required
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\GiftCardAccountGiftCardAccountManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body119(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body119 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body119(); // \Webgriffe\MagentoApiClient\Model\Body119 | 
 
 try {
     $result = $api_instance->giftCardAccountGiftCardAccountManagementV1SaveByQuoteIdPost($body);
@@ -222,7 +222,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body119**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body119.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body119**](../Model/\Webgriffe\MagentoApiClient\Model\Body119.md)|  | [optional]
 
 ### Return type
 
@@ -253,7 +253,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\GiftCardAccountGiftCardAccountManagementV1Api();
 $cartId = 56; // int | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body118(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body118 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body118(); // \Webgriffe\MagentoApiClient\Model\Body118 | 
 
 try {
     $result = $api_instance->giftCardAccountGiftCardAccountManagementV1SaveByQuoteIdPut($cartId, $body);
@@ -269,7 +269,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **int**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body118**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body118.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body118**](../Model/\Webgriffe\MagentoApiClient\Model\Body118.md)|  | [optional]
 
 ### Return type
 

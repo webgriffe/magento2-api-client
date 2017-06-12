@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Api;
+namespace Webgriffe\MagentoApiClient\Api;
 
 use \Webgriffe\MagentoApiClient\ApiClient;
 use \Webgriffe\MagentoApiClient\ApiException;
@@ -95,7 +95,7 @@ class GiftMessageItemRepositoryV1Api
      * @param int $cartId The shopping cart ID. (required)
      * @param int $itemId The item ID. (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface
+     * @return \Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface
      */
     public function giftMessageItemRepositoryV1GetGet($cartId, $itemId)
     {
@@ -111,7 +111,7 @@ class GiftMessageItemRepositoryV1Api
      * @param int $cartId The shopping cart ID. (required)
      * @param int $itemId The item ID. (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function giftMessageItemRepositoryV1GetGetWithHttpInfo($cartId, $itemId)
     {
@@ -169,27 +169,27 @@ class GiftMessageItemRepositoryV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface',
+                '\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface',
                 '/V1/carts/{cartId}/gift-message/{itemId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -205,7 +205,7 @@ class GiftMessageItemRepositoryV1Api
      *
      * @param int $itemId The item ID. (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface
+     * @return \Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface
      */
     public function giftMessageItemRepositoryV1GetGet_0($itemId)
     {
@@ -220,7 +220,7 @@ class GiftMessageItemRepositoryV1Api
      *
      * @param int $itemId The item ID. (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function giftMessageItemRepositoryV1GetGet_0WithHttpInfo($itemId)
     {
@@ -266,27 +266,27 @@ class GiftMessageItemRepositoryV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface',
+                '\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface',
                 '/V1/carts/mine/gift-message/{itemId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -302,7 +302,7 @@ class GiftMessageItemRepositoryV1Api
      *
      * @param int $cartId The cart ID. (required)
      * @param int $itemId The item ID. (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body125 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body125 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return bool
      */
@@ -319,7 +319,7 @@ class GiftMessageItemRepositoryV1Api
      *
      * @param int $cartId The cart ID. (required)
      * @param int $itemId The item ID. (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body125 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body125 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return array of bool, HTTP status code, HTTP response headers (array of strings)
      */
@@ -396,15 +396,15 @@ class GiftMessageItemRepositoryV1Api
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -419,7 +419,7 @@ class GiftMessageItemRepositoryV1Api
      * 
      *
      * @param int $itemId The item ID. (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body126 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body126 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return bool
      */
@@ -435,7 +435,7 @@ class GiftMessageItemRepositoryV1Api
      * 
      *
      * @param int $itemId The item ID. (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body126 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body126 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return array of bool, HTTP status code, HTTP response headers (array of strings)
      */
@@ -500,15 +500,15 @@ class GiftMessageItemRepositoryV1Api
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

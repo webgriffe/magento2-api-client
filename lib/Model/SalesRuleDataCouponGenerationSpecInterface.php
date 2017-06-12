@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -63,7 +63,7 @@ class SalesRuleDataCouponGenerationSpecInterface implements ArrayAccess
         'suffix' => 'string',
         'delimiterAtEvery' => 'int',
         'delimiter' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponGenerationSpecExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponGenerationSpecExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -382,7 +382,7 @@ class SalesRuleDataCouponGenerationSpecInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponGenerationSpecExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponGenerationSpecExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -391,7 +391,7 @@ class SalesRuleDataCouponGenerationSpecInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponGenerationSpecExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponGenerationSpecExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

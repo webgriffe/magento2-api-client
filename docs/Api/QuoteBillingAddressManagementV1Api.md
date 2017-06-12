@@ -24,7 +24,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuoteBillingAddressManagementV1Api();
 $cartId = 56; // int | The cart ID.
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body66(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body66 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body66(); // \Webgriffe\MagentoApiClient\Model\Body66 | 
 
 try {
     $result = $api_instance->quoteBillingAddressManagementV1AssignPost($cartId, $body);
@@ -40,7 +40,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **int**| The cart ID. |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body66**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body66.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body66**](../Model/\Webgriffe\MagentoApiClient\Model\Body66.md)|  | [optional]
 
 ### Return type
 
@@ -70,7 +70,7 @@ Assigns a specified billing address to a specified cart.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuoteBillingAddressManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body67(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body67 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body67(); // \Webgriffe\MagentoApiClient\Model\Body67 | 
 
 try {
     $result = $api_instance->quoteBillingAddressManagementV1AssignPost_0($body);
@@ -85,7 +85,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body67**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body67.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body67**](../Model/\Webgriffe\MagentoApiClient\Model\Body67.md)|  | [optional]
 
 ### Return type
 
@@ -103,7 +103,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **quoteBillingAddressManagementV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface quoteBillingAddressManagementV1GetGet($cartId)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface quoteBillingAddressManagementV1GetGet($cartId)
 
 
 
@@ -134,7 +134,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface**](../Model/QuoteDataAddressInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface**](../Model/QuoteDataAddressInterface.md)
 
 ### Authorization
 
@@ -148,7 +148,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **quoteBillingAddressManagementV1GetGet_0**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface quoteBillingAddressManagementV1GetGet_0()
+> \Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface quoteBillingAddressManagementV1GetGet_0()
 
 
 
@@ -175,7 +175,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface**](../Model/QuoteDataAddressInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface**](../Model/QuoteDataAddressInterface.md)
 
 ### Authorization
 

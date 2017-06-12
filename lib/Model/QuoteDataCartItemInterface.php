@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -62,8 +62,8 @@ class QuoteDataCartItemInterface implements ArrayAccess
         'price' => 'float',
         'productType' => 'string',
         'quoteId' => 'string',
-        'productOption' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataProductOptionInterface',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemExtensionInterface'
+        'productOption' => '\Webgriffe\MagentoApiClient\Model\QuoteDataProductOptionInterface',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -349,7 +349,7 @@ class QuoteDataCartItemInterface implements ArrayAccess
 
     /**
      * Gets productOption
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataProductOptionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataProductOptionInterface
      */
     public function getProductOption()
     {
@@ -358,7 +358,7 @@ class QuoteDataCartItemInterface implements ArrayAccess
 
     /**
      * Sets productOption
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataProductOptionInterface $productOption
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataProductOptionInterface $productOption
      * @return $this
      */
     public function setProductOption($productOption)
@@ -370,7 +370,7 @@ class QuoteDataCartItemInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -379,7 +379,7 @@ class QuoteDataCartItemInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

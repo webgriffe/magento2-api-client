@@ -29,7 +29,7 @@ Name | Type | Description | Notes
 **lowStockDate** | **string** |  | 
 **isDecimalDivided** | **bool** |  | 
 **stockStatusChangedAuto** | **int** |  | 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemExtensionInterface**](CatalogInventoryDataStockItemExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemExtensionInterface**](CatalogInventoryDataStockItemExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **salesCreditmemoCommentRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentInterface salesCreditmemoCommentRepositoryV1SavePost($id, $body)
+> \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentInterface salesCreditmemoCommentRepositoryV1SavePost($id, $body)
 
 
 
@@ -21,7 +21,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesCreditmemoCommentRepositoryV1Api();
 $id = "id_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body78(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body78 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body78(); // \Webgriffe\MagentoApiClient\Model\Body78 | 
 
 try {
     $result = $api_instance->salesCreditmemoCommentRepositoryV1SavePost($id, $body);
@@ -37,11 +37,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body78**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body78.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body78**](../Model/\Webgriffe\MagentoApiClient\Model\Body78.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentInterface**](../Model/SalesDataCreditmemoCommentInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentInterface**](../Model/SalesDataCreditmemoCommentInterface.md)
 
 ### Authorization
 

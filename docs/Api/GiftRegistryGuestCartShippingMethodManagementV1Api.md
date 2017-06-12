@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **giftRegistryGuestCartShippingMethodManagementV1EstimateByRegistryIdPost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodInterface[] giftRegistryGuestCartShippingMethodManagementV1EstimateByRegistryIdPost($cartId, $body)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodInterface[] giftRegistryGuestCartShippingMethodManagementV1EstimateByRegistryIdPost($cartId, $body)
 
 
 
@@ -21,7 +21,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\GiftRegistryGuestCartShippingMethodManagementV1Api();
 $cartId = "cartId_example"; // string | The shopping cart ID.
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body122(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body122 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body122(); // \Webgriffe\MagentoApiClient\Model\Body122 | 
 
 try {
     $result = $api_instance->giftRegistryGuestCartShippingMethodManagementV1EstimateByRegistryIdPost($cartId, $body);
@@ -37,11 +37,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **string**| The shopping cart ID. |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body122**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body122.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body122**](../Model/\Webgriffe\MagentoApiClient\Model\Body122.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodInterface[]**](../Model/QuoteDataShippingMethodInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodInterface[]**](../Model/QuoteDataShippingMethodInterface.md)
 
 ### Authorization
 

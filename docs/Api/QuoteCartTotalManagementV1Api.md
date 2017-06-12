@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **quoteCartTotalManagementV1CollectTotalsPut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface quoteCartTotalManagementV1CollectTotalsPut($body)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface quoteCartTotalManagementV1CollectTotalsPut($body)
 
 
 
@@ -20,7 +20,7 @@ Set shipping/billing methods and additional data for cart and collect totals.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuoteCartTotalManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body70(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body70 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body70(); // \Webgriffe\MagentoApiClient\Model\Body70 | 
 
 try {
     $result = $api_instance->quoteCartTotalManagementV1CollectTotalsPut($body);
@@ -35,11 +35,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body70**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body70.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body70**](../Model/\Webgriffe\MagentoApiClient\Model\Body70.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface**](../Model/QuoteDataTotalsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface**](../Model/QuoteDataTotalsInterface.md)
 
 ### Authorization
 

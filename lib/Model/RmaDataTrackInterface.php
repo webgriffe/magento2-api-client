@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -60,7 +60,7 @@ class RmaDataTrackInterface implements ArrayAccess
         'trackNumber' => 'string',
         'carrierTitle' => 'string',
         'carrierCode' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataTrackExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\RmaDataTrackExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -310,7 +310,7 @@ class RmaDataTrackInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataTrackExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\RmaDataTrackExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -319,7 +319,7 @@ class RmaDataTrackInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataTrackExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\RmaDataTrackExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -63,8 +63,8 @@ class RmaDataCommentInterface implements ArrayAccess
         'visibleOnFront' => 'bool',
         'status' => 'string',
         'admin' => 'bool',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataCommentExtensionInterface',
-        'customAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\RmaDataCommentExtensionInterface',
+        'customAttributes' => '\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]'
     ];
 
     public static function swaggerTypes()
@@ -411,7 +411,7 @@ class RmaDataCommentInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataCommentExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\RmaDataCommentExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -420,7 +420,7 @@ class RmaDataCommentInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataCommentExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\RmaDataCommentExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)
@@ -432,7 +432,7 @@ class RmaDataCommentInterface implements ArrayAccess
 
     /**
      * Gets customAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]
      */
     public function getCustomAttributes()
     {
@@ -441,7 +441,7 @@ class RmaDataCommentInterface implements ArrayAccess
 
     /**
      * Sets customAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[] $customAttributes Custom attributes values.
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[] $customAttributes Custom attributes values.
      * @return $this
      */
     public function setCustomAttributes($customAttributes)

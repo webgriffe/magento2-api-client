@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body3 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'group' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface'
+        'group' => '\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body3 implements ArrayAccess
 
     /**
      * Gets group
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface
      */
     public function getGroup()
     {
@@ -164,7 +164,7 @@ class Body3 implements ArrayAccess
 
     /**
      * Sets group
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface $group
+     * @param \Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface $group
      * @return $this
      */
     public function setGroup($group)

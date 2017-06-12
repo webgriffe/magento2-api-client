@@ -21,7 +21,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesRefundInvoiceV1Api();
 $invoiceId = 56; // int | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body77(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body77 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body77(); // \Webgriffe\MagentoApiClient\Model\Body77 | 
 
 try {
     $result = $api_instance->salesRefundInvoiceV1ExecutePost($invoiceId, $body);
@@ -37,7 +37,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **invoiceId** | **int**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body77**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body77.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body77**](../Model/\Webgriffe\MagentoApiClient\Model\Body77.md)|  | [optional]
 
 ### Return type
 

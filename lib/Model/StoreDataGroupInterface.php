@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -60,7 +60,7 @@ class StoreDataGroupInterface implements ArrayAccess
         'rootCategoryId' => 'int',
         'defaultStoreId' => 'int',
         'name' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\StoreDataGroupExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\StoreDataGroupExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -310,7 +310,7 @@ class StoreDataGroupInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\StoreDataGroupExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\StoreDataGroupExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -319,7 +319,7 @@ class StoreDataGroupInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\StoreDataGroupExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\StoreDataGroupExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

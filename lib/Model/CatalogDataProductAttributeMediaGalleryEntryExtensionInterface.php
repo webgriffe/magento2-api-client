@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,7 +55,7 @@ class CatalogDataProductAttributeMediaGalleryEntryExtensionInterface implements 
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'videoContent' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkDataVideoContentInterface'
+        'videoContent' => '\Webgriffe\MagentoApiClient\Model\FrameworkDataVideoContentInterface'
     ];
 
     public static function swaggerTypes()
@@ -150,7 +150,7 @@ class CatalogDataProductAttributeMediaGalleryEntryExtensionInterface implements 
 
     /**
      * Gets videoContent
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkDataVideoContentInterface
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkDataVideoContentInterface
      */
     public function getVideoContent()
     {
@@ -159,7 +159,7 @@ class CatalogDataProductAttributeMediaGalleryEntryExtensionInterface implements 
 
     /**
      * Sets videoContent
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkDataVideoContentInterface $videoContent
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkDataVideoContentInterface $videoContent
      * @return $this
      */
     public function setVideoContent($videoContent)

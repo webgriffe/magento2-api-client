@@ -22,7 +22,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\RmaCommentManagementV1Api();
 $id = "id_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body134(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body134 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body134(); // \Webgriffe\MagentoApiClient\Model\Body134 | 
 
 try {
     $result = $api_instance->rmaCommentManagementV1AddCommentPost($id, $body);
@@ -38,7 +38,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body134**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body134.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body134**](../Model/\Webgriffe\MagentoApiClient\Model\Body134.md)|  | [optional]
 
 ### Return type
 
@@ -56,7 +56,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **rmaCommentManagementV1CommentsListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataCommentSearchResultInterface rmaCommentManagementV1CommentsListGet($id)
+> \Webgriffe\MagentoApiClient\Model\RmaDataCommentSearchResultInterface rmaCommentManagementV1CommentsListGet($id)
 
 
 
@@ -87,7 +87,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataCommentSearchResultInterface**](../Model/RmaDataCommentSearchResultInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\RmaDataCommentSearchResultInterface**](../Model/RmaDataCommentSearchResultInterface.md)
 
 ### Authorization
 

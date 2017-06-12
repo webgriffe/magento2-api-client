@@ -28,9 +28,9 @@ Name | Type | Description | Notes
 **quoteCurrencyCode** | **string** | Quote currency code | [optional] 
 **couponCode** | **string** | Applied coupon code | [optional] 
 **itemsQty** | **int** | Items qty | [optional] 
-**items** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsItemInterface[]**](QuoteDataTotalsItemInterface.md) | Totals by items | [optional] 
-**totalSegments** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalSegmentInterface[]**](QuoteDataTotalSegmentInterface.md) | Dynamically calculated totals | 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsExtensionInterface**](QuoteDataTotalsExtensionInterface.md) |  | [optional] 
+**items** | [**\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsItemInterface[]**](QuoteDataTotalsItemInterface.md) | Totals by items | [optional] 
+**totalSegments** | [**\Webgriffe\MagentoApiClient\Model\QuoteDataTotalSegmentInterface[]**](QuoteDataTotalSegmentInterface.md) | Dynamically calculated totals | 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsExtensionInterface**](QuoteDataTotalsExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

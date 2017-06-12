@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Api;
+namespace Webgriffe\MagentoApiClient\Api;
 
 use \Webgriffe\MagentoApiClient\ApiClient;
 use \Webgriffe\MagentoApiClient\ApiException;
@@ -94,7 +94,7 @@ class SalesOrderItemRepositoryV1Api
      *
      * @param int $id The order item ID. (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface
      */
     public function salesOrderItemRepositoryV1GetGet($id)
     {
@@ -109,7 +109,7 @@ class SalesOrderItemRepositoryV1Api
      *
      * @param int $id The order item ID. (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function salesOrderItemRepositoryV1GetGetWithHttpInfo($id)
     {
@@ -155,23 +155,23 @@ class SalesOrderItemRepositoryV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface',
+                '\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface',
                 '/V1/orders/items/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -193,7 +193,7 @@ class SalesOrderItemRepositoryV1Api
      * @param int $searchCriteriaPageSize Page size. (optional)
      * @param int $searchCriteriaCurrentPage Current page. (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemSearchResultInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataOrderItemSearchResultInterface
      */
     public function salesOrderItemRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField = null, $searchCriteriaFilterGroupsFiltersValue = null, $searchCriteriaFilterGroupsFiltersConditionType = null, $searchCriteriaSortOrdersField = null, $searchCriteriaSortOrdersDirection = null, $searchCriteriaPageSize = null, $searchCriteriaCurrentPage = null)
     {
@@ -214,7 +214,7 @@ class SalesOrderItemRepositoryV1Api
      * @param int $searchCriteriaPageSize Page size. (optional)
      * @param int $searchCriteriaCurrentPage Current page. (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemSearchResultInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\SalesDataOrderItemSearchResultInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function salesOrderItemRepositoryV1GetListGetWithHttpInfo($searchCriteriaFilterGroupsFiltersField = null, $searchCriteriaFilterGroupsFiltersValue = null, $searchCriteriaFilterGroupsFiltersConditionType = null, $searchCriteriaSortOrdersField = null, $searchCriteriaSortOrdersDirection = null, $searchCriteriaPageSize = null, $searchCriteriaCurrentPage = null)
     {
@@ -276,23 +276,23 @@ class SalesOrderItemRepositoryV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemSearchResultInterface',
+                '\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemSearchResultInterface',
                 '/V1/orders/items'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemSearchResultInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemSearchResultInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemSearchResultInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemSearchResultInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

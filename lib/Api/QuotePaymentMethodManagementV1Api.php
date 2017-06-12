@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Api;
+namespace Webgriffe\MagentoApiClient\Api;
 
 use \Webgriffe\MagentoApiClient\ApiClient;
 use \Webgriffe\MagentoApiClient\ApiException;
@@ -94,7 +94,7 @@ class QuotePaymentMethodManagementV1Api
      *
      * @param int $cartId The cart ID. (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface
      */
     public function quotePaymentMethodManagementV1GetGet($cartId)
     {
@@ -109,7 +109,7 @@ class QuotePaymentMethodManagementV1Api
      *
      * @param int $cartId The cart ID. (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function quotePaymentMethodManagementV1GetGetWithHttpInfo($cartId)
     {
@@ -155,27 +155,27 @@ class QuotePaymentMethodManagementV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface',
+                '\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface',
                 '/V1/carts/{cartId}/selected-payment-method'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -190,7 +190,7 @@ class QuotePaymentMethodManagementV1Api
      * 
      *
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface
      */
     public function quotePaymentMethodManagementV1GetGet_0()
     {
@@ -204,7 +204,7 @@ class QuotePaymentMethodManagementV1Api
      * 
      *
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function quotePaymentMethodManagementV1GetGet_0WithHttpInfo()
     {
@@ -238,27 +238,27 @@ class QuotePaymentMethodManagementV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface',
+                '\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface',
                 '/V1/carts/mine/selected-payment-method'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -274,7 +274,7 @@ class QuotePaymentMethodManagementV1Api
      *
      * @param int $cartId The cart ID. (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]
      */
     public function quotePaymentMethodManagementV1GetListGet($cartId)
     {
@@ -289,7 +289,7 @@ class QuotePaymentMethodManagementV1Api
      *
      * @param int $cartId The cart ID. (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[], HTTP status code, HTTP response headers (array of strings)
      */
     public function quotePaymentMethodManagementV1GetListGetWithHttpInfo($cartId)
     {
@@ -335,27 +335,27 @@ class QuotePaymentMethodManagementV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]',
+                '\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]',
                 '/V1/carts/{cartId}/payment-methods'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -370,7 +370,7 @@ class QuotePaymentMethodManagementV1Api
      * 
      *
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]
      */
     public function quotePaymentMethodManagementV1GetListGet_0()
     {
@@ -384,7 +384,7 @@ class QuotePaymentMethodManagementV1Api
      * 
      *
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[], HTTP status code, HTTP response headers (array of strings)
      */
     public function quotePaymentMethodManagementV1GetListGet_0WithHttpInfo()
     {
@@ -418,27 +418,27 @@ class QuotePaymentMethodManagementV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]',
+                '\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]',
                 '/V1/carts/mine/payment-methods'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -453,7 +453,7 @@ class QuotePaymentMethodManagementV1Api
      * 
      *
      * @param int $cartId The cart ID. (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body63 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body63 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return string
      */
@@ -469,7 +469,7 @@ class QuotePaymentMethodManagementV1Api
      * 
      *
      * @param int $cartId The cart ID. (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body63 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body63 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return array of string, HTTP status code, HTTP response headers (array of strings)
      */
@@ -534,15 +534,15 @@ class QuotePaymentMethodManagementV1Api
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -556,7 +556,7 @@ class QuotePaymentMethodManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body64 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body64 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return string
      */
@@ -571,7 +571,7 @@ class QuotePaymentMethodManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body64 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body64 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return array of string, HTTP status code, HTTP response headers (array of strings)
      */
@@ -624,15 +624,15 @@ class QuotePaymentMethodManagementV1Api
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

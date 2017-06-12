@@ -15,8 +15,8 @@ Name | Type | Description | Notes
 **path** | **string** |  | [optional] 
 **availableSortBy** | **string[]** |  | [optional] 
 **includeInMenu** | **bool** |  | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryExtensionInterface**](CatalogDataCategoryExtensionInterface.md) |  | [optional] 
-**customAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]**](FrameworkAttributeInterface.md) | Custom attributes values. | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryExtensionInterface**](CatalogDataCategoryExtensionInterface.md) |  | [optional] 
+**customAttributes** | [**\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]**](FrameworkAttributeInterface.md) | Custom attributes values. | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

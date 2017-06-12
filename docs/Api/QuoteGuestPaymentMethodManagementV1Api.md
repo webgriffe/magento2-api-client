@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **quoteGuestPaymentMethodManagementV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface quoteGuestPaymentMethodManagementV1GetGet($cartId)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface quoteGuestPaymentMethodManagementV1GetGet($cartId)
 
 
 
@@ -41,7 +41,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface**](../Model/QuoteDataPaymentInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface**](../Model/QuoteDataPaymentInterface.md)
 
 ### Authorization
 
@@ -55,7 +55,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **quoteGuestPaymentMethodManagementV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[] quoteGuestPaymentMethodManagementV1GetListGet($cartId)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[] quoteGuestPaymentMethodManagementV1GetListGet($cartId)
 
 
 
@@ -86,7 +86,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]**](../Model/QuoteDataPaymentMethodInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]**](../Model/QuoteDataPaymentMethodInterface.md)
 
 ### Authorization
 
@@ -113,7 +113,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuoteGuestPaymentMethodManagementV1Api();
 $cartId = "cartId_example"; // string | The cart ID.
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body65(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body65 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body65(); // \Webgriffe\MagentoApiClient\Model\Body65 | 
 
 try {
     $result = $api_instance->quoteGuestPaymentMethodManagementV1SetPut($cartId, $body);
@@ -129,7 +129,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **string**| The cart ID. |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body65**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body65.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body65**](../Model/\Webgriffe\MagentoApiClient\Model\Body65.md)|  | [optional]
 
 ### Return type
 

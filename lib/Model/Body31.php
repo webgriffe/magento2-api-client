@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body31 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'category' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface'
+        'category' => '\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body31 implements ArrayAccess
 
     /**
      * Gets category
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface
      */
     public function getCategory()
     {
@@ -164,7 +164,7 @@ class Body31 implements ArrayAccess
 
     /**
      * Sets category
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface $category
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface $category
      * @return $this
      */
     public function setCategory($category)

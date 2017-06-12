@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Api;
+namespace Webgriffe\MagentoApiClient\Api;
 
 use \Webgriffe\MagentoApiClient\ApiClient;
 use \Webgriffe\MagentoApiClient\ApiException;
@@ -167,15 +167,15 @@ class GiftCardAccountGiftCardAccountManagementV1Api
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -278,11 +278,11 @@ class GiftCardAccountGiftCardAccountManagementV1Api
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -371,11 +371,11 @@ class GiftCardAccountGiftCardAccountManagementV1Api
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -391,7 +391,7 @@ class GiftCardAccountGiftCardAccountManagementV1Api
      *
      * @param int $quoteId  (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface
+     * @return \Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface
      */
     public function giftCardAccountGiftCardAccountManagementV1GetListByQuoteIdGet($quoteId)
     {
@@ -406,7 +406,7 @@ class GiftCardAccountGiftCardAccountManagementV1Api
      *
      * @param int $quoteId  (required)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function giftCardAccountGiftCardAccountManagementV1GetListByQuoteIdGetWithHttpInfo($quoteId)
     {
@@ -452,23 +452,23 @@ class GiftCardAccountGiftCardAccountManagementV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface',
+                '\Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface',
                 '/V1/carts/{quoteId}/giftCards'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -482,7 +482,7 @@ class GiftCardAccountGiftCardAccountManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body119 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body119 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return bool
      */
@@ -497,7 +497,7 @@ class GiftCardAccountGiftCardAccountManagementV1Api
      *
      * 
      *
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body119 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body119 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return array of bool, HTTP status code, HTTP response headers (array of strings)
      */
@@ -550,11 +550,11 @@ class GiftCardAccountGiftCardAccountManagementV1Api
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -569,7 +569,7 @@ class GiftCardAccountGiftCardAccountManagementV1Api
      * 
      *
      * @param int $cartId  (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body118 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body118 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return bool
      */
@@ -585,7 +585,7 @@ class GiftCardAccountGiftCardAccountManagementV1Api
      * 
      *
      * @param int $cartId  (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body118 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body118 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
      * @return array of bool, HTTP status code, HTTP response headers (array of strings)
      */
@@ -650,11 +650,11 @@ class GiftCardAccountGiftCardAccountManagementV1Api
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

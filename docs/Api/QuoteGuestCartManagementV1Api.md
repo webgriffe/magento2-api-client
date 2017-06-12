@@ -23,7 +23,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuoteGuestCartManagementV1Api();
 $cartId = "cartId_example"; // string | The cart ID.
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body50(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body50 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body50(); // \Webgriffe\MagentoApiClient\Model\Body50 | 
 
 try {
     $result = $api_instance->quoteGuestCartManagementV1AssignCustomerPut($cartId, $body);
@@ -39,7 +39,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **string**| The cart ID. |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body50**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body50.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body50**](../Model/\Webgriffe\MagentoApiClient\Model\Body50.md)|  | [optional]
 
 ### Return type
 
@@ -111,7 +111,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuoteGuestCartManagementV1Api();
 $cartId = "cartId_example"; // string | The cart ID.
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body51(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body51 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body51(); // \Webgriffe\MagentoApiClient\Model\Body51 | 
 
 try {
     $result = $api_instance->quoteGuestCartManagementV1PlaceOrderPut($cartId, $body);
@@ -127,7 +127,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **string**| The cart ID. |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body51**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body51.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body51**](../Model/\Webgriffe\MagentoApiClient\Model\Body51.md)|  | [optional]
 
 ### Return type
 

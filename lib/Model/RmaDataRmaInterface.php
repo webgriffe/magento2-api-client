@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -63,12 +63,12 @@ class RmaDataRmaInterface implements ArrayAccess
         'customerId' => 'int',
         'dateRequested' => 'string',
         'customerCustomEmail' => 'string',
-        'items' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataItemInterface[]',
+        'items' => '\Webgriffe\MagentoApiClient\Model\RmaDataItemInterface[]',
         'status' => 'string',
-        'comments' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataCommentInterface[]',
-        'tracks' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataTrackInterface[]',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataRmaExtensionInterface',
-        'customAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]'
+        'comments' => '\Webgriffe\MagentoApiClient\Model\RmaDataCommentInterface[]',
+        'tracks' => '\Webgriffe\MagentoApiClient\Model\RmaDataTrackInterface[]',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\RmaDataRmaExtensionInterface',
+        'customAttributes' => '\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]'
     ];
 
     public static function swaggerTypes()
@@ -455,7 +455,7 @@ class RmaDataRmaInterface implements ArrayAccess
 
     /**
      * Gets items
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataItemInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\RmaDataItemInterface[]
      */
     public function getItems()
     {
@@ -464,7 +464,7 @@ class RmaDataRmaInterface implements ArrayAccess
 
     /**
      * Sets items
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataItemInterface[] $items Items
+     * @param \Webgriffe\MagentoApiClient\Model\RmaDataItemInterface[] $items Items
      * @return $this
      */
     public function setItems($items)
@@ -497,7 +497,7 @@ class RmaDataRmaInterface implements ArrayAccess
 
     /**
      * Gets comments
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataCommentInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\RmaDataCommentInterface[]
      */
     public function getComments()
     {
@@ -506,7 +506,7 @@ class RmaDataRmaInterface implements ArrayAccess
 
     /**
      * Sets comments
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataCommentInterface[] $comments Comments list
+     * @param \Webgriffe\MagentoApiClient\Model\RmaDataCommentInterface[] $comments Comments list
      * @return $this
      */
     public function setComments($comments)
@@ -518,7 +518,7 @@ class RmaDataRmaInterface implements ArrayAccess
 
     /**
      * Gets tracks
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataTrackInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\RmaDataTrackInterface[]
      */
     public function getTracks()
     {
@@ -527,7 +527,7 @@ class RmaDataRmaInterface implements ArrayAccess
 
     /**
      * Sets tracks
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataTrackInterface[] $tracks Tracks list
+     * @param \Webgriffe\MagentoApiClient\Model\RmaDataTrackInterface[] $tracks Tracks list
      * @return $this
      */
     public function setTracks($tracks)
@@ -539,7 +539,7 @@ class RmaDataRmaInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataRmaExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\RmaDataRmaExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -548,7 +548,7 @@ class RmaDataRmaInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataRmaExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\RmaDataRmaExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)
@@ -560,7 +560,7 @@ class RmaDataRmaInterface implements ArrayAccess
 
     /**
      * Gets customAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]
      */
     public function getCustomAttributes()
     {
@@ -569,7 +569,7 @@ class RmaDataRmaInterface implements ArrayAccess
 
     /**
      * Sets customAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[] $customAttributes Custom attributes values.
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[] $customAttributes Custom attributes values.
      * @return $this
      */
     public function setCustomAttributes($customAttributes)

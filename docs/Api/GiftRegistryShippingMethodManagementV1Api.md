@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **giftRegistryShippingMethodManagementV1EstimateByRegistryIdPost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodInterface[] giftRegistryShippingMethodManagementV1EstimateByRegistryIdPost($body)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodInterface[] giftRegistryShippingMethodManagementV1EstimateByRegistryIdPost($body)
 
 
 
@@ -20,7 +20,7 @@ Estimate shipping
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\GiftRegistryShippingMethodManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body121(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body121 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body121(); // \Webgriffe\MagentoApiClient\Model\Body121 | 
 
 try {
     $result = $api_instance->giftRegistryShippingMethodManagementV1EstimateByRegistryIdPost($body);
@@ -35,11 +35,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body121**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body121.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body121**](../Model/\Webgriffe\MagentoApiClient\Model\Body121.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodInterface[]**](../Model/QuoteDataShippingMethodInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodInterface[]**](../Model/QuoteDataShippingMethodInterface.md)
 
 ### Authorization
 

@@ -24,7 +24,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\RmaTrackManagementV1Api();
 $id = 56; // int | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body131(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body131 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body131(); // \Webgriffe\MagentoApiClient\Model\Body131 | 
 
 try {
     $result = $api_instance->rmaTrackManagementV1AddTrackPost($id, $body);
@@ -40,7 +40,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body131**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body131.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body131**](../Model/\Webgriffe\MagentoApiClient\Model\Body131.md)|  | [optional]
 
 ### Return type
 
@@ -103,7 +103,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **rmaTrackManagementV1GetTracksGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataTrackSearchResultInterface rmaTrackManagementV1GetTracksGet($id)
+> \Webgriffe\MagentoApiClient\Model\RmaDataTrackSearchResultInterface rmaTrackManagementV1GetTracksGet($id)
 
 
 
@@ -134,7 +134,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataTrackSearchResultInterface**](../Model/RmaDataTrackSearchResultInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\RmaDataTrackSearchResultInterface**](../Model/RmaDataTrackSearchResultInterface.md)
 
 ### Authorization
 

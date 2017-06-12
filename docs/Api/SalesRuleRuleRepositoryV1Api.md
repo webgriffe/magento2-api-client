@@ -57,7 +57,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesRuleRuleRepositoryV1GetByIdGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleInterface salesRuleRuleRepositoryV1GetByIdGet($ruleId)
+> \Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleInterface salesRuleRuleRepositoryV1GetByIdGet($ruleId)
 
 
 
@@ -88,7 +88,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleInterface**](../Model/SalesRuleDataRuleInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleInterface**](../Model/SalesRuleDataRuleInterface.md)
 
 ### Authorization
 
@@ -102,7 +102,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesRuleRuleRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleSearchResultInterface salesRuleRuleRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleSearchResultInterface salesRuleRuleRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -145,7 +145,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleSearchResultInterface**](../Model/SalesRuleDataRuleSearchResultInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleSearchResultInterface**](../Model/SalesRuleDataRuleSearchResultInterface.md)
 
 ### Authorization
 
@@ -159,7 +159,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesRuleRuleRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleInterface salesRuleRuleRepositoryV1SavePost($body)
+> \Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleInterface salesRuleRuleRepositoryV1SavePost($body)
 
 
 
@@ -171,7 +171,7 @@ Save sales rule.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesRuleRuleRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body88(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body88 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body88(); // \Webgriffe\MagentoApiClient\Model\Body88 | 
 
 try {
     $result = $api_instance->salesRuleRuleRepositoryV1SavePost($body);
@@ -186,11 +186,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body88**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body88.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body88**](../Model/\Webgriffe\MagentoApiClient\Model\Body88.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleInterface**](../Model/SalesRuleDataRuleInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleInterface**](../Model/SalesRuleDataRuleInterface.md)
 
 ### Authorization
 
@@ -204,7 +204,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesRuleRuleRepositoryV1SavePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleInterface salesRuleRuleRepositoryV1SavePut($ruleId, $body)
+> \Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleInterface salesRuleRuleRepositoryV1SavePut($ruleId, $body)
 
 
 
@@ -217,7 +217,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesRuleRuleRepositoryV1Api();
 $ruleId = "ruleId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body87(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body87 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body87(); // \Webgriffe\MagentoApiClient\Model\Body87 | 
 
 try {
     $result = $api_instance->salesRuleRuleRepositoryV1SavePut($ruleId, $body);
@@ -233,11 +233,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **ruleId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body87**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body87.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body87**](../Model/\Webgriffe\MagentoApiClient\Model\Body87.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleInterface**](../Model/SalesRuleDataRuleInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleInterface**](../Model/SalesRuleDataRuleInterface.md)
 
 ### Authorization
 

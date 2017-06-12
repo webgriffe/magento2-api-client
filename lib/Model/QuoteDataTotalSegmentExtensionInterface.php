@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,7 +55,7 @@ class QuoteDataTotalSegmentExtensionInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'taxGrandtotalDetails' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataGrandTotalDetailsInterface[]',
+        'taxGrandtotalDetails' => '\Webgriffe\MagentoApiClient\Model\TaxDataGrandTotalDetailsInterface[]',
         'giftCards' => 'string',
         'gwOrderId' => 'string',
         'gwItemIds' => 'string[]',
@@ -265,7 +265,7 @@ class QuoteDataTotalSegmentExtensionInterface implements ArrayAccess
 
     /**
      * Gets taxGrandtotalDetails
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataGrandTotalDetailsInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\TaxDataGrandTotalDetailsInterface[]
      */
     public function getTaxGrandtotalDetails()
     {
@@ -274,7 +274,7 @@ class QuoteDataTotalSegmentExtensionInterface implements ArrayAccess
 
     /**
      * Sets taxGrandtotalDetails
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataGrandTotalDetailsInterface[] $taxGrandtotalDetails
+     * @param \Webgriffe\MagentoApiClient\Model\TaxDataGrandTotalDetailsInterface[] $taxGrandtotalDetails
      * @return $this
      */
     public function setTaxGrandtotalDetails($taxGrandtotalDetails)

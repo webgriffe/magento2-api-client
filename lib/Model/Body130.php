@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body130 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'data' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface',
+        'data' => '\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface',
         'storeId' => 'int'
     ];
 
@@ -160,7 +160,7 @@ class Body130 implements ArrayAccess
 
     /**
      * Gets data
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface
+     * @return \Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface
      */
     public function getData()
     {
@@ -169,7 +169,7 @@ class Body130 implements ArrayAccess
 
     /**
      * Sets data
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface $data
+     * @param \Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface $data
      * @return $this
      */
     public function setData($data)

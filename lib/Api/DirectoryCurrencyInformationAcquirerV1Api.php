@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Api;
+namespace Webgriffe\MagentoApiClient\Api;
 
 use \Webgriffe\MagentoApiClient\ApiClient;
 use \Webgriffe\MagentoApiClient\ApiException;
@@ -93,7 +93,7 @@ class DirectoryCurrencyInformationAcquirerV1Api
      * 
      *
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationInterface
+     * @return \Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationInterface
      */
     public function directoryCurrencyInformationAcquirerV1GetCurrencyInfoGet()
     {
@@ -107,7 +107,7 @@ class DirectoryCurrencyInformationAcquirerV1Api
      * 
      *
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function directoryCurrencyInformationAcquirerV1GetCurrencyInfoGetWithHttpInfo()
     {
@@ -141,19 +141,19 @@ class DirectoryCurrencyInformationAcquirerV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationInterface',
+                '\Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationInterface',
                 '/V1/directory/currency'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

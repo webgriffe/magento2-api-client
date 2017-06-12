@@ -21,16 +21,16 @@ Name | Type | Description | Notes
 **usedInProductListing** | **string** | The attribute can be used in product listing | [optional] 
 **isVisible** | **bool** | Attribute is visible on frontend. | [optional] 
 **scope** | **string** | Attribute scope | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataEavAttributeExtensionInterface**](CatalogDataEavAttributeExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\CatalogDataEavAttributeExtensionInterface**](CatalogDataEavAttributeExtensionInterface.md) |  | [optional] 
 **attributeId** | **int** | Id of the attribute. | [optional] 
 **attributeCode** | **string** | Code of the attribute. | 
 **frontendInput** | **string** | HTML for input element. | 
 **entityTypeId** | **string** | Entity type id | [optional] 
 **isRequired** | **bool** | Attribute is required. | 
-**options** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface[]**](EavDataAttributeOptionInterface.md) | Options of the attribute (key &#x3D;&gt; value pairs for select) | [optional] 
+**options** | [**\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface[]**](EavDataAttributeOptionInterface.md) | Options of the attribute (key &#x3D;&gt; value pairs for select) | [optional] 
 **isUserDefined** | **bool** | Current attribute has been defined by a user. | [optional] 
 **defaultFrontendLabel** | **string** | Frontend label for default store | [optional] 
-**frontendLabels** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeFrontendLabelInterface[]**](EavDataAttributeFrontendLabelInterface.md) | Frontend label for each store | 
+**frontendLabels** | [**\Webgriffe\MagentoApiClient\Model\EavDataAttributeFrontendLabelInterface[]**](EavDataAttributeFrontendLabelInterface.md) | Frontend label for each store | 
 **note** | **string** | The note attribute for the element. | [optional] 
 **backendType** | **string** | Backend type. | [optional] 
 **backendModel** | **string** | Backend model | [optional] 
@@ -38,8 +38,8 @@ Name | Type | Description | Notes
 **defaultValue** | **string** | Default value for the element. | [optional] 
 **isUnique** | **string** | This is a unique attribute | [optional] 
 **frontendClass** | **string** | Frontend class of attribute | [optional] 
-**validationRules** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeValidationRuleInterface[]**](EavDataAttributeValidationRuleInterface.md) | Validation rules. | [optional] 
-**customAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]**](FrameworkAttributeInterface.md) | Custom attributes values. | [optional] 
+**validationRules** | [**\Webgriffe\MagentoApiClient\Model\EavDataAttributeValidationRuleInterface[]**](EavDataAttributeValidationRuleInterface.md) | Validation rules. | [optional] 
+**customAttributes** | [**\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]**](FrameworkAttributeInterface.md) | Custom attributes values. | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

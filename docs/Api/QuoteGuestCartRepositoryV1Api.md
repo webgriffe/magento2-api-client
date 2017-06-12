@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **quoteGuestCartRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface quoteGuestCartRepositoryV1GetGet($cartId)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface quoteGuestCartRepositoryV1GetGet($cartId)
 
 
 
@@ -39,7 +39,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface**](../Model/QuoteDataCartInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface**](../Model/QuoteDataCartInterface.md)
 
 ### Authorization
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -57,7 +57,7 @@ class CatalogDataProductLinkTypeInterface implements ArrayAccess
     protected static $swaggerTypes = [
         'code' => 'int',
         'name' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkTypeExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkTypeExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -214,7 +214,7 @@ class CatalogDataProductLinkTypeInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkTypeExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkTypeExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -223,7 +223,7 @@ class CatalogDataProductLinkTypeInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkTypeExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkTypeExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -66,12 +66,12 @@ class CatalogDataProductInterface implements ArrayAccess
         'createdAt' => 'string',
         'updatedAt' => 'string',
         'weight' => 'float',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductExtensionInterface',
-        'productLinks' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkInterface[]',
-        'options' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface[]',
-        'mediaGalleryEntries' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface[]',
-        'tierPrices' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductTierPriceInterface[]',
-        'customAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductExtensionInterface',
+        'productLinks' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkInterface[]',
+        'options' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface[]',
+        'mediaGalleryEntries' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface[]',
+        'tierPrices' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductTierPriceInterface[]',
+        'customAttributes' => '\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]'
     ];
 
     public static function swaggerTypes()
@@ -467,7 +467,7 @@ class CatalogDataProductInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -476,7 +476,7 @@ class CatalogDataProductInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)
@@ -488,7 +488,7 @@ class CatalogDataProductInterface implements ArrayAccess
 
     /**
      * Gets productLinks
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkInterface[]
      */
     public function getProductLinks()
     {
@@ -497,7 +497,7 @@ class CatalogDataProductInterface implements ArrayAccess
 
     /**
      * Sets productLinks
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkInterface[] $productLinks Product links info
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkInterface[] $productLinks Product links info
      * @return $this
      */
     public function setProductLinks($productLinks)
@@ -509,7 +509,7 @@ class CatalogDataProductInterface implements ArrayAccess
 
     /**
      * Gets options
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface[]
      */
     public function getOptions()
     {
@@ -518,7 +518,7 @@ class CatalogDataProductInterface implements ArrayAccess
 
     /**
      * Sets options
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface[] $options List of product options
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface[] $options List of product options
      * @return $this
      */
     public function setOptions($options)
@@ -530,7 +530,7 @@ class CatalogDataProductInterface implements ArrayAccess
 
     /**
      * Gets mediaGalleryEntries
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface[]
      */
     public function getMediaGalleryEntries()
     {
@@ -539,7 +539,7 @@ class CatalogDataProductInterface implements ArrayAccess
 
     /**
      * Sets mediaGalleryEntries
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface[] $mediaGalleryEntries Media gallery entries
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface[] $mediaGalleryEntries Media gallery entries
      * @return $this
      */
     public function setMediaGalleryEntries($mediaGalleryEntries)
@@ -551,7 +551,7 @@ class CatalogDataProductInterface implements ArrayAccess
 
     /**
      * Gets tierPrices
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductTierPriceInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductTierPriceInterface[]
      */
     public function getTierPrices()
     {
@@ -560,7 +560,7 @@ class CatalogDataProductInterface implements ArrayAccess
 
     /**
      * Sets tierPrices
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductTierPriceInterface[] $tierPrices List of product tier prices
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductTierPriceInterface[] $tierPrices List of product tier prices
      * @return $this
      */
     public function setTierPrices($tierPrices)
@@ -572,7 +572,7 @@ class CatalogDataProductInterface implements ArrayAccess
 
     /**
      * Gets customAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]
      */
     public function getCustomAttributes()
     {
@@ -581,7 +581,7 @@ class CatalogDataProductInterface implements ArrayAccess
 
     /**
      * Sets customAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[] $customAttributes Custom attributes values.
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[] $customAttributes Custom attributes values.
      * @return $this
      */
     public function setCustomAttributes($customAttributes)

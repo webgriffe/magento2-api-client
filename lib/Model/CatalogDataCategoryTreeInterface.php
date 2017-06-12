@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -62,7 +62,7 @@ class CatalogDataCategoryTreeInterface implements ArrayAccess
         'position' => 'int',
         'level' => 'int',
         'productCount' => 'int',
-        'childrenData' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryTreeInterface[]'
+        'childrenData' => '\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryTreeInterface[]'
     ];
 
     public static function swaggerTypes()
@@ -374,7 +374,7 @@ class CatalogDataCategoryTreeInterface implements ArrayAccess
 
     /**
      * Gets childrenData
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryTreeInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataCategoryTreeInterface[]
      */
     public function getChildrenData()
     {
@@ -383,7 +383,7 @@ class CatalogDataCategoryTreeInterface implements ArrayAccess
 
     /**
      * Sets childrenData
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryTreeInterface[] $childrenData
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataCategoryTreeInterface[] $childrenData
      * @return $this
      */
     public function setChildrenData($childrenData)

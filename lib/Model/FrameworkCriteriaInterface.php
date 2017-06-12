@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -56,7 +56,7 @@ class FrameworkCriteriaInterface implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'mapperInterfaceName' => 'string',
-        'criteriaList' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkCriteriaInterface[]',
+        'criteriaList' => '\Webgriffe\MagentoApiClient\Model\FrameworkCriteriaInterface[]',
         'filters' => 'string[]',
         'orders' => 'string[]',
         'limit' => 'string[]'
@@ -221,7 +221,7 @@ class FrameworkCriteriaInterface implements ArrayAccess
 
     /**
      * Gets criteriaList
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkCriteriaInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkCriteriaInterface[]
      */
     public function getCriteriaList()
     {
@@ -230,7 +230,7 @@ class FrameworkCriteriaInterface implements ArrayAccess
 
     /**
      * Sets criteriaList
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkCriteriaInterface[] $criteriaList Criteria objects added to current Composite Criteria
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkCriteriaInterface[] $criteriaList Criteria objects added to current Composite Criteria
      * @return $this
      */
     public function setCriteriaList($criteriaList)

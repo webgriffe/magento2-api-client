@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -81,7 +81,7 @@ class CatalogInventoryDataStockItemInterface implements ArrayAccess
         'lowStockDate' => 'string',
         'isDecimalDivided' => 'bool',
         'stockStatusChangedAuto' => 'int',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -964,7 +964,7 @@ class CatalogInventoryDataStockItemInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -973,7 +973,7 @@ class CatalogInventoryDataStockItemInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

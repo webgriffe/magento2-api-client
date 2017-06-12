@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,7 +55,7 @@ class SalesDataShipmentItemCreationInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemCreationExtensionInterface',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemCreationExtensionInterface',
         'orderItemId' => 'int',
         'qty' => 'float'
     ];
@@ -172,7 +172,7 @@ class SalesDataShipmentItemCreationInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemCreationExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemCreationExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -181,7 +181,7 @@ class SalesDataShipmentItemCreationInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemCreationExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemCreationExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

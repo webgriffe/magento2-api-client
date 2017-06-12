@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body89 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'coupon' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface'
+        'coupon' => '\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body89 implements ArrayAccess
 
     /**
      * Gets coupon
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface
      */
     public function getCoupon()
     {
@@ -164,7 +164,7 @@ class Body89 implements ArrayAccess
 
     /**
      * Sets coupon
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface $coupon
+     * @param \Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface $coupon
      * @return $this
      */
     public function setCoupon($coupon)

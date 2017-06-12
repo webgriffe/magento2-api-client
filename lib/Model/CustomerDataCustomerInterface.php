@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -74,10 +74,10 @@ class CustomerDataCustomerInterface implements ArrayAccess
         'storeId' => 'int',
         'taxvat' => 'string',
         'websiteId' => 'int',
-        'addresses' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface[]',
+        'addresses' => '\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface[]',
         'disableAutoGroupChange' => 'int',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerExtensionInterface',
-        'customAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerExtensionInterface',
+        'customAttributes' => '\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]'
     ];
 
     public static function swaggerTypes()
@@ -677,7 +677,7 @@ class CustomerDataCustomerInterface implements ArrayAccess
 
     /**
      * Gets addresses
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface[]
      */
     public function getAddresses()
     {
@@ -686,7 +686,7 @@ class CustomerDataCustomerInterface implements ArrayAccess
 
     /**
      * Sets addresses
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface[] $addresses Customer addresses.
+     * @param \Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface[] $addresses Customer addresses.
      * @return $this
      */
     public function setAddresses($addresses)
@@ -719,7 +719,7 @@ class CustomerDataCustomerInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -728,7 +728,7 @@ class CustomerDataCustomerInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)
@@ -740,7 +740,7 @@ class CustomerDataCustomerInterface implements ArrayAccess
 
     /**
      * Gets customAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]
      */
     public function getCustomAttributes()
     {
@@ -749,7 +749,7 @@ class CustomerDataCustomerInterface implements ArrayAccess
 
     /**
      * Sets customAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[] $customAttributes Custom attributes values.
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[] $customAttributes Custom attributes values.
      * @return $this
      */
     public function setCustomAttributes($customAttributes)

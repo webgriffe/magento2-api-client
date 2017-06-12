@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -58,12 +58,12 @@ class CustomerDataAttributeMetadataInterface implements ArrayAccess
         'frontendInput' => 'string',
         'inputFilter' => 'string',
         'storeLabel' => 'string',
-        'validationRules' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataValidationRuleInterface[]',
+        'validationRules' => '\Webgriffe\MagentoApiClient\Model\CustomerDataValidationRuleInterface[]',
         'multilineCount' => 'int',
         'visible' => 'bool',
         'required' => 'bool',
         'dataModel' => 'string',
-        'options' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataOptionInterface[]',
+        'options' => '\Webgriffe\MagentoApiClient\Model\CustomerDataOptionInterface[]',
         'frontendClass' => 'string',
         'userDefined' => 'bool',
         'sortOrder' => 'int',
@@ -415,7 +415,7 @@ class CustomerDataAttributeMetadataInterface implements ArrayAccess
 
     /**
      * Gets validationRules
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataValidationRuleInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataValidationRuleInterface[]
      */
     public function getValidationRules()
     {
@@ -424,7 +424,7 @@ class CustomerDataAttributeMetadataInterface implements ArrayAccess
 
     /**
      * Sets validationRules
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataValidationRuleInterface[] $validationRules Validation rules.
+     * @param \Webgriffe\MagentoApiClient\Model\CustomerDataValidationRuleInterface[] $validationRules Validation rules.
      * @return $this
      */
     public function setValidationRules($validationRules)
@@ -520,7 +520,7 @@ class CustomerDataAttributeMetadataInterface implements ArrayAccess
 
     /**
      * Gets options
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataOptionInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataOptionInterface[]
      */
     public function getOptions()
     {
@@ -529,7 +529,7 @@ class CustomerDataAttributeMetadataInterface implements ArrayAccess
 
     /**
      * Sets options
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataOptionInterface[] $options Options of the attribute (key => value pairs for select)
+     * @param \Webgriffe\MagentoApiClient\Model\CustomerDataOptionInterface[] $options Options of the attribute (key => value pairs for select)
      * @return $this
      */
     public function setOptions($options)

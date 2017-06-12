@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,8 +55,8 @@ class Body101 implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'email' => 'string',
-        'paymentMethod' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface',
-        'billingAddress' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface'
+        'paymentMethod' => '\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface',
+        'billingAddress' => '\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface'
     ];
 
     public static function swaggerTypes()
@@ -192,7 +192,7 @@ class Body101 implements ArrayAccess
 
     /**
      * Gets paymentMethod
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface
      */
     public function getPaymentMethod()
     {
@@ -201,7 +201,7 @@ class Body101 implements ArrayAccess
 
     /**
      * Sets paymentMethod
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface $paymentMethod
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface $paymentMethod
      * @return $this
      */
     public function setPaymentMethod($paymentMethod)
@@ -213,7 +213,7 @@ class Body101 implements ArrayAccess
 
     /**
      * Gets billingAddress
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface
      */
     public function getBillingAddress()
     {
@@ -222,7 +222,7 @@ class Body101 implements ArrayAccess
 
     /**
      * Sets billingAddress
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface $billingAddress
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface $billingAddress
      * @return $this
      */
     public function setBillingAddress($billingAddress)

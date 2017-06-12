@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -57,7 +57,7 @@ class BundleDataOptionTypeInterface implements ArrayAccess
     protected static $swaggerTypes = [
         'label' => 'string',
         'code' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataOptionTypeExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\BundleDataOptionTypeExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -214,7 +214,7 @@ class BundleDataOptionTypeInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataOptionTypeExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\BundleDataOptionTypeExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -223,7 +223,7 @@ class BundleDataOptionTypeInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataOptionTypeExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\BundleDataOptionTypeExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

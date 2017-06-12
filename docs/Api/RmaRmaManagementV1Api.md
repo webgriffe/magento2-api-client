@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **rmaRmaManagementV1SaveRmaPost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface rmaRmaManagementV1SaveRmaPost($body)
+> \Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface rmaRmaManagementV1SaveRmaPost($body)
 
 
 
@@ -22,7 +22,7 @@ Save RMA
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\RmaRmaManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body135(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body135 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body135(); // \Webgriffe\MagentoApiClient\Model\Body135 | 
 
 try {
     $result = $api_instance->rmaRmaManagementV1SaveRmaPost($body);
@@ -37,11 +37,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body135**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body135.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body135**](../Model/\Webgriffe\MagentoApiClient\Model\Body135.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface**](../Model/RmaDataRmaInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface**](../Model/RmaDataRmaInterface.md)
 
 ### Authorization
 
@@ -55,7 +55,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **rmaRmaManagementV1SaveRmaPut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface rmaRmaManagementV1SaveRmaPut($id, $body)
+> \Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface rmaRmaManagementV1SaveRmaPut($id, $body)
 
 
 
@@ -68,7 +68,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\RmaRmaManagementV1Api();
 $id = "id_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body132(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body132 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body132(); // \Webgriffe\MagentoApiClient\Model\Body132 | 
 
 try {
     $result = $api_instance->rmaRmaManagementV1SaveRmaPut($id, $body);
@@ -84,11 +84,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body132**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body132.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body132**](../Model/\Webgriffe\MagentoApiClient\Model\Body132.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface**](../Model/RmaDataRmaInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface**](../Model/RmaDataRmaInterface.md)
 
 ### Authorization
 
@@ -102,7 +102,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **rmaRmaManagementV1SearchGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataRmaSearchResultInterface rmaRmaManagementV1SearchGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\RmaDataRmaSearchResultInterface rmaRmaManagementV1SearchGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -145,7 +145,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataRmaSearchResultInterface**](../Model/RmaDataRmaSearchResultInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\RmaDataRmaSearchResultInterface**](../Model/RmaDataRmaSearchResultInterface.md)
 
 ### Authorization
 

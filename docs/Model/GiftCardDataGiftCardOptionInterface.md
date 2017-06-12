@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 **giftcardSenderEmail** | **string** | Gift card sender email. | 
 **giftcardRecipientEmail** | **string** | Gift card recipient email. | 
 **giftcardMessage** | **string** | Giftcard message. | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardDataGiftCardOptionExtensionInterface**](GiftCardDataGiftCardOptionExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\GiftCardDataGiftCardOptionExtensionInterface**](GiftCardDataGiftCardOptionExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

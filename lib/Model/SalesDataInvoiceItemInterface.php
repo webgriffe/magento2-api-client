@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -77,7 +77,7 @@ class SalesDataInvoiceItemInterface implements ArrayAccess
         'rowTotalInclTax' => 'float',
         'sku' => 'string',
         'taxAmount' => 'float',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemExtensionInterface',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemExtensionInterface',
         'orderItemId' => 'int',
         'qty' => 'float'
     ];
@@ -750,7 +750,7 @@ class SalesDataInvoiceItemInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -759,7 +759,7 @@ class SalesDataInvoiceItemInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

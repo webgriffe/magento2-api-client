@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body17 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'block' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface'
+        'block' => '\Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body17 implements ArrayAccess
 
     /**
      * Gets block
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface
      */
     public function getBlock()
     {
@@ -164,7 +164,7 @@ class Body17 implements ArrayAccess
 
     /**
      * Sets block
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface $block
+     * @param \Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface $block
      * @return $this
      */
     public function setBlock($block)

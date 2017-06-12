@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **quoteGuestShipmentEstimationV1EstimateByExtendedAddressPost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodInterface[] quoteGuestShipmentEstimationV1EstimateByExtendedAddressPost($cartId, $body)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodInterface[] quoteGuestShipmentEstimationV1EstimateByExtendedAddressPost($cartId, $body)
 
 
 
@@ -21,7 +21,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuoteGuestShipmentEstimationV1Api();
 $cartId = "cartId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body56(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body56 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body56(); // \Webgriffe\MagentoApiClient\Model\Body56 | 
 
 try {
     $result = $api_instance->quoteGuestShipmentEstimationV1EstimateByExtendedAddressPost($cartId, $body);
@@ -37,11 +37,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body56**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body56.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body56**](../Model/\Webgriffe\MagentoApiClient\Model\Body56.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodInterface[]**](../Model/QuoteDataShippingMethodInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodInterface[]**](../Model/QuoteDataShippingMethodInterface.md)
 
 ### Authorization
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body26 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'group' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupInterface'
+        'group' => '\Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body26 implements ArrayAccess
 
     /**
      * Gets group
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupInterface
+     * @return \Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupInterface
      */
     public function getGroup()
     {
@@ -164,7 +164,7 @@ class Body26 implements ArrayAccess
 
     /**
      * Sets group
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupInterface $group
+     * @param \Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupInterface $group
      * @return $this
      */
     public function setGroup($group)

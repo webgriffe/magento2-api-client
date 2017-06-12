@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **catalogCategoryLinkManagementV1GetAssignedProductsGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryProductLinkInterface[] catalogCategoryLinkManagementV1GetAssignedProductsGet($categoryId)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataCategoryProductLinkInterface[] catalogCategoryLinkManagementV1GetAssignedProductsGet($categoryId)
 
 
 
@@ -39,7 +39,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryProductLinkInterface[]**](../Model/CatalogDataCategoryProductLinkInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryProductLinkInterface[]**](../Model/CatalogDataCategoryProductLinkInterface.md)
 
 ### Authorization
 

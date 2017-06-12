@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -63,13 +63,13 @@ class DownloadableDataLinkInterface implements ArrayAccess
         'numberOfDownloads' => 'int',
         'linkType' => 'string',
         'linkFile' => 'string',
-        'linkFileContent' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface',
+        'linkFileContent' => '\Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface',
         'linkUrl' => 'string',
         'sampleType' => 'string',
         'sampleFile' => 'string',
-        'sampleFileContent' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface',
+        'sampleFileContent' => '\Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface',
         'sampleUrl' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataLinkExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\DownloadableDataLinkExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -418,7 +418,7 @@ class DownloadableDataLinkInterface implements ArrayAccess
 
     /**
      * Gets linkFileContent
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface
+     * @return \Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface
      */
     public function getLinkFileContent()
     {
@@ -427,7 +427,7 @@ class DownloadableDataLinkInterface implements ArrayAccess
 
     /**
      * Sets linkFileContent
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface $linkFileContent
+     * @param \Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface $linkFileContent
      * @return $this
      */
     public function setLinkFileContent($linkFileContent)
@@ -502,7 +502,7 @@ class DownloadableDataLinkInterface implements ArrayAccess
 
     /**
      * Gets sampleFileContent
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface
+     * @return \Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface
      */
     public function getSampleFileContent()
     {
@@ -511,7 +511,7 @@ class DownloadableDataLinkInterface implements ArrayAccess
 
     /**
      * Sets sampleFileContent
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface $sampleFileContent
+     * @param \Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface $sampleFileContent
      * @return $this
      */
     public function setSampleFileContent($sampleFileContent)
@@ -544,7 +544,7 @@ class DownloadableDataLinkInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataLinkExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\DownloadableDataLinkExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -553,7 +553,7 @@ class DownloadableDataLinkInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataLinkExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\DownloadableDataLinkExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

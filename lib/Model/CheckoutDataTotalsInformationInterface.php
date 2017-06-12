@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,11 +55,11 @@ class CheckoutDataTotalsInformationInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'address' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface',
+        'address' => '\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface',
         'shippingMethodCode' => 'string',
         'shippingCarrierCode' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataTotalsInformationExtensionInterface',
-        'customAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\CheckoutDataTotalsInformationExtensionInterface',
+        'customAttributes' => '\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]'
     ];
 
     public static function swaggerTypes()
@@ -176,7 +176,7 @@ class CheckoutDataTotalsInformationInterface implements ArrayAccess
 
     /**
      * Gets address
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface
      */
     public function getAddress()
     {
@@ -185,7 +185,7 @@ class CheckoutDataTotalsInformationInterface implements ArrayAccess
 
     /**
      * Sets address
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface $address
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface $address
      * @return $this
      */
     public function setAddress($address)
@@ -239,7 +239,7 @@ class CheckoutDataTotalsInformationInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataTotalsInformationExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CheckoutDataTotalsInformationExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -248,7 +248,7 @@ class CheckoutDataTotalsInformationInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataTotalsInformationExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\CheckoutDataTotalsInformationExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)
@@ -260,7 +260,7 @@ class CheckoutDataTotalsInformationInterface implements ArrayAccess
 
     /**
      * Gets customAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]
      */
     public function getCustomAttributes()
     {
@@ -269,7 +269,7 @@ class CheckoutDataTotalsInformationInterface implements ArrayAccess
 
     /**
      * Sets customAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[] $customAttributes Custom attributes values.
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[] $customAttributes Custom attributes values.
      * @return $this
      */
     public function setCustomAttributes($customAttributes)

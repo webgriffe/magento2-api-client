@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -57,7 +57,7 @@ class SalesRuleDataRuleInterface implements ArrayAccess
     protected static $swaggerTypes = [
         'ruleId' => 'int',
         'name' => 'string',
-        'storeLabels' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleLabelInterface[]',
+        'storeLabels' => '\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleLabelInterface[]',
         'description' => 'string',
         'websiteIds' => 'int[]',
         'customerGroupIds' => 'int[]',
@@ -65,8 +65,8 @@ class SalesRuleDataRuleInterface implements ArrayAccess
         'toDate' => 'string',
         'usesPerCustomer' => 'int',
         'isActive' => 'bool',
-        'condition' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface',
-        'actionCondition' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface',
+        'condition' => '\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface',
+        'actionCondition' => '\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface',
         'stopRulesProcessing' => 'bool',
         'isAdvanced' => 'bool',
         'productIds' => 'int[]',
@@ -82,7 +82,7 @@ class SalesRuleDataRuleInterface implements ArrayAccess
         'useAutoGeneration' => 'bool',
         'usesPerCoupon' => 'int',
         'simpleFreeShipping' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -417,7 +417,7 @@ class SalesRuleDataRuleInterface implements ArrayAccess
 
     /**
      * Gets storeLabels
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleLabelInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleLabelInterface[]
      */
     public function getStoreLabels()
     {
@@ -426,7 +426,7 @@ class SalesRuleDataRuleInterface implements ArrayAccess
 
     /**
      * Sets storeLabels
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleLabelInterface[] $storeLabels Display label
+     * @param \Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleLabelInterface[] $storeLabels Display label
      * @return $this
      */
     public function setStoreLabels($storeLabels)
@@ -585,7 +585,7 @@ class SalesRuleDataRuleInterface implements ArrayAccess
 
     /**
      * Gets condition
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface
      */
     public function getCondition()
     {
@@ -594,7 +594,7 @@ class SalesRuleDataRuleInterface implements ArrayAccess
 
     /**
      * Sets condition
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface $condition
+     * @param \Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface $condition
      * @return $this
      */
     public function setCondition($condition)
@@ -606,7 +606,7 @@ class SalesRuleDataRuleInterface implements ArrayAccess
 
     /**
      * Gets actionCondition
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface
      */
     public function getActionCondition()
     {
@@ -615,7 +615,7 @@ class SalesRuleDataRuleInterface implements ArrayAccess
 
     /**
      * Sets actionCondition
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface $actionCondition
+     * @param \Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface $actionCondition
      * @return $this
      */
     public function setActionCondition($actionCondition)
@@ -942,7 +942,7 @@ class SalesRuleDataRuleInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -951,7 +951,7 @@ class SalesRuleDataRuleInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

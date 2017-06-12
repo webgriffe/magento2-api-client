@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -57,7 +57,7 @@ class DownloadableDataFileContentInterface implements ArrayAccess
     protected static $swaggerTypes = [
         'fileData' => 'string',
         'name' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -214,7 +214,7 @@ class DownloadableDataFileContentInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -223,7 +223,7 @@ class DownloadableDataFileContentInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

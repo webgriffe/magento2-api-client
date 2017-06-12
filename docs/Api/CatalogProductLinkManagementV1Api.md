@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **catalogProductLinkManagementV1GetLinkedItemsByTypeGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkInterface[] catalogProductLinkManagementV1GetLinkedItemsByTypeGet($sku, $type)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkInterface[] catalogProductLinkManagementV1GetLinkedItemsByTypeGet($sku, $type)
 
 
 
@@ -42,7 +42,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkInterface[]**](../Model/CatalogDataProductLinkInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkInterface[]**](../Model/CatalogDataProductLinkInterface.md)
 
 ### Authorization
 
@@ -69,7 +69,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogProductLinkManagementV1Api();
 $sku = "sku_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body36(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body36 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body36(); // \Webgriffe\MagentoApiClient\Model\Body36 | 
 
 try {
     $result = $api_instance->catalogProductLinkManagementV1SetProductLinksPost($sku, $body);
@@ -85,7 +85,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **sku** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body36**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body36.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body36**](../Model/\Webgriffe\MagentoApiClient\Model\Body36.md)|  | [optional]
 
 ### Return type
 

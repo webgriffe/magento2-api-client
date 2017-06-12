@@ -57,7 +57,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface catalogProductRepositoryV1GetGet($sku, $editMode, $storeId, $forceReload)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface catalogProductRepositoryV1GetGet($sku, $editMode, $storeId, $forceReload)
 
 
 
@@ -94,7 +94,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface**](../Model/CatalogDataProductInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface**](../Model/CatalogDataProductInterface.md)
 
 ### Authorization
 
@@ -108,7 +108,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductSearchResultsInterface catalogProductRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductSearchResultsInterface catalogProductRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -151,7 +151,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductSearchResultsInterface**](../Model/CatalogDataProductSearchResultsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductSearchResultsInterface**](../Model/CatalogDataProductSearchResultsInterface.md)
 
 ### Authorization
 
@@ -165,7 +165,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface catalogProductRepositoryV1SavePost($body)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface catalogProductRepositoryV1SavePost($body)
 
 
 
@@ -177,7 +177,7 @@ Create product
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogProductRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body18(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body18 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body18(); // \Webgriffe\MagentoApiClient\Model\Body18 | 
 
 try {
     $result = $api_instance->catalogProductRepositoryV1SavePost($body);
@@ -192,11 +192,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body18**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body18.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body18**](../Model/\Webgriffe\MagentoApiClient\Model\Body18.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface**](../Model/CatalogDataProductInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface**](../Model/CatalogDataProductInterface.md)
 
 ### Authorization
 
@@ -210,7 +210,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductRepositoryV1SavePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface catalogProductRepositoryV1SavePut($sku, $body)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface catalogProductRepositoryV1SavePut($sku, $body)
 
 
 
@@ -223,7 +223,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogProductRepositoryV1Api();
 $sku = "sku_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body19(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body19 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body19(); // \Webgriffe\MagentoApiClient\Model\Body19 | 
 
 try {
     $result = $api_instance->catalogProductRepositoryV1SavePut($sku, $body);
@@ -239,11 +239,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **sku** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body19**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body19.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body19**](../Model/\Webgriffe\MagentoApiClient\Model\Body19.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface**](../Model/CatalogDataProductInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface**](../Model/CatalogDataProductInterface.md)
 
 ### Authorization
 

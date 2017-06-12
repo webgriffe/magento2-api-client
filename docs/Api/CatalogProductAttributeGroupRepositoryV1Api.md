@@ -56,7 +56,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductAttributeGroupRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupSearchResultsInterface catalogProductAttributeGroupRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupSearchResultsInterface catalogProductAttributeGroupRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -99,7 +99,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupSearchResultsInterface**](../Model/EavDataAttributeGroupSearchResultsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupSearchResultsInterface**](../Model/EavDataAttributeGroupSearchResultsInterface.md)
 
 ### Authorization
 
@@ -113,7 +113,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductAttributeGroupRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupInterface catalogProductAttributeGroupRepositoryV1SavePost($body)
+> \Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupInterface catalogProductAttributeGroupRepositoryV1SavePost($body)
 
 
 
@@ -125,7 +125,7 @@ Save attribute group
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogProductAttributeGroupRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body25(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body25 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body25(); // \Webgriffe\MagentoApiClient\Model\Body25 | 
 
 try {
     $result = $api_instance->catalogProductAttributeGroupRepositoryV1SavePost($body);
@@ -140,11 +140,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body25**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body25.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body25**](../Model/\Webgriffe\MagentoApiClient\Model\Body25.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupInterface**](../Model/EavDataAttributeGroupInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupInterface**](../Model/EavDataAttributeGroupInterface.md)
 
 ### Authorization
 
@@ -158,7 +158,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductAttributeGroupRepositoryV1SavePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupInterface catalogProductAttributeGroupRepositoryV1SavePut($attributeSetId, $body)
+> \Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupInterface catalogProductAttributeGroupRepositoryV1SavePut($attributeSetId, $body)
 
 
 
@@ -171,7 +171,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogProductAttributeGroupRepositoryV1Api();
 $attributeSetId = "attributeSetId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body26(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body26 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body26(); // \Webgriffe\MagentoApiClient\Model\Body26 | 
 
 try {
     $result = $api_instance->catalogProductAttributeGroupRepositoryV1SavePut($attributeSetId, $body);
@@ -187,11 +187,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **attributeSetId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body26**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body26.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body26**](../Model/\Webgriffe\MagentoApiClient\Model\Body26.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupInterface**](../Model/EavDataAttributeGroupInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\EavDataAttributeGroupInterface**](../Model/EavDataAttributeGroupInterface.md)
 
 ### Authorization
 

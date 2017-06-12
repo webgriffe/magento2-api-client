@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,9 +55,9 @@ class QuoteDataShippingInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'address' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface',
+        'address' => '\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface',
         'method' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\QuoteDataShippingExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -172,7 +172,7 @@ class QuoteDataShippingInterface implements ArrayAccess
 
     /**
      * Gets address
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface
      */
     public function getAddress()
     {
@@ -181,7 +181,7 @@ class QuoteDataShippingInterface implements ArrayAccess
 
     /**
      * Sets address
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface $address
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface $address
      * @return $this
      */
     public function setAddress($address)
@@ -214,7 +214,7 @@ class QuoteDataShippingInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataShippingExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -223,7 +223,7 @@ class QuoteDataShippingInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataShippingExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

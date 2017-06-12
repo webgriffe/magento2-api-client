@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -187,11 +187,11 @@ class SalesDataOrderInterface implements ArrayAccess
         'updatedAt' => 'string',
         'weight' => 'float',
         'xForwardedFor' => 'string',
-        'items' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface[]',
-        'billingAddress' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface',
-        'payment' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderPaymentInterface',
-        'statusHistories' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryInterface[]',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderExtensionInterface'
+        'items' => '\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface[]',
+        'billingAddress' => '\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface',
+        'payment' => '\Webgriffe\MagentoApiClient\Model\SalesDataOrderPaymentInterface',
+        'statusHistories' => '\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryInterface[]',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataOrderExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -3626,7 +3626,7 @@ class SalesDataOrderInterface implements ArrayAccess
 
     /**
      * Gets items
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface[]
      */
     public function getItems()
     {
@@ -3635,7 +3635,7 @@ class SalesDataOrderInterface implements ArrayAccess
 
     /**
      * Sets items
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface[] $items Array of items.
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface[] $items Array of items.
      * @return $this
      */
     public function setItems($items)
@@ -3647,7 +3647,7 @@ class SalesDataOrderInterface implements ArrayAccess
 
     /**
      * Gets billingAddress
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface
      */
     public function getBillingAddress()
     {
@@ -3656,7 +3656,7 @@ class SalesDataOrderInterface implements ArrayAccess
 
     /**
      * Sets billingAddress
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface $billingAddress
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface $billingAddress
      * @return $this
      */
     public function setBillingAddress($billingAddress)
@@ -3668,7 +3668,7 @@ class SalesDataOrderInterface implements ArrayAccess
 
     /**
      * Gets payment
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderPaymentInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataOrderPaymentInterface
      */
     public function getPayment()
     {
@@ -3677,7 +3677,7 @@ class SalesDataOrderInterface implements ArrayAccess
 
     /**
      * Sets payment
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderPaymentInterface $payment
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataOrderPaymentInterface $payment
      * @return $this
      */
     public function setPayment($payment)
@@ -3689,7 +3689,7 @@ class SalesDataOrderInterface implements ArrayAccess
 
     /**
      * Gets statusHistories
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryInterface[]
      */
     public function getStatusHistories()
     {
@@ -3698,7 +3698,7 @@ class SalesDataOrderInterface implements ArrayAccess
 
     /**
      * Sets statusHistories
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryInterface[] $statusHistories Array of status histories.
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryInterface[] $statusHistories Array of status histories.
      * @return $this
      */
     public function setStatusHistories($statusHistories)
@@ -3710,7 +3710,7 @@ class SalesDataOrderInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataOrderExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -3719,7 +3719,7 @@ class SalesDataOrderInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataOrderExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

@@ -21,7 +21,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\WorldpayGuestPaymentInformationManagementProxyV1Api();
 $cartId = "cartId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body138(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body138 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body138(); // \Webgriffe\MagentoApiClient\Model\Body138 | 
 
 try {
     $result = $api_instance->worldpayGuestPaymentInformationManagementProxyV1SavePaymentInformationAndPlaceOrderPost($cartId, $body);
@@ -37,7 +37,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body138**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body138.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body138**](../Model/\Webgriffe\MagentoApiClient\Model\Body138.md)|  | [optional]
 
 ### Return type
 

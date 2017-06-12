@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,8 +55,8 @@ class CatalogInventoryDataStockStatusCollectionInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'items' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusInterface[]',
-        'searchCriteria' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryStockStatusCriteriaInterface',
+        'items' => '\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusInterface[]',
+        'searchCriteria' => '\Webgriffe\MagentoApiClient\Model\CatalogInventoryStockStatusCriteriaInterface',
         'totalCount' => 'int'
     ];
 
@@ -178,7 +178,7 @@ class CatalogInventoryDataStockStatusCollectionInterface implements ArrayAccess
 
     /**
      * Gets items
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusInterface[]
      */
     public function getItems()
     {
@@ -187,7 +187,7 @@ class CatalogInventoryDataStockStatusCollectionInterface implements ArrayAccess
 
     /**
      * Sets items
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusInterface[] $items Items
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusInterface[] $items Items
      * @return $this
      */
     public function setItems($items)
@@ -199,7 +199,7 @@ class CatalogInventoryDataStockStatusCollectionInterface implements ArrayAccess
 
     /**
      * Gets searchCriteria
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryStockStatusCriteriaInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogInventoryStockStatusCriteriaInterface
      */
     public function getSearchCriteria()
     {
@@ -208,7 +208,7 @@ class CatalogInventoryDataStockStatusCollectionInterface implements ArrayAccess
 
     /**
      * Sets searchCriteria
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryStockStatusCriteriaInterface $searchCriteria
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogInventoryStockStatusCriteriaInterface $searchCriteria
      * @return $this
      */
     public function setSearchCriteria($searchCriteria)

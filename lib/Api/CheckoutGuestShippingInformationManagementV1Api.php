@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Api;
+namespace Webgriffe\MagentoApiClient\Api;
 
 use \Webgriffe\MagentoApiClient\ApiClient;
 use \Webgriffe\MagentoApiClient\ApiException;
@@ -93,9 +93,9 @@ class CheckoutGuestShippingInformationManagementV1Api
      * 
      *
      * @param string $cartId  (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body94 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body94 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface
      */
     public function checkoutGuestShippingInformationManagementV1SaveAddressInformationPost($cartId, $body = null)
     {
@@ -109,9 +109,9 @@ class CheckoutGuestShippingInformationManagementV1Api
      * 
      *
      * @param string $cartId  (required)
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body94 $body  (optional)
+     * @param \Webgriffe\MagentoApiClient\Model\Body94 $body  (optional)
      * @throws \Webgriffe\MagentoApiClient\ApiException on non-2xx response
-     * @return array of \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface, HTTP status code, HTTP response headers (array of strings)
      */
     public function checkoutGuestShippingInformationManagementV1SaveAddressInformationPostWithHttpInfo($cartId, $body = null)
     {
@@ -162,19 +162,19 @@ class CheckoutGuestShippingInformationManagementV1Api
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface',
+                '\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface',
                 '/V1/guest-carts/{cartId}/shipping-information'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 0:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Webgriffe\MagentoApiClient\Model\ErrorResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

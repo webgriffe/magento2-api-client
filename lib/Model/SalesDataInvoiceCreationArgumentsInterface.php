@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,7 +55,7 @@ class SalesDataInvoiceCreationArgumentsInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCreationArgumentsExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCreationArgumentsExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -150,7 +150,7 @@ class SalesDataInvoiceCreationArgumentsInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCreationArgumentsExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCreationArgumentsExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -159,7 +159,7 @@ class SalesDataInvoiceCreationArgumentsInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCreationArgumentsExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCreationArgumentsExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

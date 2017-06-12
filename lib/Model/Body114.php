@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body114 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'rule' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface'
+        'rule' => '\Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body114 implements ArrayAccess
 
     /**
      * Gets rule
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface
+     * @return \Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface
      */
     public function getRule()
     {
@@ -164,7 +164,7 @@ class Body114 implements ArrayAccess
 
     /**
      * Sets rule
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface $rule
+     * @param \Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface $rule
      * @return $this
      */
     public function setRule($rule)

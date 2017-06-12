@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,7 +55,7 @@ class CatalogDataCustomOptionExtensionInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'fileInfo' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkDataImageContentInterface'
+        'fileInfo' => '\Webgriffe\MagentoApiClient\Model\FrameworkDataImageContentInterface'
     ];
 
     public static function swaggerTypes()
@@ -150,7 +150,7 @@ class CatalogDataCustomOptionExtensionInterface implements ArrayAccess
 
     /**
      * Gets fileInfo
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkDataImageContentInterface
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkDataImageContentInterface
      */
     public function getFileInfo()
     {
@@ -159,7 +159,7 @@ class CatalogDataCustomOptionExtensionInterface implements ArrayAccess
 
     /**
      * Sets fileInfo
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkDataImageContentInterface $fileInfo
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkDataImageContentInterface $fileInfo
      * @return $this
      */
     public function setFileInfo($fileInfo)

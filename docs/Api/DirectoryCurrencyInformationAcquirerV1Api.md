@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **directoryCurrencyInformationAcquirerV1GetCurrencyInfoGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationInterface directoryCurrencyInformationAcquirerV1GetCurrencyInfoGet()
+> \Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationInterface directoryCurrencyInformationAcquirerV1GetCurrencyInfoGet()
 
 
 
@@ -35,7 +35,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationInterface**](../Model/DirectoryDataCurrencyInformationInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationInterface**](../Model/DirectoryDataCurrencyInformationInterface.md)
 
 ### Authorization
 

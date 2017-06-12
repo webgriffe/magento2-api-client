@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body36 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'items' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkInterface[]'
+        'items' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkInterface[]'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body36 implements ArrayAccess
 
     /**
      * Gets items
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkInterface[]
      */
     public function getItems()
     {
@@ -164,7 +164,7 @@ class Body36 implements ArrayAccess
 
     /**
      * Sets items
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkInterface[] $items
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkInterface[] $items
      * @return $this
      */
     public function setItems($items)

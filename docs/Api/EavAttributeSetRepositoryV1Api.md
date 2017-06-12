@@ -56,7 +56,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **eavAttributeSetRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface eavAttributeSetRepositoryV1GetGet($attributeSetId)
+> \Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface eavAttributeSetRepositoryV1GetGet($attributeSetId)
 
 
 
@@ -87,7 +87,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface**](../Model/EavDataAttributeSetInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface**](../Model/EavDataAttributeSetInterface.md)
 
 ### Authorization
 
@@ -101,7 +101,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **eavAttributeSetRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetSearchResultsInterface eavAttributeSetRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\EavDataAttributeSetSearchResultsInterface eavAttributeSetRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -144,7 +144,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetSearchResultsInterface**](../Model/EavDataAttributeSetSearchResultsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetSearchResultsInterface**](../Model/EavDataAttributeSetSearchResultsInterface.md)
 
 ### Authorization
 
@@ -158,7 +158,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **eavAttributeSetRepositoryV1SavePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface eavAttributeSetRepositoryV1SavePut($attributeSetId, $body)
+> \Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface eavAttributeSetRepositoryV1SavePut($attributeSetId, $body)
 
 
 
@@ -171,7 +171,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\EavAttributeSetRepositoryV1Api();
 $attributeSetId = "attributeSetId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body(); // \Webgriffe\MagentoApiClient\Model\Body | 
 
 try {
     $result = $api_instance->eavAttributeSetRepositoryV1SavePut($attributeSetId, $body);
@@ -187,11 +187,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **attributeSetId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body**](../Model/\Webgriffe\MagentoApiClient\Model\Body.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface**](../Model/EavDataAttributeSetInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface**](../Model/EavDataAttributeSetInterface.md)
 
 ### Authorization
 

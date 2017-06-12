@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -57,7 +57,7 @@ class CustomerDataOptionInterface implements ArrayAccess
     protected static $swaggerTypes = [
         'label' => 'string',
         'value' => 'string',
-        'options' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataOptionInterface[]'
+        'options' => '\Webgriffe\MagentoApiClient\Model\CustomerDataOptionInterface[]'
     ];
 
     public static function swaggerTypes()
@@ -208,7 +208,7 @@ class CustomerDataOptionInterface implements ArrayAccess
 
     /**
      * Gets options
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataOptionInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataOptionInterface[]
      */
     public function getOptions()
     {
@@ -217,7 +217,7 @@ class CustomerDataOptionInterface implements ArrayAccess
 
     /**
      * Sets options
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataOptionInterface[] $options Nested options
+     * @param \Webgriffe\MagentoApiClient\Model\CustomerDataOptionInterface[] $options Nested options
      * @return $this
      */
     public function setOptions($options)

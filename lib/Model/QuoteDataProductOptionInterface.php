@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,7 +55,7 @@ class QuoteDataProductOptionInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataProductOptionExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\QuoteDataProductOptionExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -150,7 +150,7 @@ class QuoteDataProductOptionInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataProductOptionExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataProductOptionExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -159,7 +159,7 @@ class QuoteDataProductOptionInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataProductOptionExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataProductOptionExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

@@ -54,7 +54,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerAddressRepositoryV1GetByIdGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface customerAddressRepositoryV1GetByIdGet($addressId)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface customerAddressRepositoryV1GetByIdGet($addressId)
 
 
 
@@ -85,7 +85,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface**](../Model/CustomerDataAddressInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface**](../Model/CustomerDataAddressInterface.md)
 
 ### Authorization
 

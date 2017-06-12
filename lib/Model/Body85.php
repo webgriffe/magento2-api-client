@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,13 +54,13 @@ class Body85 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'items' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemCreationInterface[]',
+        'items' => '\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemCreationInterface[]',
         'notify' => 'bool',
         'appendComment' => 'bool',
-        'comment' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentCreationInterface',
-        'tracks' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackCreationInterface[]',
-        'packages' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentPackageCreationInterface[]',
-        'arguments' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCreationArgumentsInterface'
+        'comment' => '\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentCreationInterface',
+        'tracks' => '\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackCreationInterface[]',
+        'packages' => '\Webgriffe\MagentoApiClient\Model\SalesDataShipmentPackageCreationInterface[]',
+        'arguments' => '\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCreationArgumentsInterface'
     ];
 
     public static function swaggerTypes()
@@ -179,7 +179,7 @@ class Body85 implements ArrayAccess
 
     /**
      * Gets items
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemCreationInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemCreationInterface[]
      */
     public function getItems()
     {
@@ -188,7 +188,7 @@ class Body85 implements ArrayAccess
 
     /**
      * Sets items
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemCreationInterface[] $items
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemCreationInterface[] $items
      * @return $this
      */
     public function setItems($items)
@@ -242,7 +242,7 @@ class Body85 implements ArrayAccess
 
     /**
      * Gets comment
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentCreationInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentCreationInterface
      */
     public function getComment()
     {
@@ -251,7 +251,7 @@ class Body85 implements ArrayAccess
 
     /**
      * Sets comment
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentCreationInterface $comment
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentCreationInterface $comment
      * @return $this
      */
     public function setComment($comment)
@@ -263,7 +263,7 @@ class Body85 implements ArrayAccess
 
     /**
      * Gets tracks
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackCreationInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackCreationInterface[]
      */
     public function getTracks()
     {
@@ -272,7 +272,7 @@ class Body85 implements ArrayAccess
 
     /**
      * Sets tracks
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackCreationInterface[] $tracks
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackCreationInterface[] $tracks
      * @return $this
      */
     public function setTracks($tracks)
@@ -284,7 +284,7 @@ class Body85 implements ArrayAccess
 
     /**
      * Gets packages
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentPackageCreationInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShipmentPackageCreationInterface[]
      */
     public function getPackages()
     {
@@ -293,7 +293,7 @@ class Body85 implements ArrayAccess
 
     /**
      * Sets packages
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentPackageCreationInterface[] $packages
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShipmentPackageCreationInterface[] $packages
      * @return $this
      */
     public function setPackages($packages)
@@ -305,7 +305,7 @@ class Body85 implements ArrayAccess
 
     /**
      * Gets arguments
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCreationArgumentsInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShipmentCreationArgumentsInterface
      */
     public function getArguments()
     {
@@ -314,7 +314,7 @@ class Body85 implements ArrayAccess
 
     /**
      * Sets arguments
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCreationArgumentsInterface $arguments
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShipmentCreationArgumentsInterface $arguments
      * @return $this
      */
     public function setArguments($arguments)

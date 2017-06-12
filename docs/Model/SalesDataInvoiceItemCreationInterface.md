@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemCreationExtensionInterface**](SalesDataInvoiceItemCreationExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemCreationExtensionInterface**](SalesDataInvoiceItemCreationExtensionInterface.md) |  | [optional] 
 **orderItemId** | **int** | Order item ID. | 
 **qty** | **float** | Quantity. | 
 

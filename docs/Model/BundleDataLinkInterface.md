@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 **price** | **float** | Price | 
 **priceType** | **int** | Price type | 
 **canChangeQuantity** | **int** | Whether quantity could be changed | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataLinkExtensionInterface**](BundleDataLinkExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\BundleDataLinkExtensionInterface**](BundleDataLinkExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

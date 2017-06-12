@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,9 +55,9 @@ class ErrorResponse implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'message' => 'string',
-        'errors' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorErrors',
+        'errors' => '\Webgriffe\MagentoApiClient\Model\ErrorErrors',
         'code' => 'int',
-        'parameters' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorParameters',
+        'parameters' => '\Webgriffe\MagentoApiClient\Model\ErrorParameters',
         'trace' => 'string'
     ];
 
@@ -196,7 +196,7 @@ class ErrorResponse implements ArrayAccess
 
     /**
      * Gets errors
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorErrors
+     * @return \Webgriffe\MagentoApiClient\Model\ErrorErrors
      */
     public function getErrors()
     {
@@ -205,7 +205,7 @@ class ErrorResponse implements ArrayAccess
 
     /**
      * Sets errors
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorErrors $errors
+     * @param \Webgriffe\MagentoApiClient\Model\ErrorErrors $errors
      * @return $this
      */
     public function setErrors($errors)
@@ -238,7 +238,7 @@ class ErrorResponse implements ArrayAccess
 
     /**
      * Gets parameters
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorParameters
+     * @return \Webgriffe\MagentoApiClient\Model\ErrorParameters
      */
     public function getParameters()
     {
@@ -247,7 +247,7 @@ class ErrorResponse implements ArrayAccess
 
     /**
      * Sets parameters
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorParameters $parameters
+     * @param \Webgriffe\MagentoApiClient\Model\ErrorParameters $parameters
      * @return $this
      */
     public function setParameters($parameters)

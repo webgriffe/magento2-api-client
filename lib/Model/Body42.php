@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body42 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'linkedProduct' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataLinkInterface'
+        'linkedProduct' => '\Webgriffe\MagentoApiClient\Model\BundleDataLinkInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body42 implements ArrayAccess
 
     /**
      * Gets linkedProduct
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataLinkInterface
+     * @return \Webgriffe\MagentoApiClient\Model\BundleDataLinkInterface
      */
     public function getLinkedProduct()
     {
@@ -164,7 +164,7 @@ class Body42 implements ArrayAccess
 
     /**
      * Sets linkedProduct
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataLinkInterface $linkedProduct
+     * @param \Webgriffe\MagentoApiClient\Model\BundleDataLinkInterface $linkedProduct
      * @return $this
      */
     public function setLinkedProduct($linkedProduct)

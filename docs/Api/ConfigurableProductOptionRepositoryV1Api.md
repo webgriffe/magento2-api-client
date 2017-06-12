@@ -59,7 +59,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **configurableProductOptionRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface configurableProductOptionRepositoryV1GetGet($sku, $id)
+> \Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface configurableProductOptionRepositoryV1GetGet($sku, $id)
 
 
 
@@ -92,7 +92,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface**](../Model/ConfigurableProductDataOptionInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface**](../Model/ConfigurableProductDataOptionInterface.md)
 
 ### Authorization
 
@@ -106,7 +106,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **configurableProductOptionRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface[] configurableProductOptionRepositoryV1GetListGet($sku)
+> \Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface[] configurableProductOptionRepositoryV1GetListGet($sku)
 
 
 
@@ -137,7 +137,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface[]**](../Model/ConfigurableProductDataOptionInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface[]**](../Model/ConfigurableProductDataOptionInterface.md)
 
 ### Authorization
 
@@ -164,7 +164,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\ConfigurableProductOptionRepositoryV1Api();
 $sku = "sku_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body111(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body111 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body111(); // \Webgriffe\MagentoApiClient\Model\Body111 | 
 
 try {
     $result = $api_instance->configurableProductOptionRepositoryV1SavePost($sku, $body);
@@ -180,7 +180,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **sku** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body111**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body111.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body111**](../Model/\Webgriffe\MagentoApiClient\Model\Body111.md)|  | [optional]
 
 ### Return type
 
@@ -212,7 +212,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 $api_instance = new Webgriffe\MagentoApiClient\Api\ConfigurableProductOptionRepositoryV1Api();
 $sku = "sku_example"; // string | 
 $id = "id_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body110(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body110 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body110(); // \Webgriffe\MagentoApiClient\Model\Body110 | 
 
 try {
     $result = $api_instance->configurableProductOptionRepositoryV1SavePut($sku, $id, $body);
@@ -229,7 +229,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **sku** | **string**|  |
  **id** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body110**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body110.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body110**](../Model/\Webgriffe\MagentoApiClient\Model\Body110.md)|  | [optional]
 
 ### Return type
 

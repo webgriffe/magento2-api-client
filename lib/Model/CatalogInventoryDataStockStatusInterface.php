@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -59,8 +59,8 @@ class CatalogInventoryDataStockStatusInterface implements ArrayAccess
         'stockId' => 'int',
         'qty' => 'int',
         'stockStatus' => 'int',
-        'stockItem' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusExtensionInterface'
+        'stockItem' => '\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -289,7 +289,7 @@ class CatalogInventoryDataStockStatusInterface implements ArrayAccess
 
     /**
      * Gets stockItem
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface
      */
     public function getStockItem()
     {
@@ -298,7 +298,7 @@ class CatalogInventoryDataStockStatusInterface implements ArrayAccess
 
     /**
      * Sets stockItem
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface $stockItem
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface $stockItem
      * @return $this
      */
     public function setStockItem($stockItem)
@@ -310,7 +310,7 @@ class CatalogInventoryDataStockStatusInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -319,7 +319,7 @@ class CatalogInventoryDataStockStatusInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

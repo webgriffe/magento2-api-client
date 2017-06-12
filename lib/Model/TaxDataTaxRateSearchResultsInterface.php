@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,8 +55,8 @@ class TaxDataTaxRateSearchResultsInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'items' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateInterface[]',
-        'searchCriteria' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchCriteriaInterface',
+        'items' => '\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateInterface[]',
+        'searchCriteria' => '\Webgriffe\MagentoApiClient\Model\FrameworkSearchCriteriaInterface',
         'totalCount' => 'int'
     ];
 
@@ -178,7 +178,7 @@ class TaxDataTaxRateSearchResultsInterface implements ArrayAccess
 
     /**
      * Gets items
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\TaxDataTaxRateInterface[]
      */
     public function getItems()
     {
@@ -187,7 +187,7 @@ class TaxDataTaxRateSearchResultsInterface implements ArrayAccess
 
     /**
      * Sets items
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateInterface[] $items Items
+     * @param \Webgriffe\MagentoApiClient\Model\TaxDataTaxRateInterface[] $items Items
      * @return $this
      */
     public function setItems($items)
@@ -199,7 +199,7 @@ class TaxDataTaxRateSearchResultsInterface implements ArrayAccess
 
     /**
      * Gets searchCriteria
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchCriteriaInterface
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkSearchCriteriaInterface
      */
     public function getSearchCriteria()
     {
@@ -208,7 +208,7 @@ class TaxDataTaxRateSearchResultsInterface implements ArrayAccess
 
     /**
      * Sets searchCriteria
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchCriteriaInterface $searchCriteria
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkSearchCriteriaInterface $searchCriteria
      * @return $this
      */
     public function setSearchCriteria($searchCriteria)

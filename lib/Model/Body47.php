@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body47 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'quote' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface'
+        'quote' => '\Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body47 implements ArrayAccess
 
     /**
      * Gets quote
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface
      */
     public function getQuote()
     {
@@ -164,7 +164,7 @@ class Body47 implements ArrayAccess
 
     /**
      * Sets quote
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface $quote
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface $quote
      * @return $this
      */
     public function setQuote($quote)

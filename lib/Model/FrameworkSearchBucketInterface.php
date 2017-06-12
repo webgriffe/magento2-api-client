@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -56,7 +56,7 @@ class FrameworkSearchBucketInterface implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'name' => 'string',
-        'values' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchAggregationValueInterface[]'
+        'values' => '\Webgriffe\MagentoApiClient\Model\FrameworkSearchAggregationValueInterface[]'
     ];
 
     public static function swaggerTypes()
@@ -188,7 +188,7 @@ class FrameworkSearchBucketInterface implements ArrayAccess
 
     /**
      * Gets values
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchAggregationValueInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkSearchAggregationValueInterface[]
      */
     public function getValues()
     {
@@ -197,7 +197,7 @@ class FrameworkSearchBucketInterface implements ArrayAccess
 
     /**
      * Sets values
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchAggregationValueInterface[] $values Field values
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkSearchAggregationValueInterface[] $values Field values
      * @return $this
      */
     public function setValues($values)

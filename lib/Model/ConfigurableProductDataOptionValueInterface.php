@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -56,7 +56,7 @@ class ConfigurableProductDataOptionValueInterface implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'valueIndex' => 'int',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionValueExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionValueExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -182,7 +182,7 @@ class ConfigurableProductDataOptionValueInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionValueExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionValueExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -191,7 +191,7 @@ class ConfigurableProductDataOptionValueInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionValueExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionValueExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

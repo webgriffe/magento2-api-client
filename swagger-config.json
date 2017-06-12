@@ -1,7 +1,7 @@
 {
     "invokerPackage": "Webgriffe\\MagentoApiClient",
-    "modelPackage": "Webgriffe\\MagentoApiClient\\Model",
-    "apiPackage": "Webgriffe\\MagentoApiClient\\Api",
+    "modelPackage": "Model",
+    "apiPackage": "Api",
     "packagePath": "magento2-api-client",
     "composerProjectName": "magento2-api-client",
     "composerVendorName": "webgriffe",

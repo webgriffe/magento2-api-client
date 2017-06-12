@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body19 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'product' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface',
+        'product' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface',
         'saveOptions' => 'bool'
     ];
 
@@ -160,7 +160,7 @@ class Body19 implements ArrayAccess
 
     /**
      * Gets product
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface
      */
     public function getProduct()
     {
@@ -169,7 +169,7 @@ class Body19 implements ArrayAccess
 
     /**
      * Sets product
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface $product
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface $product
      * @return $this
      */
     public function setProduct($product)

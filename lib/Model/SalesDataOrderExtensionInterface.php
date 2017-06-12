@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,13 +55,13 @@ class SalesDataOrderExtensionInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'shippingAssignments' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShippingAssignmentInterface[]',
-        'appliedTaxes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxInterface[]',
-        'itemAppliedTaxes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsItemInterface[]',
+        'shippingAssignments' => '\Webgriffe\MagentoApiClient\Model\SalesDataShippingAssignmentInterface[]',
+        'appliedTaxes' => '\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxInterface[]',
+        'itemAppliedTaxes' => '\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsItemInterface[]',
         'convertingFromQuote' => 'bool',
         'baseCustomerBalanceAmount' => 'float',
         'customerBalanceAmount' => 'float',
-        'giftMessage' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface',
+        'giftMessage' => '\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface',
         'gwId' => 'string',
         'gwAllowGiftReceipt' => 'string',
         'gwAddCard' => 'string',
@@ -285,7 +285,7 @@ class SalesDataOrderExtensionInterface implements ArrayAccess
 
     /**
      * Gets shippingAssignments
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShippingAssignmentInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShippingAssignmentInterface[]
      */
     public function getShippingAssignments()
     {
@@ -294,7 +294,7 @@ class SalesDataOrderExtensionInterface implements ArrayAccess
 
     /**
      * Sets shippingAssignments
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShippingAssignmentInterface[] $shippingAssignments
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShippingAssignmentInterface[] $shippingAssignments
      * @return $this
      */
     public function setShippingAssignments($shippingAssignments)
@@ -306,7 +306,7 @@ class SalesDataOrderExtensionInterface implements ArrayAccess
 
     /**
      * Gets appliedTaxes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxInterface[]
      */
     public function getAppliedTaxes()
     {
@@ -315,7 +315,7 @@ class SalesDataOrderExtensionInterface implements ArrayAccess
 
     /**
      * Sets appliedTaxes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxInterface[] $appliedTaxes
+     * @param \Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxInterface[] $appliedTaxes
      * @return $this
      */
     public function setAppliedTaxes($appliedTaxes)
@@ -327,7 +327,7 @@ class SalesDataOrderExtensionInterface implements ArrayAccess
 
     /**
      * Gets itemAppliedTaxes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsItemInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsItemInterface[]
      */
     public function getItemAppliedTaxes()
     {
@@ -336,7 +336,7 @@ class SalesDataOrderExtensionInterface implements ArrayAccess
 
     /**
      * Sets itemAppliedTaxes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsItemInterface[] $itemAppliedTaxes
+     * @param \Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsItemInterface[] $itemAppliedTaxes
      * @return $this
      */
     public function setItemAppliedTaxes($itemAppliedTaxes)
@@ -411,7 +411,7 @@ class SalesDataOrderExtensionInterface implements ArrayAccess
 
     /**
      * Gets giftMessage
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface
+     * @return \Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface
      */
     public function getGiftMessage()
     {
@@ -420,7 +420,7 @@ class SalesDataOrderExtensionInterface implements ArrayAccess
 
     /**
      * Sets giftMessage
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface $giftMessage
+     * @param \Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface $giftMessage
      * @return $this
      */
     public function setGiftMessage($giftMessage)

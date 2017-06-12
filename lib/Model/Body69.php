@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,10 +54,10 @@ class Body69 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'paymentMethod' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface',
+        'paymentMethod' => '\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface',
         'shippingCarrierCode' => 'string',
         'shippingMethodCode' => 'string',
-        'additionalData' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsAdditionalDataInterface'
+        'additionalData' => '\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsAdditionalDataInterface'
     ];
 
     public static function swaggerTypes()
@@ -170,7 +170,7 @@ class Body69 implements ArrayAccess
 
     /**
      * Gets paymentMethod
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface
      */
     public function getPaymentMethod()
     {
@@ -179,7 +179,7 @@ class Body69 implements ArrayAccess
 
     /**
      * Sets paymentMethod
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface $paymentMethod
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface $paymentMethod
      * @return $this
      */
     public function setPaymentMethod($paymentMethod)
@@ -233,7 +233,7 @@ class Body69 implements ArrayAccess
 
     /**
      * Gets additionalData
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsAdditionalDataInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataTotalsAdditionalDataInterface
      */
     public function getAdditionalData()
     {
@@ -242,7 +242,7 @@ class Body69 implements ArrayAccess
 
     /**
      * Sets additionalData
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsAdditionalDataInterface $additionalData
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataTotalsAdditionalDataInterface $additionalData
      * @return $this
      */
     public function setAdditionalData($additionalData)

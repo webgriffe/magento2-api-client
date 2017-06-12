@@ -54,7 +54,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesShipmentTrackRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackInterface salesShipmentTrackRepositoryV1SavePost($body)
+> \Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackInterface salesShipmentTrackRepositoryV1SavePost($body)
 
 
 
@@ -66,7 +66,7 @@ Performs persist operations for a specified shipment track.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesShipmentTrackRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body84(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body84 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body84(); // \Webgriffe\MagentoApiClient\Model\Body84 | 
 
 try {
     $result = $api_instance->salesShipmentTrackRepositoryV1SavePost($body);
@@ -81,11 +81,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body84**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body84.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body84**](../Model/\Webgriffe\MagentoApiClient\Model\Body84.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackInterface**](../Model/SalesDataShipmentTrackInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackInterface**](../Model/SalesDataShipmentTrackInterface.md)
 
 ### Authorization
 

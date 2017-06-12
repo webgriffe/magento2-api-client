@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -60,8 +60,8 @@ class ConfigurableProductDataOptionInterface implements ArrayAccess
         'label' => 'string',
         'position' => 'int',
         'isUseDefault' => 'bool',
-        'values' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionValueInterface[]',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionExtensionInterface',
+        'values' => '\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionValueInterface[]',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionExtensionInterface',
         'productId' => 'int'
     ];
 
@@ -290,7 +290,7 @@ class ConfigurableProductDataOptionInterface implements ArrayAccess
 
     /**
      * Gets values
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionValueInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionValueInterface[]
      */
     public function getValues()
     {
@@ -299,7 +299,7 @@ class ConfigurableProductDataOptionInterface implements ArrayAccess
 
     /**
      * Sets values
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionValueInterface[] $values
+     * @param \Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionValueInterface[] $values
      * @return $this
      */
     public function setValues($values)
@@ -311,7 +311,7 @@ class ConfigurableProductDataOptionInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -320,7 +320,7 @@ class ConfigurableProductDataOptionInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

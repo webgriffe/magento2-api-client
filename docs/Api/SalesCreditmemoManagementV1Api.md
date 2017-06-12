@@ -56,7 +56,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesCreditmemoManagementV1GetCommentsListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentSearchResultInterface salesCreditmemoManagementV1GetCommentsListGet($id)
+> \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentSearchResultInterface salesCreditmemoManagementV1GetCommentsListGet($id)
 
 
 
@@ -87,7 +87,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentSearchResultInterface**](../Model/SalesDataCreditmemoCommentSearchResultInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentSearchResultInterface**](../Model/SalesDataCreditmemoCommentSearchResultInterface.md)
 
 ### Authorization
 
@@ -146,7 +146,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesCreditmemoManagementV1RefundPost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface salesCreditmemoManagementV1RefundPost($body)
+> \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface salesCreditmemoManagementV1RefundPost($body)
 
 
 
@@ -158,7 +158,7 @@ Prepare creditmemo to refund and save it.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesCreditmemoManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body79(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body79 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body79(); // \Webgriffe\MagentoApiClient\Model\Body79 | 
 
 try {
     $result = $api_instance->salesCreditmemoManagementV1RefundPost($body);
@@ -173,11 +173,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body79**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body79.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body79**](../Model/\Webgriffe\MagentoApiClient\Model\Body79.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface**](../Model/SalesDataCreditmemoInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface**](../Model/SalesDataCreditmemoInterface.md)
 
 ### Authorization
 

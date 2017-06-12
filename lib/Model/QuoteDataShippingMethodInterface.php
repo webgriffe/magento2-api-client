@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -62,7 +62,7 @@ class QuoteDataShippingMethodInterface implements ArrayAccess
         'amount' => 'float',
         'baseAmount' => 'float',
         'available' => 'bool',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodExtensionInterface',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodExtensionInterface',
         'errorMessage' => 'string',
         'priceExclTax' => 'float',
         'priceInclTax' => 'float'
@@ -395,7 +395,7 @@ class QuoteDataShippingMethodInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -404,7 +404,7 @@ class QuoteDataShippingMethodInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataShippingMethodExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

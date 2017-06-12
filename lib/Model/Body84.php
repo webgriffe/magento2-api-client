@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body84 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'entity' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackInterface'
+        'entity' => '\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body84 implements ArrayAccess
 
     /**
      * Gets entity
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackInterface
      */
     public function getEntity()
     {
@@ -164,7 +164,7 @@ class Body84 implements ArrayAccess
 
     /**
      * Sets entity
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackInterface $entity
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackInterface $entity
      * @return $this
      */
     public function setEntity($entity)

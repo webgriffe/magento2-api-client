@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -58,7 +58,7 @@ class CatalogDataProductTierPriceInterface implements ArrayAccess
         'customerGroupId' => 'int',
         'qty' => 'float',
         'value' => 'float',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductTierPriceExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductTierPriceExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -246,7 +246,7 @@ class CatalogDataProductTierPriceInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductTierPriceExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductTierPriceExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -255,7 +255,7 @@ class CatalogDataProductTierPriceInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductTierPriceExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductTierPriceExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

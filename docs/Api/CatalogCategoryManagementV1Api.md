@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **catalogCategoryManagementV1GetTreeGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryTreeInterface catalogCategoryManagementV1GetTreeGet($rootCategoryId, $depth)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataCategoryTreeInterface catalogCategoryManagementV1GetTreeGet($rootCategoryId, $depth)
 
 
 
@@ -42,7 +42,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryTreeInterface**](../Model/CatalogDataCategoryTreeInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryTreeInterface**](../Model/CatalogDataCategoryTreeInterface.md)
 
 ### Authorization
 
@@ -69,7 +69,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogCategoryManagementV1Api();
 $categoryId = 56; // int | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body32(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body32 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body32(); // \Webgriffe\MagentoApiClient\Model\Body32 | 
 
 try {
     $result = $api_instance->catalogCategoryManagementV1MovePut($categoryId, $body);
@@ -85,7 +85,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **categoryId** | **int**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body32**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body32.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body32**](../Model/\Webgriffe\MagentoApiClient\Model\Body32.md)|  | [optional]
 
 ### Return type
 

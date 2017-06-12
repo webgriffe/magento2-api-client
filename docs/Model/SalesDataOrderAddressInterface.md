@@ -29,7 +29,7 @@ Name | Type | Description | Notes
 **vatRequestDate** | **string** | VAT request date. | [optional] 
 **vatRequestId** | **string** | VAT request ID. | [optional] 
 **vatRequestSuccess** | **int** | VAT-request-success flag value. | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressExtensionInterface**](SalesDataOrderAddressExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressExtensionInterface**](SalesDataOrderAddressExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

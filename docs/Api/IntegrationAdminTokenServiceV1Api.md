@@ -20,7 +20,7 @@ Create access token for admin given the admin credentials.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\IntegrationAdminTokenServiceV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body136(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body136 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body136(); // \Webgriffe\MagentoApiClient\Model\Body136 | 
 
 try {
     $result = $api_instance->integrationAdminTokenServiceV1CreateAdminAccessTokenPost($body);
@@ -35,7 +35,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body136**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body136.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body136**](../Model/\Webgriffe\MagentoApiClient\Model\Body136.md)|  | [optional]
 
 ### Return type
 

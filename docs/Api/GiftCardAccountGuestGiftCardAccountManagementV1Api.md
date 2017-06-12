@@ -23,7 +23,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\GiftCardAccountGuestGiftCardAccountManagementV1Api();
 $cartId = "cartId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body120(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body120 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body120(); // \Webgriffe\MagentoApiClient\Model\Body120 | 
 
 try {
     $result = $api_instance->giftCardAccountGuestGiftCardAccountManagementV1AddGiftCardPost($cartId, $body);
@@ -39,7 +39,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body120**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body120.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body120**](../Model/\Webgriffe\MagentoApiClient\Model\Body120.md)|  | [optional]
 
 ### Return type
 

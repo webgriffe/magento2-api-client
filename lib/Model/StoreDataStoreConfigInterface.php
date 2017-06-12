@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -71,7 +71,7 @@ class StoreDataStoreConfigInterface implements ArrayAccess
         'secureBaseLinkUrl' => 'string',
         'secureBaseStaticUrl' => 'string',
         'secureBaseMediaUrl' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\StoreDataStoreConfigExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\StoreDataStoreConfigExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -662,7 +662,7 @@ class StoreDataStoreConfigInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\StoreDataStoreConfigExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\StoreDataStoreConfigExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -671,7 +671,7 @@ class StoreDataStoreConfigInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\StoreDataStoreConfigExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\StoreDataStoreConfigExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

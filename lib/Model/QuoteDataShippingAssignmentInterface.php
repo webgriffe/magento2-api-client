@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,9 +55,9 @@ class QuoteDataShippingAssignmentInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'shipping' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingInterface',
-        'items' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingAssignmentExtensionInterface'
+        'shipping' => '\Webgriffe\MagentoApiClient\Model\QuoteDataShippingInterface',
+        'items' => '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\QuoteDataShippingAssignmentExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -172,7 +172,7 @@ class QuoteDataShippingAssignmentInterface implements ArrayAccess
 
     /**
      * Gets shipping
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataShippingInterface
      */
     public function getShipping()
     {
@@ -181,7 +181,7 @@ class QuoteDataShippingAssignmentInterface implements ArrayAccess
 
     /**
      * Sets shipping
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingInterface $shipping
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataShippingInterface $shipping
      * @return $this
      */
     public function setShipping($shipping)
@@ -193,7 +193,7 @@ class QuoteDataShippingAssignmentInterface implements ArrayAccess
 
     /**
      * Gets items
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]
      */
     public function getItems()
     {
@@ -202,7 +202,7 @@ class QuoteDataShippingAssignmentInterface implements ArrayAccess
 
     /**
      * Sets items
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[] $items
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[] $items
      * @return $this
      */
     public function setItems($items)
@@ -214,7 +214,7 @@ class QuoteDataShippingAssignmentInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingAssignmentExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataShippingAssignmentExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -223,7 +223,7 @@ class QuoteDataShippingAssignmentInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingAssignmentExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataShippingAssignmentExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

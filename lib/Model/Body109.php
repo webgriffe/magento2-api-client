@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,8 +54,8 @@ class Body109 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'product' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface',
-        'options' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface[]'
+        'product' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface',
+        'options' => '\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface[]'
     ];
 
     public static function swaggerTypes()
@@ -166,7 +166,7 @@ class Body109 implements ArrayAccess
 
     /**
      * Gets product
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface
      */
     public function getProduct()
     {
@@ -175,7 +175,7 @@ class Body109 implements ArrayAccess
 
     /**
      * Sets product
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface $product
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface $product
      * @return $this
      */
     public function setProduct($product)
@@ -187,7 +187,7 @@ class Body109 implements ArrayAccess
 
     /**
      * Gets options
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface[]
      */
     public function getOptions()
     {
@@ -196,7 +196,7 @@ class Body109 implements ArrayAccess
 
     /**
      * Sets options
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface[] $options
+     * @param \Webgriffe\MagentoApiClient\Model\ConfigurableProductDataOptionInterface[] $options
      * @return $this
      */
     public function setOptions($options)

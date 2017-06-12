@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,7 +55,7 @@ class QuoteDataTotalsAdditionalDataExtensionInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'giftMessages' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface[]'
+        'giftMessages' => '\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface[]'
     ];
 
     public static function swaggerTypes()
@@ -150,7 +150,7 @@ class QuoteDataTotalsAdditionalDataExtensionInterface implements ArrayAccess
 
     /**
      * Gets giftMessages
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface[]
      */
     public function getGiftMessages()
     {
@@ -159,7 +159,7 @@ class QuoteDataTotalsAdditionalDataExtensionInterface implements ArrayAccess
 
     /**
      * Sets giftMessages
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface[] $giftMessages
+     * @param \Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface[] $giftMessages
      * @return $this
      */
     public function setGiftMessages($giftMessages)

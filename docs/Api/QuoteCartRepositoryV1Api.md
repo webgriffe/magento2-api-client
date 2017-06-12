@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **quoteCartRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface quoteCartRepositoryV1GetGet($cartId)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface quoteCartRepositoryV1GetGet($cartId)
 
 
 
@@ -41,7 +41,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface**](../Model/QuoteDataCartInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface**](../Model/QuoteDataCartInterface.md)
 
 ### Authorization
 
@@ -55,7 +55,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **quoteCartRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartSearchResultsInterface quoteCartRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataCartSearchResultsInterface quoteCartRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -98,7 +98,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartSearchResultsInterface**](../Model/QuoteDataCartSearchResultsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataCartSearchResultsInterface**](../Model/QuoteDataCartSearchResultsInterface.md)
 
 ### Authorization
 
@@ -112,7 +112,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **quoteCartRepositoryV1SavePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse quoteCartRepositoryV1SavePut($body)
+> \Webgriffe\MagentoApiClient\Model\ErrorResponse quoteCartRepositoryV1SavePut($body)
 
 
 
@@ -124,7 +124,7 @@ Save quote
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuoteCartRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body47(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body47 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body47(); // \Webgriffe\MagentoApiClient\Model\Body47 | 
 
 try {
     $result = $api_instance->quoteCartRepositoryV1SavePut($body);
@@ -139,11 +139,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body47**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body47.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body47**](../Model/\Webgriffe\MagentoApiClient\Model\Body47.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorResponse**](../Model/ErrorResponse.md)
+[**\Webgriffe\MagentoApiClient\Model\ErrorResponse**](../Model/ErrorResponse.md)
 
 ### Authorization
 

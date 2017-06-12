@@ -22,7 +22,7 @@ Method | HTTP request | Description
 
 
 # **customerAccountManagementV1ActivateByIdPut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface customerAccountManagementV1ActivateByIdPut($body)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface customerAccountManagementV1ActivateByIdPut($body)
 
 
 
@@ -34,7 +34,7 @@ Activate a customer account using a key that was sent in a confirmation email.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CustomerAccountManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body7(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body7 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body7(); // \Webgriffe\MagentoApiClient\Model\Body7 | 
 
 try {
     $result = $api_instance->customerAccountManagementV1ActivateByIdPut($body);
@@ -49,11 +49,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body7**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body7.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body7**](../Model/\Webgriffe\MagentoApiClient\Model\Body7.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface**](../Model/CustomerDataCustomerInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface**](../Model/CustomerDataCustomerInterface.md)
 
 ### Authorization
 
@@ -67,7 +67,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerAccountManagementV1ActivatePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface customerAccountManagementV1ActivatePut($email, $body)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface customerAccountManagementV1ActivatePut($email, $body)
 
 
 
@@ -80,7 +80,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CustomerAccountManagementV1Api();
 $email = "email_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body8(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body8 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body8(); // \Webgriffe\MagentoApiClient\Model\Body8 | 
 
 try {
     $result = $api_instance->customerAccountManagementV1ActivatePut($email, $body);
@@ -96,11 +96,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **email** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body8**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body8.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body8**](../Model/\Webgriffe\MagentoApiClient\Model\Body8.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface**](../Model/CustomerDataCustomerInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface**](../Model/CustomerDataCustomerInterface.md)
 
 ### Authorization
 
@@ -126,7 +126,7 @@ Change customer password.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CustomerAccountManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body9(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body9 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body9(); // \Webgriffe\MagentoApiClient\Model\Body9 | 
 
 try {
     $result = $api_instance->customerAccountManagementV1ChangePasswordByIdPut($body);
@@ -141,7 +141,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body9**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body9.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body9**](../Model/\Webgriffe\MagentoApiClient\Model\Body9.md)|  | [optional]
 
 ### Return type
 
@@ -159,7 +159,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerAccountManagementV1CreateAccountPost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface customerAccountManagementV1CreateAccountPost($body)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface customerAccountManagementV1CreateAccountPost($body)
 
 
 
@@ -171,7 +171,7 @@ Create customer account. Perform necessary business operations like sending emai
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CustomerAccountManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body6(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body6 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body6(); // \Webgriffe\MagentoApiClient\Model\Body6 | 
 
 try {
     $result = $api_instance->customerAccountManagementV1CreateAccountPost($body);
@@ -186,11 +186,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body6**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body6.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body6**](../Model/\Webgriffe\MagentoApiClient\Model\Body6.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface**](../Model/CustomerDataCustomerInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface**](../Model/CustomerDataCustomerInterface.md)
 
 ### Authorization
 
@@ -249,7 +249,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerAccountManagementV1GetDefaultBillingAddressGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface customerAccountManagementV1GetDefaultBillingAddressGet()
+> \Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface customerAccountManagementV1GetDefaultBillingAddressGet()
 
 
 
@@ -276,7 +276,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface**](../Model/CustomerDataAddressInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface**](../Model/CustomerDataAddressInterface.md)
 
 ### Authorization
 
@@ -290,7 +290,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerAccountManagementV1GetDefaultBillingAddressGet_0**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface customerAccountManagementV1GetDefaultBillingAddressGet_0($customerId)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface customerAccountManagementV1GetDefaultBillingAddressGet_0($customerId)
 
 
 
@@ -321,7 +321,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface**](../Model/CustomerDataAddressInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface**](../Model/CustomerDataAddressInterface.md)
 
 ### Authorization
 
@@ -335,7 +335,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerAccountManagementV1GetDefaultShippingAddressGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface customerAccountManagementV1GetDefaultShippingAddressGet()
+> \Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface customerAccountManagementV1GetDefaultShippingAddressGet()
 
 
 
@@ -362,7 +362,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface**](../Model/CustomerDataAddressInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface**](../Model/CustomerDataAddressInterface.md)
 
 ### Authorization
 
@@ -376,7 +376,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerAccountManagementV1GetDefaultShippingAddressGet_0**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface customerAccountManagementV1GetDefaultShippingAddressGet_0($customerId)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface customerAccountManagementV1GetDefaultShippingAddressGet_0($customerId)
 
 
 
@@ -407,7 +407,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface**](../Model/CustomerDataAddressInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataAddressInterface**](../Model/CustomerDataAddressInterface.md)
 
 ### Authorization
 
@@ -433,7 +433,7 @@ Send an email to the customer with a password reset link.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CustomerAccountManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body10(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body10 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body10(); // \Webgriffe\MagentoApiClient\Model\Body10 | 
 
 try {
     $result = $api_instance->customerAccountManagementV1InitiatePasswordResetPut($body);
@@ -448,7 +448,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body10**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body10.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body10**](../Model/\Webgriffe\MagentoApiClient\Model\Body10.md)|  | [optional]
 
 ### Return type
 
@@ -478,7 +478,7 @@ Check if given email is associated with a customer account in given website.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CustomerAccountManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body13(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body13 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body13(); // \Webgriffe\MagentoApiClient\Model\Body13 | 
 
 try {
     $result = $api_instance->customerAccountManagementV1IsEmailAvailablePost($body);
@@ -493,7 +493,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body13**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body13.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body13**](../Model/\Webgriffe\MagentoApiClient\Model\Body13.md)|  | [optional]
 
 ### Return type
 
@@ -568,7 +568,7 @@ Resend confirmation email.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CustomerAccountManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body11(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body11 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body11(); // \Webgriffe\MagentoApiClient\Model\Body11 | 
 
 try {
     $result = $api_instance->customerAccountManagementV1ResendConfirmationPost($body);
@@ -583,7 +583,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body11**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body11.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body11**](../Model/\Webgriffe\MagentoApiClient\Model\Body11.md)|  | [optional]
 
 ### Return type
 
@@ -601,7 +601,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerAccountManagementV1ValidatePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataValidationResultsInterface customerAccountManagementV1ValidatePut($body)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataValidationResultsInterface customerAccountManagementV1ValidatePut($body)
 
 
 
@@ -613,7 +613,7 @@ Validate customer data.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CustomerAccountManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body12(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body12 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body12(); // \Webgriffe\MagentoApiClient\Model\Body12 | 
 
 try {
     $result = $api_instance->customerAccountManagementV1ValidatePut($body);
@@ -628,11 +628,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body12**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body12.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body12**](../Model/\Webgriffe\MagentoApiClient\Model\Body12.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataValidationResultsInterface**](../Model/CustomerDataValidationResultsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataValidationResultsInterface**](../Model/CustomerDataValidationResultsInterface.md)
 
 ### Authorization
 

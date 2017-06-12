@@ -23,7 +23,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogProductAttributeOptionManagementV1Api();
 $attributeCode = "attributeCode_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body27(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body27 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body27(); // \Webgriffe\MagentoApiClient\Model\Body27 | 
 
 try {
     $result = $api_instance->catalogProductAttributeOptionManagementV1AddPost($attributeCode, $body);
@@ -39,7 +39,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **attributeCode** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body27**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body27.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body27**](../Model/\Webgriffe\MagentoApiClient\Model\Body27.md)|  | [optional]
 
 ### Return type
 
@@ -104,7 +104,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductAttributeOptionManagementV1GetItemsGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface[] catalogProductAttributeOptionManagementV1GetItemsGet($attributeCode)
+> \Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface[] catalogProductAttributeOptionManagementV1GetItemsGet($attributeCode)
 
 
 
@@ -135,7 +135,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface[]**](../Model/EavDataAttributeOptionInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface[]**](../Model/EavDataAttributeOptionInterface.md)
 
 ### Authorization
 

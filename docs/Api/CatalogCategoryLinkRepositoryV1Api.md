@@ -70,7 +70,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogCategoryLinkRepositoryV1Api();
 $categoryId = "categoryId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body38(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body38 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body38(); // \Webgriffe\MagentoApiClient\Model\Body38 | 
 
 try {
     $result = $api_instance->catalogCategoryLinkRepositoryV1SavePost($categoryId, $body);
@@ -86,7 +86,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **categoryId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body38**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body38.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body38**](../Model/\Webgriffe\MagentoApiClient\Model\Body38.md)|  | [optional]
 
 ### Return type
 
@@ -117,7 +117,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogCategoryLinkRepositoryV1Api();
 $categoryId = "categoryId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body37(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body37 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body37(); // \Webgriffe\MagentoApiClient\Model\Body37 | 
 
 try {
     $result = $api_instance->catalogCategoryLinkRepositoryV1SavePut($categoryId, $body);
@@ -133,7 +133,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **categoryId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body37**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body37.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body37**](../Model/\Webgriffe\MagentoApiClient\Model\Body37.md)|  | [optional]
 
 ### Return type
 

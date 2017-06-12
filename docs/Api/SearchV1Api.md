@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **searchV1SearchGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchSearchResultInterface searchV1SearchGet($searchCriteriaRequestName, $searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\FrameworkSearchSearchResultInterface searchV1SearchGet($searchCriteriaRequestName, $searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -53,7 +53,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchSearchResultInterface**](../Model/FrameworkSearchSearchResultInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\FrameworkSearchSearchResultInterface**](../Model/FrameworkSearchSearchResultInterface.md)
 
 ### Authorization
 

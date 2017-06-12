@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -109,7 +109,7 @@ class SalesDataOrderPaymentInterface implements ArrayAccess
         'shippingAmount' => 'float',
         'shippingCaptured' => 'float',
         'shippingRefunded' => 'float',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderPaymentExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataOrderPaymentExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -1578,7 +1578,7 @@ class SalesDataOrderPaymentInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderPaymentExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataOrderPaymentExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -1587,7 +1587,7 @@ class SalesDataOrderPaymentInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderPaymentExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataOrderPaymentExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

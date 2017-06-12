@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body27 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'option' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface'
+        'option' => '\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body27 implements ArrayAccess
 
     /**
      * Gets option
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface
      */
     public function getOption()
     {
@@ -164,7 +164,7 @@ class Body27 implements ArrayAccess
 
     /**
      * Sets option
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface $option
+     * @param \Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface $option
      * @return $this
      */
     public function setOption($option)

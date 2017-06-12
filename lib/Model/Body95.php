@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body95 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'addressInformation' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataShippingInformationInterface'
+        'addressInformation' => '\Webgriffe\MagentoApiClient\Model\CheckoutDataShippingInformationInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body95 implements ArrayAccess
 
     /**
      * Gets addressInformation
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataShippingInformationInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CheckoutDataShippingInformationInterface
      */
     public function getAddressInformation()
     {
@@ -164,7 +164,7 @@ class Body95 implements ArrayAccess
 
     /**
      * Sets addressInformation
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataShippingInformationInterface $addressInformation
+     * @param \Webgriffe\MagentoApiClient\Model\CheckoutDataShippingInformationInterface $addressInformation
      * @return $this
      */
     public function setAddressInformation($addressInformation)

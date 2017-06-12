@@ -10,8 +10,8 @@ Name | Type | Description | Notes
 **disabled** | **bool** | If gallery entry is hidden from product page | 
 **types** | **string[]** | Gallery entry image types (thumbnail, image, small_image etc) | 
 **file** | **string** | File path | [optional] 
-**content** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkDataImageContentInterface**](FrameworkDataImageContentInterface.md) |  | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryExtensionInterface**](CatalogDataProductAttributeMediaGalleryEntryExtensionInterface.md) |  | [optional] 
+**content** | [**\Webgriffe\MagentoApiClient\Model\FrameworkDataImageContentInterface**](FrameworkDataImageContentInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryExtensionInterface**](CatalogDataProductAttributeMediaGalleryEntryExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

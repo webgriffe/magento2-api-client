@@ -57,7 +57,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **giftWrappingWrappingRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface giftWrappingWrappingRepositoryV1GetGet($id, $storeId)
+> \Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface giftWrappingWrappingRepositoryV1GetGet($id, $storeId)
 
 
 
@@ -90,7 +90,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface**](../Model/GiftWrappingDataWrappingInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface**](../Model/GiftWrappingDataWrappingInterface.md)
 
 ### Authorization
 
@@ -104,7 +104,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **giftWrappingWrappingRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingSearchResultsInterface giftWrappingWrappingRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingSearchResultsInterface giftWrappingWrappingRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -147,7 +147,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingSearchResultsInterface**](../Model/GiftWrappingDataWrappingSearchResultsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingSearchResultsInterface**](../Model/GiftWrappingDataWrappingSearchResultsInterface.md)
 
 ### Authorization
 
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **giftWrappingWrappingRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface giftWrappingWrappingRepositoryV1SavePost($body)
+> \Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface giftWrappingWrappingRepositoryV1SavePost($body)
 
 
 
@@ -173,7 +173,7 @@ Create/Update new gift wrapping with data object values
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\GiftWrappingWrappingRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body129(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body129 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body129(); // \Webgriffe\MagentoApiClient\Model\Body129 | 
 
 try {
     $result = $api_instance->giftWrappingWrappingRepositoryV1SavePost($body);
@@ -188,11 +188,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body129**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body129.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body129**](../Model/\Webgriffe\MagentoApiClient\Model\Body129.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface**](../Model/GiftWrappingDataWrappingInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface**](../Model/GiftWrappingDataWrappingInterface.md)
 
 ### Authorization
 
@@ -206,7 +206,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **giftWrappingWrappingRepositoryV1SavePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface giftWrappingWrappingRepositoryV1SavePut($wrappingId, $body)
+> \Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface giftWrappingWrappingRepositoryV1SavePut($wrappingId, $body)
 
 
 
@@ -219,7 +219,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\GiftWrappingWrappingRepositoryV1Api();
 $wrappingId = "wrappingId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body130(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body130 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body130(); // \Webgriffe\MagentoApiClient\Model\Body130 | 
 
 try {
     $result = $api_instance->giftWrappingWrappingRepositoryV1SavePut($wrappingId, $body);
@@ -235,11 +235,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **wrappingId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body130**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body130.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body130**](../Model/\Webgriffe\MagentoApiClient\Model\Body130.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface**](../Model/GiftWrappingDataWrappingInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingInterface**](../Model/GiftWrappingDataWrappingInterface.md)
 
 ### Authorization
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -59,7 +59,7 @@ class EavDataAttributeOptionInterface implements ArrayAccess
         'value' => 'string',
         'sortOrder' => 'int',
         'isDefault' => 'bool',
-        'storeLabels' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionLabelInterface[]'
+        'storeLabels' => '\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionLabelInterface[]'
     ];
 
     public static function swaggerTypes()
@@ -266,7 +266,7 @@ class EavDataAttributeOptionInterface implements ArrayAccess
 
     /**
      * Gets storeLabels
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionLabelInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionLabelInterface[]
      */
     public function getStoreLabels()
     {
@@ -275,7 +275,7 @@ class EavDataAttributeOptionInterface implements ArrayAccess
 
     /**
      * Sets storeLabels
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionLabelInterface[] $storeLabels Option label for store scopes
+     * @param \Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionLabelInterface[] $storeLabels Option label for store scopes
      * @return $this
      */
     public function setStoreLabels($storeLabels)

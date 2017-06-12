@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -65,8 +65,8 @@ class TaxDataTaxRateInterface implements ArrayAccess
         'zipTo' => 'int',
         'rate' => 'float',
         'code' => 'string',
-        'titles' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateTitleInterface[]',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateExtensionInterface'
+        'titles' => '\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateTitleInterface[]',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -433,7 +433,7 @@ class TaxDataTaxRateInterface implements ArrayAccess
 
     /**
      * Gets titles
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateTitleInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\TaxDataTaxRateTitleInterface[]
      */
     public function getTitles()
     {
@@ -442,7 +442,7 @@ class TaxDataTaxRateInterface implements ArrayAccess
 
     /**
      * Sets titles
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateTitleInterface[] $titles Tax rate titles
+     * @param \Webgriffe\MagentoApiClient\Model\TaxDataTaxRateTitleInterface[] $titles Tax rate titles
      * @return $this
      */
     public function setTitles($titles)
@@ -454,7 +454,7 @@ class TaxDataTaxRateInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\TaxDataTaxRateExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -463,7 +463,7 @@ class TaxDataTaxRateInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\TaxDataTaxRateExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

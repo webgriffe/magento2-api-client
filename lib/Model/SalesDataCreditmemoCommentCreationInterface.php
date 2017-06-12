@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,7 +55,7 @@ class SalesDataCreditmemoCommentCreationInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentCreationExtensionInterface',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentCreationExtensionInterface',
         'comment' => 'string',
         'isVisibleOnFront' => 'int'
     ];
@@ -172,7 +172,7 @@ class SalesDataCreditmemoCommentCreationInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentCreationExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentCreationExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -181,7 +181,7 @@ class SalesDataCreditmemoCommentCreationInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentCreationExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentCreationExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

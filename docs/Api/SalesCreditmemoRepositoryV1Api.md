@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **salesCreditmemoRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface salesCreditmemoRepositoryV1GetGet($id)
+> \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface salesCreditmemoRepositoryV1GetGet($id)
 
 
 
@@ -41,7 +41,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface**](../Model/SalesDataCreditmemoInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface**](../Model/SalesDataCreditmemoInterface.md)
 
 ### Authorization
 
@@ -55,7 +55,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesCreditmemoRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoSearchResultInterface salesCreditmemoRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoSearchResultInterface salesCreditmemoRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -98,7 +98,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoSearchResultInterface**](../Model/SalesDataCreditmemoSearchResultInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoSearchResultInterface**](../Model/SalesDataCreditmemoSearchResultInterface.md)
 
 ### Authorization
 
@@ -112,7 +112,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesCreditmemoRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface salesCreditmemoRepositoryV1SavePost($body)
+> \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface salesCreditmemoRepositoryV1SavePost($body)
 
 
 
@@ -124,7 +124,7 @@ Performs persist operations for a specified credit memo.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesCreditmemoRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body80(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body80 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body80(); // \Webgriffe\MagentoApiClient\Model\Body80 | 
 
 try {
     $result = $api_instance->salesCreditmemoRepositoryV1SavePost($body);
@@ -139,11 +139,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body80**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body80.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body80**](../Model/\Webgriffe\MagentoApiClient\Model\Body80.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface**](../Model/SalesDataCreditmemoInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface**](../Model/SalesDataCreditmemoInterface.md)
 
 ### Authorization
 

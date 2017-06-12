@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **salesOrderItemRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface salesOrderItemRepositoryV1GetGet($id)
+> \Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface salesOrderItemRepositoryV1GetGet($id)
 
 
 
@@ -40,7 +40,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface**](../Model/SalesDataOrderItemInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface**](../Model/SalesDataOrderItemInterface.md)
 
 ### Authorization
 
@@ -54,7 +54,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderItemRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemSearchResultInterface salesOrderItemRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\SalesDataOrderItemSearchResultInterface salesOrderItemRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -97,7 +97,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemSearchResultInterface**](../Model/SalesDataOrderItemSearchResultInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemSearchResultInterface**](../Model/SalesDataOrderItemSearchResultInterface.md)
 
 ### Authorization
 

@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackCreationExtensionInterface**](SalesDataShipmentTrackCreationExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackCreationExtensionInterface**](SalesDataShipmentTrackCreationExtensionInterface.md) |  | [optional] 
 **trackNumber** | **string** | Track number. | 
 **title** | **string** | Title. | 
 **carrierCode** | **string** | Carrier code. | 

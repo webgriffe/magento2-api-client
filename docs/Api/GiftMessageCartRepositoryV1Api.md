@@ -11,7 +11,7 @@ Method | HTTP request | Description
 
 
 # **giftMessageCartRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface giftMessageCartRepositoryV1GetGet($cartId)
+> \Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface giftMessageCartRepositoryV1GetGet($cartId)
 
 
 
@@ -42,7 +42,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface**](../Model/GiftMessageDataMessageInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface**](../Model/GiftMessageDataMessageInterface.md)
 
 ### Authorization
 
@@ -56,7 +56,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **giftMessageCartRepositoryV1GetGet_0**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface giftMessageCartRepositoryV1GetGet_0()
+> \Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface giftMessageCartRepositoryV1GetGet_0()
 
 
 
@@ -83,7 +83,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface**](../Model/GiftMessageDataMessageInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface**](../Model/GiftMessageDataMessageInterface.md)
 
 ### Authorization
 
@@ -110,7 +110,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\GiftMessageCartRepositoryV1Api();
 $cartId = 56; // int | The cart ID.
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body123(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body123 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body123(); // \Webgriffe\MagentoApiClient\Model\Body123 | 
 
 try {
     $result = $api_instance->giftMessageCartRepositoryV1SavePost($cartId, $body);
@@ -126,7 +126,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **int**| The cart ID. |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body123**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body123.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body123**](../Model/\Webgriffe\MagentoApiClient\Model\Body123.md)|  | [optional]
 
 ### Return type
 
@@ -156,7 +156,7 @@ Set the gift message for an entire order.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\GiftMessageCartRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body124(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body124 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body124(); // \Webgriffe\MagentoApiClient\Model\Body124 | 
 
 try {
     $result = $api_instance->giftMessageCartRepositoryV1SavePost_0($body);
@@ -171,7 +171,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body124**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body124.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body124**](../Model/\Webgriffe\MagentoApiClient\Model\Body124.md)|  | [optional]
 
 ### Return type
 

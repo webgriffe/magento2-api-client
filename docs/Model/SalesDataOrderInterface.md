@@ -135,11 +135,11 @@ Name | Type | Description | Notes
 **updatedAt** | **string** | Updated-at timestamp. | [optional] 
 **weight** | **float** | Weight. | [optional] 
 **xForwardedFor** | **string** | X-Forwarded-For field value. | [optional] 
-**items** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface[]**](SalesDataOrderItemInterface.md) | Array of items. | 
-**billingAddress** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface**](SalesDataOrderAddressInterface.md) |  | [optional] 
-**payment** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderPaymentInterface**](SalesDataOrderPaymentInterface.md) |  | [optional] 
-**statusHistories** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryInterface[]**](SalesDataOrderStatusHistoryInterface.md) | Array of status histories. | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderExtensionInterface**](SalesDataOrderExtensionInterface.md) |  | [optional] 
+**items** | [**\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface[]**](SalesDataOrderItemInterface.md) | Array of items. | 
+**billingAddress** | [**\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface**](SalesDataOrderAddressInterface.md) |  | [optional] 
+**payment** | [**\Webgriffe\MagentoApiClient\Model\SalesDataOrderPaymentInterface**](SalesDataOrderPaymentInterface.md) |  | [optional] 
+**statusHistories** | [**\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryInterface[]**](SalesDataOrderStatusHistoryInterface.md) | Array of status histories. | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesDataOrderExtensionInterface**](SalesDataOrderExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

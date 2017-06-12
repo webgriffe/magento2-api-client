@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body14 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'page' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CmsDataPageInterface'
+        'page' => '\Webgriffe\MagentoApiClient\Model\CmsDataPageInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body14 implements ArrayAccess
 
     /**
      * Gets page
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CmsDataPageInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CmsDataPageInterface
      */
     public function getPage()
     {
@@ -164,7 +164,7 @@ class Body14 implements ArrayAccess
 
     /**
      * Sets page
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CmsDataPageInterface $page
+     * @param \Webgriffe\MagentoApiClient\Model\CmsDataPageInterface $page
      * @return $this
      */
     public function setPage($page)

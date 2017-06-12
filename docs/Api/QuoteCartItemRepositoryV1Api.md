@@ -107,7 +107,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **quoteCartItemRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[] quoteCartItemRepositoryV1GetListGet($cartId)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[] quoteCartItemRepositoryV1GetListGet($cartId)
 
 
 
@@ -138,7 +138,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]**](../Model/QuoteDataCartItemInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]**](../Model/QuoteDataCartItemInterface.md)
 
 ### Authorization
 
@@ -152,7 +152,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **quoteCartItemRepositoryV1GetListGet_0**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[] quoteCartItemRepositoryV1GetListGet_0()
+> \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[] quoteCartItemRepositoryV1GetListGet_0()
 
 
 
@@ -179,7 +179,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]**](../Model/QuoteDataCartItemInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]**](../Model/QuoteDataCartItemInterface.md)
 
 ### Authorization
 
@@ -193,7 +193,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **quoteCartItemRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface quoteCartItemRepositoryV1SavePost($quoteId, $body)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface quoteCartItemRepositoryV1SavePost($quoteId, $body)
 
 
 
@@ -206,7 +206,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuoteCartItemRepositoryV1Api();
 $quoteId = "quoteId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body57(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body57 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body57(); // \Webgriffe\MagentoApiClient\Model\Body57 | 
 
 try {
     $result = $api_instance->quoteCartItemRepositoryV1SavePost($quoteId, $body);
@@ -222,11 +222,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **quoteId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body57**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body57.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body57**](../Model/\Webgriffe\MagentoApiClient\Model\Body57.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface**](../Model/QuoteDataCartItemInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface**](../Model/QuoteDataCartItemInterface.md)
 
 ### Authorization
 
@@ -240,7 +240,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **quoteCartItemRepositoryV1SavePost_0**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface quoteCartItemRepositoryV1SavePost_0($body)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface quoteCartItemRepositoryV1SavePost_0($body)
 
 
 
@@ -252,7 +252,7 @@ Add/update the specified cart item.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuoteCartItemRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body59(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body59 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body59(); // \Webgriffe\MagentoApiClient\Model\Body59 | 
 
 try {
     $result = $api_instance->quoteCartItemRepositoryV1SavePost_0($body);
@@ -267,11 +267,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body59**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body59.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body59**](../Model/\Webgriffe\MagentoApiClient\Model\Body59.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface**](../Model/QuoteDataCartItemInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface**](../Model/QuoteDataCartItemInterface.md)
 
 ### Authorization
 
@@ -285,7 +285,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **quoteCartItemRepositoryV1SavePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface quoteCartItemRepositoryV1SavePut($cartId, $itemId, $body)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface quoteCartItemRepositoryV1SavePut($cartId, $itemId, $body)
 
 
 
@@ -299,7 +299,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuoteCartItemRepositoryV1Api();
 $cartId = "cartId_example"; // string | 
 $itemId = "itemId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body58(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body58 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body58(); // \Webgriffe\MagentoApiClient\Model\Body58 | 
 
 try {
     $result = $api_instance->quoteCartItemRepositoryV1SavePut($cartId, $itemId, $body);
@@ -316,11 +316,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **string**|  |
  **itemId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body58**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body58.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body58**](../Model/\Webgriffe\MagentoApiClient\Model\Body58.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface**](../Model/QuoteDataCartItemInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface**](../Model/QuoteDataCartItemInterface.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **quoteCartItemRepositoryV1SavePut_0**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface quoteCartItemRepositoryV1SavePut_0($itemId, $body)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface quoteCartItemRepositoryV1SavePut_0($itemId, $body)
 
 
 
@@ -347,7 +347,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuoteCartItemRepositoryV1Api();
 $itemId = "itemId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body60(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body60 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body60(); // \Webgriffe\MagentoApiClient\Model\Body60 | 
 
 try {
     $result = $api_instance->quoteCartItemRepositoryV1SavePut_0($itemId, $body);
@@ -363,11 +363,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **itemId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body60**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body60.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body60**](../Model/\Webgriffe\MagentoApiClient\Model\Body60.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface**](../Model/QuoteDataCartItemInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface**](../Model/QuoteDataCartItemInterface.md)
 
 ### Authorization
 

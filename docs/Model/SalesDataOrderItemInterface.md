@@ -95,9 +95,9 @@ Name | Type | Description | Notes
 **weeeTaxDisposition** | **float** | WEEE tax disposition. | [optional] 
 **weeeTaxRowDisposition** | **float** | WEEE tax row disposition. | [optional] 
 **weight** | **float** | Weight. | [optional] 
-**parentItem** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface**](SalesDataOrderItemInterface.md) |  | [optional] 
-**productOption** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductOptionInterface**](CatalogDataProductOptionInterface.md) |  | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemExtensionInterface**](SalesDataOrderItemExtensionInterface.md) |  | [optional] 
+**parentItem** | [**\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface**](SalesDataOrderItemInterface.md) |  | [optional] 
+**productOption** | [**\Webgriffe\MagentoApiClient\Model\CatalogDataProductOptionInterface**](CatalogDataProductOptionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemExtensionInterface**](SalesDataOrderItemExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

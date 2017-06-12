@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 **secureBaseLinkUrl** | **string** | Secure base link URL for the store | 
 **secureBaseStaticUrl** | **string** | Secure base static URL for the store | 
 **secureBaseMediaUrl** | **string** | Secure base media URL for the store | 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\StoreDataStoreConfigExtensionInterface**](StoreDataStoreConfigExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\StoreDataStoreConfigExtensionInterface**](StoreDataStoreConfigExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -68,8 +68,8 @@ class CatalogDataProductCustomOptionInterface implements ArrayAccess
         'maxCharacters' => 'int',
         'imageSizeX' => 'int',
         'imageSizeY' => 'int',
-        'values' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionValuesInterface[]',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionExtensionInterface'
+        'values' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionValuesInterface[]',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -523,7 +523,7 @@ class CatalogDataProductCustomOptionInterface implements ArrayAccess
 
     /**
      * Gets values
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionValuesInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionValuesInterface[]
      */
     public function getValues()
     {
@@ -532,7 +532,7 @@ class CatalogDataProductCustomOptionInterface implements ArrayAccess
 
     /**
      * Sets values
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionValuesInterface[] $values
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionValuesInterface[] $values
      * @return $this
      */
     public function setValues($values)
@@ -544,7 +544,7 @@ class CatalogDataProductCustomOptionInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -553,7 +553,7 @@ class CatalogDataProductCustomOptionInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

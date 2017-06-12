@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -56,12 +56,12 @@ class SalesRuleDataConditionInterface implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'conditionType' => 'string',
-        'conditions' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface[]',
+        'conditions' => '\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface[]',
         'aggregatorType' => 'string',
         'operator' => 'string',
         'attributeName' => 'string',
         'value' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -219,7 +219,7 @@ class SalesRuleDataConditionInterface implements ArrayAccess
 
     /**
      * Gets conditions
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface[]
      */
     public function getConditions()
     {
@@ -228,7 +228,7 @@ class SalesRuleDataConditionInterface implements ArrayAccess
 
     /**
      * Sets conditions
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface[] $conditions List of conditions
+     * @param \Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface[] $conditions List of conditions
      * @return $this
      */
     public function setConditions($conditions)
@@ -324,7 +324,7 @@ class SalesRuleDataConditionInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -333,7 +333,7 @@ class SalesRuleDataConditionInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

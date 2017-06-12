@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 **isPrimary** | **bool** | The coupon is primary coupon for the rule that it&#39;s associated with | 
 **createdAt** | **string** | When the coupon is created | [optional] 
 **type** | **int** | Of coupon | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponExtensionInterface**](SalesRuleDataCouponExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponExtensionInterface**](SalesRuleDataCouponExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

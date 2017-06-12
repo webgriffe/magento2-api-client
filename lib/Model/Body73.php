@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body73 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'statusHistory' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryInterface'
+        'statusHistory' => '\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body73 implements ArrayAccess
 
     /**
      * Gets statusHistory
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryInterface
      */
     public function getStatusHistory()
     {
@@ -164,7 +164,7 @@ class Body73 implements ArrayAccess
 
     /**
      * Sets statusHistory
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryInterface $statusHistory
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryInterface $statusHistory
      * @return $this
      */
     public function setStatusHistory($statusHistory)

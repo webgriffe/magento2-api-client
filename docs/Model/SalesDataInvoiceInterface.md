@@ -47,9 +47,9 @@ Name | Type | Description | Notes
 **totalQty** | **float** | Total quantity. | 
 **transactionId** | **string** | Transaction ID. | [optional] 
 **updatedAt** | **string** | Updated-at timestamp. | [optional] 
-**items** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemInterface[]**](SalesDataInvoiceItemInterface.md) | Array of invoice items. | 
-**comments** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentInterface[]**](SalesDataInvoiceCommentInterface.md) | Array of any invoice comments. Otherwise, null. | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceExtensionInterface**](SalesDataInvoiceExtensionInterface.md) |  | [optional] 
+**items** | [**\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemInterface[]**](SalesDataInvoiceItemInterface.md) | Array of invoice items. | 
+**comments** | [**\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentInterface[]**](SalesDataInvoiceCommentInterface.md) | Array of any invoice comments. Otherwise, null. | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceExtensionInterface**](SalesDataInvoiceExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

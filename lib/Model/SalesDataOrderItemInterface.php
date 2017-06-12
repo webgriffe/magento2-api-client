@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -147,9 +147,9 @@ class SalesDataOrderItemInterface implements ArrayAccess
         'weeeTaxDisposition' => 'float',
         'weeeTaxRowDisposition' => 'float',
         'weight' => 'float',
-        'parentItem' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface',
-        'productOption' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductOptionInterface',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemExtensionInterface'
+        'parentItem' => '\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface',
+        'productOption' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductOptionInterface',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -2558,7 +2558,7 @@ class SalesDataOrderItemInterface implements ArrayAccess
 
     /**
      * Gets parentItem
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface
      */
     public function getParentItem()
     {
@@ -2567,7 +2567,7 @@ class SalesDataOrderItemInterface implements ArrayAccess
 
     /**
      * Sets parentItem
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface $parentItem
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataOrderItemInterface $parentItem
      * @return $this
      */
     public function setParentItem($parentItem)
@@ -2579,7 +2579,7 @@ class SalesDataOrderItemInterface implements ArrayAccess
 
     /**
      * Gets productOption
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductOptionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductOptionInterface
      */
     public function getProductOption()
     {
@@ -2588,7 +2588,7 @@ class SalesDataOrderItemInterface implements ArrayAccess
 
     /**
      * Sets productOption
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductOptionInterface $productOption
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductOptionInterface $productOption
      * @return $this
      */
     public function setProductOption($productOption)
@@ -2600,7 +2600,7 @@ class SalesDataOrderItemInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataOrderItemExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -2609,7 +2609,7 @@ class SalesDataOrderItemInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderItemExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataOrderItemExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

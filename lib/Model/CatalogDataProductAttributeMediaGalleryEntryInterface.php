@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -62,8 +62,8 @@ class CatalogDataProductAttributeMediaGalleryEntryInterface implements ArrayAcce
         'disabled' => 'bool',
         'types' => 'string[]',
         'file' => 'string',
-        'content' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkDataImageContentInterface',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryExtensionInterface'
+        'content' => '\Webgriffe\MagentoApiClient\Model\FrameworkDataImageContentInterface',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -367,7 +367,7 @@ class CatalogDataProductAttributeMediaGalleryEntryInterface implements ArrayAcce
 
     /**
      * Gets content
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkDataImageContentInterface
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkDataImageContentInterface
      */
     public function getContent()
     {
@@ -376,7 +376,7 @@ class CatalogDataProductAttributeMediaGalleryEntryInterface implements ArrayAcce
 
     /**
      * Sets content
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkDataImageContentInterface $content
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkDataImageContentInterface $content
      * @return $this
      */
     public function setContent($content)
@@ -388,7 +388,7 @@ class CatalogDataProductAttributeMediaGalleryEntryInterface implements ArrayAcce
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -397,7 +397,7 @@ class CatalogDataProductAttributeMediaGalleryEntryInterface implements ArrayAcce
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

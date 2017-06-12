@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -61,7 +61,7 @@ class SalesDataCreditmemoCommentInterface implements ArrayAccess
         'isCustomerNotified' => 'int',
         'isVisibleOnFront' => 'int',
         'parentId' => 'int',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -330,7 +330,7 @@ class SalesDataCreditmemoCommentInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -339,7 +339,7 @@ class SalesDataCreditmemoCommentInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

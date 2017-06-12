@@ -59,7 +59,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductCustomOptionRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface catalogProductCustomOptionRepositoryV1GetGet($sku, $optionId)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface catalogProductCustomOptionRepositoryV1GetGet($sku, $optionId)
 
 
 
@@ -92,7 +92,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface**](../Model/CatalogDataProductCustomOptionInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface**](../Model/CatalogDataProductCustomOptionInterface.md)
 
 ### Authorization
 
@@ -106,7 +106,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductCustomOptionRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface[] catalogProductCustomOptionRepositoryV1GetListGet($sku)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface[] catalogProductCustomOptionRepositoryV1GetListGet($sku)
 
 
 
@@ -137,7 +137,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface[]**](../Model/CatalogDataProductCustomOptionInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface[]**](../Model/CatalogDataProductCustomOptionInterface.md)
 
 ### Authorization
 
@@ -151,7 +151,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductCustomOptionRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface catalogProductCustomOptionRepositoryV1SavePost($body)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface catalogProductCustomOptionRepositoryV1SavePost($body)
 
 
 
@@ -163,7 +163,7 @@ Save Custom Option
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogProductCustomOptionRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body33(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body33 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body33(); // \Webgriffe\MagentoApiClient\Model\Body33 | 
 
 try {
     $result = $api_instance->catalogProductCustomOptionRepositoryV1SavePost($body);
@@ -178,11 +178,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body33**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body33.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body33**](../Model/\Webgriffe\MagentoApiClient\Model\Body33.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface**](../Model/CatalogDataProductCustomOptionInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface**](../Model/CatalogDataProductCustomOptionInterface.md)
 
 ### Authorization
 
@@ -196,7 +196,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductCustomOptionRepositoryV1SavePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface catalogProductCustomOptionRepositoryV1SavePut($optionId, $body)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface catalogProductCustomOptionRepositoryV1SavePut($optionId, $body)
 
 
 
@@ -209,7 +209,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogProductCustomOptionRepositoryV1Api();
 $optionId = "optionId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body34(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body34 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body34(); // \Webgriffe\MagentoApiClient\Model\Body34 | 
 
 try {
     $result = $api_instance->catalogProductCustomOptionRepositoryV1SavePut($optionId, $body);
@@ -225,11 +225,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **optionId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body34**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body34.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body34**](../Model/\Webgriffe\MagentoApiClient\Model\Body34.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface**](../Model/CatalogDataProductCustomOptionInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface**](../Model/CatalogDataProductCustomOptionInterface.md)
 
 ### Authorization
 

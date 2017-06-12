@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -88,7 +88,7 @@ class SalesDataCreditmemoItemInterface implements ArrayAccess
         'weeeTaxAppliedRowAmount' => 'float',
         'weeeTaxDisposition' => 'float',
         'weeeTaxRowDisposition' => 'float',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -1038,7 +1038,7 @@ class SalesDataCreditmemoItemInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -1047,7 +1047,7 @@ class SalesDataCreditmemoItemInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

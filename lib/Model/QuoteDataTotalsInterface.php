@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -80,9 +80,9 @@ class QuoteDataTotalsInterface implements ArrayAccess
         'quoteCurrencyCode' => 'string',
         'couponCode' => 'string',
         'itemsQty' => 'int',
-        'items' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsItemInterface[]',
-        'totalSegments' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalSegmentInterface[]',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsExtensionInterface'
+        'items' => '\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsItemInterface[]',
+        'totalSegments' => '\Webgriffe\MagentoApiClient\Model\QuoteDataTotalSegmentInterface[]',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -822,7 +822,7 @@ class QuoteDataTotalsInterface implements ArrayAccess
 
     /**
      * Gets items
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsItemInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataTotalsItemInterface[]
      */
     public function getItems()
     {
@@ -831,7 +831,7 @@ class QuoteDataTotalsInterface implements ArrayAccess
 
     /**
      * Sets items
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsItemInterface[] $items Totals by items
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataTotalsItemInterface[] $items Totals by items
      * @return $this
      */
     public function setItems($items)
@@ -843,7 +843,7 @@ class QuoteDataTotalsInterface implements ArrayAccess
 
     /**
      * Gets totalSegments
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalSegmentInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataTotalSegmentInterface[]
      */
     public function getTotalSegments()
     {
@@ -852,7 +852,7 @@ class QuoteDataTotalsInterface implements ArrayAccess
 
     /**
      * Sets totalSegments
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalSegmentInterface[] $totalSegments Dynamically calculated totals
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataTotalSegmentInterface[] $totalSegments Dynamically calculated totals
      * @return $this
      */
     public function setTotalSegments($totalSegments)
@@ -864,7 +864,7 @@ class QuoteDataTotalsInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataTotalsExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -873,7 +873,7 @@ class QuoteDataTotalsInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataTotalsExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body6 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'customer' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface',
+        'customer' => '\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface',
         'password' => 'string',
         'redirectUrl' => 'string'
     ];
@@ -165,7 +165,7 @@ class Body6 implements ArrayAccess
 
     /**
      * Gets customer
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface
      */
     public function getCustomer()
     {
@@ -174,7 +174,7 @@ class Body6 implements ArrayAccess
 
     /**
      * Sets customer
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface $customer
+     * @param \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface $customer
      * @return $this
      */
     public function setCustomer($customer)

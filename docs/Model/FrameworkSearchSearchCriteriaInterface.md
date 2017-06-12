@@ -4,8 +4,8 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **requestName** | **string** |  | 
-**filterGroups** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchFilterGroup[]**](FrameworkSearchFilterGroup.md) | A list of filter groups. | 
-**sortOrders** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSortOrder[]**](FrameworkSortOrder.md) | Sort order. | [optional] 
+**filterGroups** | [**\Webgriffe\MagentoApiClient\Model\FrameworkSearchFilterGroup[]**](FrameworkSearchFilterGroup.md) | A list of filter groups. | 
+**sortOrders** | [**\Webgriffe\MagentoApiClient\Model\FrameworkSortOrder[]**](FrameworkSortOrder.md) | Sort order. | [optional] 
 **pageSize** | **int** | Page size. | [optional] 
 **currentPage** | **int** | Current page. | [optional] 
 

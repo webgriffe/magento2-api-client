@@ -22,7 +22,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuoteGuestBillingAddressManagementV1Api();
 $cartId = "cartId_example"; // string | The cart ID.
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body68(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body68 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body68(); // \Webgriffe\MagentoApiClient\Model\Body68 | 
 
 try {
     $result = $api_instance->quoteGuestBillingAddressManagementV1AssignPost($cartId, $body);
@@ -38,7 +38,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **string**| The cart ID. |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body68**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body68.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body68**](../Model/\Webgriffe\MagentoApiClient\Model\Body68.md)|  | [optional]
 
 ### Return type
 
@@ -56,7 +56,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **quoteGuestBillingAddressManagementV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface quoteGuestBillingAddressManagementV1GetGet($cartId)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface quoteGuestBillingAddressManagementV1GetGet($cartId)
 
 
 
@@ -87,7 +87,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface**](../Model/QuoteDataAddressInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface**](../Model/QuoteDataAddressInterface.md)
 
 ### Authorization
 

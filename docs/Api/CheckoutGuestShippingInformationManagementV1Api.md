@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **checkoutGuestShippingInformationManagementV1SaveAddressInformationPost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface checkoutGuestShippingInformationManagementV1SaveAddressInformationPost($cartId, $body)
+> \Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface checkoutGuestShippingInformationManagementV1SaveAddressInformationPost($cartId, $body)
 
 
 
@@ -21,7 +21,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CheckoutGuestShippingInformationManagementV1Api();
 $cartId = "cartId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body94(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body94 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body94(); // \Webgriffe\MagentoApiClient\Model\Body94 | 
 
 try {
     $result = $api_instance->checkoutGuestShippingInformationManagementV1SaveAddressInformationPost($cartId, $body);
@@ -37,11 +37,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body94**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body94.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body94**](../Model/\Webgriffe\MagentoApiClient\Model\Body94.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface**](../Model/CheckoutDataPaymentDetailsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface**](../Model/CheckoutDataPaymentDetailsInterface.md)
 
 ### Authorization
 

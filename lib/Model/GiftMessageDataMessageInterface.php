@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -60,7 +60,7 @@ class GiftMessageDataMessageInterface implements ArrayAccess
         'sender' => 'string',
         'recipient' => 'string',
         'message' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -298,7 +298,7 @@ class GiftMessageDataMessageInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -307,7 +307,7 @@ class GiftMessageDataMessageInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

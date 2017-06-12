@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **salesShipmentRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentInterface salesShipmentRepositoryV1GetGet($id)
+> \Webgriffe\MagentoApiClient\Model\SalesDataShipmentInterface salesShipmentRepositoryV1GetGet($id)
 
 
 
@@ -41,7 +41,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentInterface**](../Model/SalesDataShipmentInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataShipmentInterface**](../Model/SalesDataShipmentInterface.md)
 
 ### Authorization
 
@@ -55,7 +55,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesShipmentRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentSearchResultInterface salesShipmentRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\SalesDataShipmentSearchResultInterface salesShipmentRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -98,7 +98,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentSearchResultInterface**](../Model/SalesDataShipmentSearchResultInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataShipmentSearchResultInterface**](../Model/SalesDataShipmentSearchResultInterface.md)
 
 ### Authorization
 
@@ -112,7 +112,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesShipmentRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentInterface salesShipmentRepositoryV1SavePost($body)
+> \Webgriffe\MagentoApiClient\Model\SalesDataShipmentInterface salesShipmentRepositoryV1SavePost($body)
 
 
 
@@ -124,7 +124,7 @@ Performs persist operations for a specified shipment.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesShipmentRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body82(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body82 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body82(); // \Webgriffe\MagentoApiClient\Model\Body82 | 
 
 try {
     $result = $api_instance->salesShipmentRepositoryV1SavePost($body);
@@ -139,11 +139,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body82**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body82.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body82**](../Model/\Webgriffe\MagentoApiClient\Model\Body82.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentInterface**](../Model/SalesDataShipmentInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataShipmentInterface**](../Model/SalesDataShipmentInterface.md)
 
 ### Authorization
 

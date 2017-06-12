@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **catalogProductMediaAttributeManagementV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface[] catalogProductMediaAttributeManagementV1GetListGet($attributeSetName)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface[] catalogProductMediaAttributeManagementV1GetListGet($attributeSetName)
 
 
 
@@ -39,7 +39,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface[]**](../Model/CatalogDataProductAttributeInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface[]**](../Model/CatalogDataProductAttributeInterface.md)
 
 ### Authorization
 

@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **salesShipmentCommentRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentInterface salesShipmentCommentRepositoryV1SavePost($id, $body)
+> \Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentInterface salesShipmentCommentRepositoryV1SavePost($id, $body)
 
 
 
@@ -21,7 +21,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesShipmentCommentRepositoryV1Api();
 $id = "id_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body83(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body83 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body83(); // \Webgriffe\MagentoApiClient\Model\Body83 | 
 
 try {
     $result = $api_instance->salesShipmentCommentRepositoryV1SavePost($id, $body);
@@ -37,11 +37,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body83**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body83.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body83**](../Model/\Webgriffe\MagentoApiClient\Model\Body83.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentInterface**](../Model/SalesDataShipmentCommentInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentInterface**](../Model/SalesDataShipmentCommentInterface.md)
 
 ### Authorization
 

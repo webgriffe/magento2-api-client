@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**customer** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface**](CustomerDataCustomerInterface.md) |  | 
+**customer** | [**\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface**](CustomerDataCustomerInterface.md) |  | 
 **password** | **string** |  | [optional] 
 **redirectUrl** | **string** |  | [optional] 
 

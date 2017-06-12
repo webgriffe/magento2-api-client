@@ -10,8 +10,8 @@ Name | Type | Description | Notes
 **price** | **float** | Product price. Otherwise, null. | [optional] 
 **productType** | **string** | Product type. Otherwise, null. | [optional] 
 **quoteId** | **string** | Quote id. | 
-**productOption** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataProductOptionInterface**](QuoteDataProductOptionInterface.md) |  | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemExtensionInterface**](QuoteDataCartItemExtensionInterface.md) |  | [optional] 
+**productOption** | [**\Webgriffe\MagentoApiClient\Model\QuoteDataProductOptionInterface**](QuoteDataProductOptionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemExtensionInterface**](QuoteDataCartItemExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

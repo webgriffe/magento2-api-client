@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -58,8 +58,8 @@ class TaxDataOrderTaxDetailsItemInterface implements ArrayAccess
         'type' => 'string',
         'itemId' => 'int',
         'associatedItemId' => 'int',
-        'appliedTaxes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxInterface[]',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsItemExtensionInterface'
+        'appliedTaxes' => '\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxInterface[]',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsItemExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -233,7 +233,7 @@ class TaxDataOrderTaxDetailsItemInterface implements ArrayAccess
 
     /**
      * Gets appliedTaxes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxInterface[]
      */
     public function getAppliedTaxes()
     {
@@ -242,7 +242,7 @@ class TaxDataOrderTaxDetailsItemInterface implements ArrayAccess
 
     /**
      * Sets appliedTaxes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxInterface[] $appliedTaxes Applied taxes
+     * @param \Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxInterface[] $appliedTaxes Applied taxes
      * @return $this
      */
     public function setAppliedTaxes($appliedTaxes)
@@ -254,7 +254,7 @@ class TaxDataOrderTaxDetailsItemInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsItemExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsItemExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -263,7 +263,7 @@ class TaxDataOrderTaxDetailsItemInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsItemExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsItemExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

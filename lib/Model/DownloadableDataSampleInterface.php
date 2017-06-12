@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -60,9 +60,9 @@ class DownloadableDataSampleInterface implements ArrayAccess
         'sortOrder' => 'int',
         'sampleType' => 'string',
         'sampleFile' => 'string',
-        'sampleFileContent' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface',
+        'sampleFileContent' => '\Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface',
         'sampleUrl' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataSampleExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\DownloadableDataSampleExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -308,7 +308,7 @@ class DownloadableDataSampleInterface implements ArrayAccess
 
     /**
      * Gets sampleFileContent
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface
+     * @return \Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface
      */
     public function getSampleFileContent()
     {
@@ -317,7 +317,7 @@ class DownloadableDataSampleInterface implements ArrayAccess
 
     /**
      * Sets sampleFileContent
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface $sampleFileContent
+     * @param \Webgriffe\MagentoApiClient\Model\DownloadableDataFileContentInterface $sampleFileContent
      * @return $this
      */
     public function setSampleFileContent($sampleFileContent)
@@ -350,7 +350,7 @@ class DownloadableDataSampleInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataSampleExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\DownloadableDataSampleExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -359,7 +359,7 @@ class DownloadableDataSampleInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataSampleExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\DownloadableDataSampleExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

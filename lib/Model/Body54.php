@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body54 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'address' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface'
+        'address' => '\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body54 implements ArrayAccess
 
     /**
      * Gets address
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface
      */
     public function getAddress()
     {
@@ -164,7 +164,7 @@ class Body54 implements ArrayAccess
 
     /**
      * Sets address
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface $address
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface $address
      * @return $this
      */
     public function setAddress($address)

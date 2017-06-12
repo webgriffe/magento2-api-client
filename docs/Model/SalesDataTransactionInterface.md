@@ -13,8 +13,8 @@ Name | Type | Description | Notes
 **isClosed** | **int** | Is-closed flag value. | 
 **additionalInformation** | **string[]** | Array of additional information. Otherwise, null. | [optional] 
 **createdAt** | **string** | Created-at timestamp. | 
-**childTransactions** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataTransactionInterface[]**](SalesDataTransactionInterface.md) | Array of child transactions. | 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataTransactionExtensionInterface**](SalesDataTransactionExtensionInterface.md) |  | [optional] 
+**childTransactions** | [**\Webgriffe\MagentoApiClient\Model\SalesDataTransactionInterface[]**](SalesDataTransactionInterface.md) | Array of child transactions. | 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesDataTransactionExtensionInterface**](SalesDataTransactionExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -58,7 +58,7 @@ class QuoteDataPaymentInterface implements ArrayAccess
         'poNumber' => 'string',
         'method' => 'string',
         'additionalData' => 'string[]',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -234,7 +234,7 @@ class QuoteDataPaymentInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -243,7 +243,7 @@ class QuoteDataPaymentInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

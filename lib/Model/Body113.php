@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body113 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'taxRate' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateInterface'
+        'taxRate' => '\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body113 implements ArrayAccess
 
     /**
      * Gets taxRate
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateInterface
+     * @return \Webgriffe\MagentoApiClient\Model\TaxDataTaxRateInterface
      */
     public function getTaxRate()
     {
@@ -164,7 +164,7 @@ class Body113 implements ArrayAccess
 
     /**
      * Sets taxRate
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateInterface $taxRate
+     * @param \Webgriffe\MagentoApiClient\Model\TaxDataTaxRateInterface $taxRate
      * @return $this
      */
     public function setTaxRate($taxRate)

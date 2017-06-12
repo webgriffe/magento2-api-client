@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -59,7 +59,7 @@ class EavDataAttributeSetInterface implements ArrayAccess
         'attributeSetName' => 'string',
         'sortOrder' => 'int',
         'entityTypeId' => 'int',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -266,7 +266,7 @@ class EavDataAttributeSetInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\EavDataAttributeSetExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -275,7 +275,7 @@ class EavDataAttributeSetInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\EavDataAttributeSetExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

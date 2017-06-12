@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **isActive** | **bool** | Agreement status. | 
 **isHtml** | **bool** | * true - HTML. * false - plain text. | 
 **mode** | **int** | The agreement applied mode. | 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutAgreementsDataAgreementExtensionInterface**](CheckoutAgreementsDataAgreementExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\CheckoutAgreementsDataAgreementExtensionInterface**](CheckoutAgreementsDataAgreementExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

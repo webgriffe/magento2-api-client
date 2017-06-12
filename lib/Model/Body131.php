@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body131 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'track' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataTrackInterface'
+        'track' => '\Webgriffe\MagentoApiClient\Model\RmaDataTrackInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body131 implements ArrayAccess
 
     /**
      * Gets track
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataTrackInterface
+     * @return \Webgriffe\MagentoApiClient\Model\RmaDataTrackInterface
      */
     public function getTrack()
     {
@@ -164,7 +164,7 @@ class Body131 implements ArrayAccess
 
     /**
      * Sets track
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataTrackInterface $track
+     * @param \Webgriffe\MagentoApiClient\Model\RmaDataTrackInterface $track
      * @return $this
      */
     public function setTrack($track)

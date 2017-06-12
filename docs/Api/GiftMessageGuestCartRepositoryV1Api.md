@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **giftMessageGuestCartRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface giftMessageGuestCartRepositoryV1GetGet($cartId)
+> \Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface giftMessageGuestCartRepositoryV1GetGet($cartId)
 
 
 
@@ -40,7 +40,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface**](../Model/GiftMessageDataMessageInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface**](../Model/GiftMessageDataMessageInterface.md)
 
 ### Authorization
 
@@ -67,7 +67,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\GiftMessageGuestCartRepositoryV1Api();
 $cartId = "cartId_example"; // string | The cart ID.
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body127(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body127 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body127(); // \Webgriffe\MagentoApiClient\Model\Body127 | 
 
 try {
     $result = $api_instance->giftMessageGuestCartRepositoryV1SavePost($cartId, $body);
@@ -83,7 +83,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **string**| The cart ID. |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body127**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body127.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body127**](../Model/\Webgriffe\MagentoApiClient\Model\Body127.md)|  | [optional]
 
 ### Return type
 

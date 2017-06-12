@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -64,7 +64,7 @@ class BundleDataLinkInterface implements ArrayAccess
         'price' => 'float',
         'priceType' => 'int',
         'canChangeQuantity' => 'int',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataLinkExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\BundleDataLinkExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -402,7 +402,7 @@ class BundleDataLinkInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataLinkExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\BundleDataLinkExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -411,7 +411,7 @@ class BundleDataLinkInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataLinkExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\BundleDataLinkExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

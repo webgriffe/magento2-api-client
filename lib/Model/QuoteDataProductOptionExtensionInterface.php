@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,11 +55,11 @@ class QuoteDataProductOptionExtensionInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'customOptions' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCustomOptionInterface[]',
-        'bundleOptions' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataBundleOptionInterface[]',
-        'downloadableOption' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataDownloadableOptionInterface',
-        'giftcardItemOption' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardDataGiftCardOptionInterface',
-        'configurableItemOptions' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataConfigurableItemOptionValueInterface[]'
+        'customOptions' => '\Webgriffe\MagentoApiClient\Model\CatalogDataCustomOptionInterface[]',
+        'bundleOptions' => '\Webgriffe\MagentoApiClient\Model\BundleDataBundleOptionInterface[]',
+        'downloadableOption' => '\Webgriffe\MagentoApiClient\Model\DownloadableDataDownloadableOptionInterface',
+        'giftcardItemOption' => '\Webgriffe\MagentoApiClient\Model\GiftCardDataGiftCardOptionInterface',
+        'configurableItemOptions' => '\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataConfigurableItemOptionValueInterface[]'
     ];
 
     public static function swaggerTypes()
@@ -170,7 +170,7 @@ class QuoteDataProductOptionExtensionInterface implements ArrayAccess
 
     /**
      * Gets customOptions
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCustomOptionInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataCustomOptionInterface[]
      */
     public function getCustomOptions()
     {
@@ -179,7 +179,7 @@ class QuoteDataProductOptionExtensionInterface implements ArrayAccess
 
     /**
      * Sets customOptions
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCustomOptionInterface[] $customOptions
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataCustomOptionInterface[] $customOptions
      * @return $this
      */
     public function setCustomOptions($customOptions)
@@ -191,7 +191,7 @@ class QuoteDataProductOptionExtensionInterface implements ArrayAccess
 
     /**
      * Gets bundleOptions
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataBundleOptionInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\BundleDataBundleOptionInterface[]
      */
     public function getBundleOptions()
     {
@@ -200,7 +200,7 @@ class QuoteDataProductOptionExtensionInterface implements ArrayAccess
 
     /**
      * Sets bundleOptions
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataBundleOptionInterface[] $bundleOptions
+     * @param \Webgriffe\MagentoApiClient\Model\BundleDataBundleOptionInterface[] $bundleOptions
      * @return $this
      */
     public function setBundleOptions($bundleOptions)
@@ -212,7 +212,7 @@ class QuoteDataProductOptionExtensionInterface implements ArrayAccess
 
     /**
      * Gets downloadableOption
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataDownloadableOptionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\DownloadableDataDownloadableOptionInterface
      */
     public function getDownloadableOption()
     {
@@ -221,7 +221,7 @@ class QuoteDataProductOptionExtensionInterface implements ArrayAccess
 
     /**
      * Sets downloadableOption
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataDownloadableOptionInterface $downloadableOption
+     * @param \Webgriffe\MagentoApiClient\Model\DownloadableDataDownloadableOptionInterface $downloadableOption
      * @return $this
      */
     public function setDownloadableOption($downloadableOption)
@@ -233,7 +233,7 @@ class QuoteDataProductOptionExtensionInterface implements ArrayAccess
 
     /**
      * Gets giftcardItemOption
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardDataGiftCardOptionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\GiftCardDataGiftCardOptionInterface
      */
     public function getGiftcardItemOption()
     {
@@ -242,7 +242,7 @@ class QuoteDataProductOptionExtensionInterface implements ArrayAccess
 
     /**
      * Sets giftcardItemOption
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardDataGiftCardOptionInterface $giftcardItemOption
+     * @param \Webgriffe\MagentoApiClient\Model\GiftCardDataGiftCardOptionInterface $giftcardItemOption
      * @return $this
      */
     public function setGiftcardItemOption($giftcardItemOption)
@@ -254,7 +254,7 @@ class QuoteDataProductOptionExtensionInterface implements ArrayAccess
 
     /**
      * Gets configurableItemOptions
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataConfigurableItemOptionValueInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\ConfigurableProductDataConfigurableItemOptionValueInterface[]
      */
     public function getConfigurableItemOptions()
     {
@@ -263,7 +263,7 @@ class QuoteDataProductOptionExtensionInterface implements ArrayAccess
 
     /**
      * Sets configurableItemOptions
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ConfigurableProductDataConfigurableItemOptionValueInterface[] $configurableItemOptions
+     * @param \Webgriffe\MagentoApiClient\Model\ConfigurableProductDataConfigurableItemOptionValueInterface[] $configurableItemOptions
      * @return $this
      */
     public function setConfigurableItemOptions($configurableItemOptions)

@@ -25,7 +25,7 @@ Name | Type | Description | Notes
 **rowTotalInclTax** | **float** | Row total including tax. | [optional] 
 **sku** | **string** | SKU. | 
 **taxAmount** | **float** | Tax amount. | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemExtensionInterface**](SalesDataInvoiceItemExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemExtensionInterface**](SalesDataInvoiceItemExtensionInterface.md) |  | [optional] 
 **orderItemId** | **int** | Order item ID. | 
 **qty** | **float** | Quantity. | 
 

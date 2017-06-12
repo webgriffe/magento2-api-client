@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **bundleProductOptionTypeListV1GetItemsGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataOptionTypeInterface[] bundleProductOptionTypeListV1GetItemsGet()
+> \Webgriffe\MagentoApiClient\Model\BundleDataOptionTypeInterface[] bundleProductOptionTypeListV1GetItemsGet()
 
 
 
@@ -35,7 +35,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataOptionTypeInterface[]**](../Model/BundleDataOptionTypeInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\BundleDataOptionTypeInterface[]**](../Model/BundleDataOptionTypeInterface.md)
 
 ### Authorization
 

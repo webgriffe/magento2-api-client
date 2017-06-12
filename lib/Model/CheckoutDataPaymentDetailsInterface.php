@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,9 +55,9 @@ class CheckoutDataPaymentDetailsInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'paymentMethods' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]',
-        'totals' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsExtensionInterface'
+        'paymentMethods' => '\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]',
+        'totals' => '\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -172,7 +172,7 @@ class CheckoutDataPaymentDetailsInterface implements ArrayAccess
 
     /**
      * Gets paymentMethods
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[]
      */
     public function getPaymentMethods()
     {
@@ -181,7 +181,7 @@ class CheckoutDataPaymentDetailsInterface implements ArrayAccess
 
     /**
      * Sets paymentMethods
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[] $paymentMethods
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentMethodInterface[] $paymentMethods
      * @return $this
      */
     public function setPaymentMethods($paymentMethods)
@@ -193,7 +193,7 @@ class CheckoutDataPaymentDetailsInterface implements ArrayAccess
 
     /**
      * Gets totals
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface
      */
     public function getTotals()
     {
@@ -202,7 +202,7 @@ class CheckoutDataPaymentDetailsInterface implements ArrayAccess
 
     /**
      * Sets totals
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface $totals
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface $totals
      * @return $this
      */
     public function setTotals($totals)
@@ -214,7 +214,7 @@ class CheckoutDataPaymentDetailsInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -223,7 +223,7 @@ class CheckoutDataPaymentDetailsInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

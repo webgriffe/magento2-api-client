@@ -57,7 +57,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerGroupRepositoryV1GetByIdGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface customerGroupRepositoryV1GetByIdGet($id)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface customerGroupRepositoryV1GetByIdGet($id)
 
 
 
@@ -88,7 +88,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface**](../Model/CustomerDataGroupInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface**](../Model/CustomerDataGroupInterface.md)
 
 ### Authorization
 
@@ -102,7 +102,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerGroupRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupSearchResultsInterface customerGroupRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataGroupSearchResultsInterface customerGroupRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -145,7 +145,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupSearchResultsInterface**](../Model/CustomerDataGroupSearchResultsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataGroupSearchResultsInterface**](../Model/CustomerDataGroupSearchResultsInterface.md)
 
 ### Authorization
 
@@ -159,7 +159,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerGroupRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface customerGroupRepositoryV1SavePost($body)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface customerGroupRepositoryV1SavePost($body)
 
 
 
@@ -171,7 +171,7 @@ Save customer group.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CustomerGroupRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body3(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body3 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body3(); // \Webgriffe\MagentoApiClient\Model\Body3 | 
 
 try {
     $result = $api_instance->customerGroupRepositoryV1SavePost($body);
@@ -186,11 +186,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body3**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body3.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body3**](../Model/\Webgriffe\MagentoApiClient\Model\Body3.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface**](../Model/CustomerDataGroupInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface**](../Model/CustomerDataGroupInterface.md)
 
 ### Authorization
 
@@ -204,7 +204,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerGroupRepositoryV1SavePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface customerGroupRepositoryV1SavePut($id, $body)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface customerGroupRepositoryV1SavePut($id, $body)
 
 
 
@@ -217,7 +217,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CustomerGroupRepositoryV1Api();
 $id = "id_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body2(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body2 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body2(); // \Webgriffe\MagentoApiClient\Model\Body2 | 
 
 try {
     $result = $api_instance->customerGroupRepositoryV1SavePut($id, $body);
@@ -233,11 +233,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body2**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body2.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body2**](../Model/\Webgriffe\MagentoApiClient\Model\Body2.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface**](../Model/CustomerDataGroupInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface**](../Model/CustomerDataGroupInterface.md)
 
 ### Authorization
 

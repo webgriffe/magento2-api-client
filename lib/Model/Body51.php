@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body51 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'paymentMethod' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface'
+        'paymentMethod' => '\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface'
     ];
 
     public static function swaggerTypes()
@@ -149,7 +149,7 @@ class Body51 implements ArrayAccess
 
     /**
      * Gets paymentMethod
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface
      */
     public function getPaymentMethod()
     {
@@ -158,7 +158,7 @@ class Body51 implements ArrayAccess
 
     /**
      * Sets paymentMethod
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface $paymentMethod
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataPaymentInterface $paymentMethod
      * @return $this
      */
     public function setPaymentMethod($paymentMethod)

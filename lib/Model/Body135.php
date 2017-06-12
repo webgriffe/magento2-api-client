@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body135 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'rmaDataObject' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface'
+        'rmaDataObject' => '\Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body135 implements ArrayAccess
 
     /**
      * Gets rmaDataObject
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface
+     * @return \Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface
      */
     public function getRmaDataObject()
     {
@@ -164,7 +164,7 @@ class Body135 implements ArrayAccess
 
     /**
      * Sets rmaDataObject
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface $rmaDataObject
+     * @param \Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface $rmaDataObject
      * @return $this
      */
     public function setRmaDataObject($rmaDataObject)

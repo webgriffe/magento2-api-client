@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,7 +55,7 @@ class FrameworkSearchAggregationInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'buckets' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchBucketInterface[]',
+        'buckets' => '\Webgriffe\MagentoApiClient\Model\FrameworkSearchBucketInterface[]',
         'bucketNames' => 'string[]'
     ];
 
@@ -167,7 +167,7 @@ class FrameworkSearchAggregationInterface implements ArrayAccess
 
     /**
      * Gets buckets
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchBucketInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkSearchBucketInterface[]
      */
     public function getBuckets()
     {
@@ -176,7 +176,7 @@ class FrameworkSearchAggregationInterface implements ArrayAccess
 
     /**
      * Sets buckets
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchBucketInterface[] $buckets All Document fields
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkSearchBucketInterface[] $buckets All Document fields
      * @return $this
      */
     public function setBuckets($buckets)

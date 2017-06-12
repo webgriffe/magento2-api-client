@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -58,7 +58,7 @@ class TaxDataTaxClassInterface implements ArrayAccess
         'classId' => 'int',
         'className' => 'string',
         'classType' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxClassExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\TaxDataTaxClassExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -240,7 +240,7 @@ class TaxDataTaxClassInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxClassExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\TaxDataTaxClassExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -249,7 +249,7 @@ class TaxDataTaxClassInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxClassExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\TaxDataTaxClassExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

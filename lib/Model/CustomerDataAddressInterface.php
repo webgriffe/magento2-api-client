@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -57,7 +57,7 @@ class CustomerDataAddressInterface implements ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'int',
         'customerId' => 'int',
-        'region' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataRegionInterface',
+        'region' => '\Webgriffe\MagentoApiClient\Model\CustomerDataRegionInterface',
         'regionId' => 'int',
         'countryId' => 'string',
         'street' => 'string[]',
@@ -74,8 +74,8 @@ class CustomerDataAddressInterface implements ArrayAccess
         'vatId' => 'string',
         'defaultShipping' => 'bool',
         'defaultBilling' => 'bool',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressExtensionInterface',
-        'customAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\CustomerDataAddressExtensionInterface',
+        'customAttributes' => '\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]'
     ];
 
     public static function swaggerTypes()
@@ -292,7 +292,7 @@ class CustomerDataAddressInterface implements ArrayAccess
 
     /**
      * Gets region
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataRegionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataRegionInterface
      */
     public function getRegion()
     {
@@ -301,7 +301,7 @@ class CustomerDataAddressInterface implements ArrayAccess
 
     /**
      * Sets region
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataRegionInterface $region
+     * @param \Webgriffe\MagentoApiClient\Model\CustomerDataRegionInterface $region
      * @return $this
      */
     public function setRegion($region)
@@ -649,7 +649,7 @@ class CustomerDataAddressInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataAddressExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -658,7 +658,7 @@ class CustomerDataAddressInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAddressExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\CustomerDataAddressExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)
@@ -670,7 +670,7 @@ class CustomerDataAddressInterface implements ArrayAccess
 
     /**
      * Gets customAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]
      */
     public function getCustomAttributes()
     {
@@ -679,7 +679,7 @@ class CustomerDataAddressInterface implements ArrayAccess
 
     /**
      * Sets customAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[] $customAttributes Custom attributes values.
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[] $customAttributes Custom attributes values.
      * @return $this
      */
     public function setCustomAttributes($customAttributes)

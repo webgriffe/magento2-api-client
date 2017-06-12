@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **salesOrderAddressRepositoryV1SavePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface salesOrderAddressRepositoryV1SavePut($parentId, $body)
+> \Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface salesOrderAddressRepositoryV1SavePut($parentId, $body)
 
 
 
@@ -21,7 +21,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesOrderAddressRepositoryV1Api();
 $parentId = "parentId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body74(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body74 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body74(); // \Webgriffe\MagentoApiClient\Model\Body74 | 
 
 try {
     $result = $api_instance->salesOrderAddressRepositoryV1SavePut($parentId, $body);
@@ -37,11 +37,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **parentId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body74**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body74.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body74**](../Model/\Webgriffe\MagentoApiClient\Model\Body74.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface**](../Model/SalesDataOrderAddressInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface**](../Model/SalesDataOrderAddressInterface.md)
 
 ### Authorization
 

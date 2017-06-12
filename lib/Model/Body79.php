@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body79 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'creditmemo' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface',
+        'creditmemo' => '\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface',
         'offlineRequested' => 'bool'
     ];
 
@@ -160,7 +160,7 @@ class Body79 implements ArrayAccess
 
     /**
      * Gets creditmemo
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface
      */
     public function getCreditmemo()
     {
@@ -169,7 +169,7 @@ class Body79 implements ArrayAccess
 
     /**
      * Sets creditmemo
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface $creditmemo
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoInterface $creditmemo
      * @return $this
      */
     public function setCreditmemo($creditmemo)

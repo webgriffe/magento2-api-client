@@ -5,7 +5,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **ruleId** | **int** | Rule id | [optional] 
 **name** | **string** | Rule name | [optional] 
-**storeLabels** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleLabelInterface[]**](SalesRuleDataRuleLabelInterface.md) | Display label | [optional] 
+**storeLabels** | [**\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleLabelInterface[]**](SalesRuleDataRuleLabelInterface.md) | Display label | [optional] 
 **description** | **string** | Description | [optional] 
 **websiteIds** | **int[]** | A list of websites the rule applies to | 
 **customerGroupIds** | **int[]** | Ids of customer groups that the rule applies to | 
@@ -13,8 +13,8 @@ Name | Type | Description | Notes
 **toDate** | **string** | The end date when the coupon is active | [optional] 
 **usesPerCustomer** | **int** | Number of uses per customer | 
 **isActive** | **bool** | The coupon is active | 
-**condition** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface**](SalesRuleDataConditionInterface.md) |  | [optional] 
-**actionCondition** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface**](SalesRuleDataConditionInterface.md) |  | [optional] 
+**condition** | [**\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface**](SalesRuleDataConditionInterface.md) |  | [optional] 
+**actionCondition** | [**\Webgriffe\MagentoApiClient\Model\SalesRuleDataConditionInterface**](SalesRuleDataConditionInterface.md) |  | [optional] 
 **stopRulesProcessing** | **bool** | To stop rule processing | 
 **isAdvanced** | **bool** | Is this field needed | 
 **productIds** | **int[]** | Product ids | [optional] 
@@ -30,7 +30,7 @@ Name | Type | Description | Notes
 **useAutoGeneration** | **bool** | To auto generate coupon | 
 **usesPerCoupon** | **int** | Limit of uses per coupon | 
 **simpleFreeShipping** | **string** | To grant free shipping | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleExtensionInterface**](SalesRuleDataRuleExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesRuleDataRuleExtensionInterface**](SalesRuleDataRuleExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

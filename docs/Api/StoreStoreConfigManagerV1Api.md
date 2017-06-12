@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **storeStoreConfigManagerV1GetStoreConfigsGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\StoreDataStoreConfigInterface[] storeStoreConfigManagerV1GetStoreConfigsGet($storeCodes)
+> \Webgriffe\MagentoApiClient\Model\StoreDataStoreConfigInterface[] storeStoreConfigManagerV1GetStoreConfigsGet($storeCodes)
 
 
 
@@ -39,7 +39,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\StoreDataStoreConfigInterface[]**](../Model/StoreDataStoreConfigInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\StoreDataStoreConfigInterface[]**](../Model/StoreDataStoreConfigInterface.md)
 
 ### Authorization
 

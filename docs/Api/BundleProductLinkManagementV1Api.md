@@ -25,7 +25,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 $api_instance = new Webgriffe\MagentoApiClient\Api\BundleProductLinkManagementV1Api();
 $sku = "sku_example"; // string | 
 $optionId = 56; // int | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body42(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body42 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body42(); // \Webgriffe\MagentoApiClient\Model\Body42 | 
 
 try {
     $result = $api_instance->bundleProductLinkManagementV1AddChildByProductSkuPost($sku, $optionId, $body);
@@ -42,7 +42,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **sku** | **string**|  |
  **optionId** | **int**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body42**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body42.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body42**](../Model/\Webgriffe\MagentoApiClient\Model\Body42.md)|  | [optional]
 
 ### Return type
 
@@ -60,7 +60,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **bundleProductLinkManagementV1GetChildrenGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataLinkInterface[] bundleProductLinkManagementV1GetChildrenGet($productSku, $optionId)
+> \Webgriffe\MagentoApiClient\Model\BundleDataLinkInterface[] bundleProductLinkManagementV1GetChildrenGet($productSku, $optionId)
 
 
 
@@ -93,7 +93,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataLinkInterface[]**](../Model/BundleDataLinkInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\BundleDataLinkInterface[]**](../Model/BundleDataLinkInterface.md)
 
 ### Authorization
 
@@ -170,7 +170,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 $api_instance = new Webgriffe\MagentoApiClient\Api\BundleProductLinkManagementV1Api();
 $sku = "sku_example"; // string | 
 $id = "id_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body43(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body43 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body43(); // \Webgriffe\MagentoApiClient\Model\Body43 | 
 
 try {
     $result = $api_instance->bundleProductLinkManagementV1SaveChildPut($sku, $id, $body);
@@ -187,7 +187,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **sku** | **string**|  |
  **id** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body43**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body43.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body43**](../Model/\Webgriffe\MagentoApiClient\Model\Body43.md)|  | [optional]
 
 ### Return type
 

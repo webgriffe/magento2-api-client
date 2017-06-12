@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -62,7 +62,7 @@ class SalesDataShipmentInterface implements ArrayAccess
         'entityId' => 'int',
         'incrementId' => 'string',
         'orderId' => 'int',
-        'packages' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentPackageInterface[]',
+        'packages' => '\Webgriffe\MagentoApiClient\Model\SalesDataShipmentPackageInterface[]',
         'shipmentStatus' => 'int',
         'shippingAddressId' => 'int',
         'shippingLabel' => 'string',
@@ -70,10 +70,10 @@ class SalesDataShipmentInterface implements ArrayAccess
         'totalQty' => 'float',
         'totalWeight' => 'float',
         'updatedAt' => 'string',
-        'items' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemInterface[]',
-        'tracks' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackInterface[]',
-        'comments' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentInterface[]',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentExtensionInterface'
+        'items' => '\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemInterface[]',
+        'tracks' => '\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackInterface[]',
+        'comments' => '\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentInterface[]',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataShipmentExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -411,7 +411,7 @@ class SalesDataShipmentInterface implements ArrayAccess
 
     /**
      * Gets packages
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentPackageInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShipmentPackageInterface[]
      */
     public function getPackages()
     {
@@ -420,7 +420,7 @@ class SalesDataShipmentInterface implements ArrayAccess
 
     /**
      * Sets packages
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentPackageInterface[] $packages Array of packages, if any. Otherwise, null.
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShipmentPackageInterface[] $packages Array of packages, if any. Otherwise, null.
      * @return $this
      */
     public function setPackages($packages)
@@ -579,7 +579,7 @@ class SalesDataShipmentInterface implements ArrayAccess
 
     /**
      * Gets items
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemInterface[]
      */
     public function getItems()
     {
@@ -588,7 +588,7 @@ class SalesDataShipmentInterface implements ArrayAccess
 
     /**
      * Sets items
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemInterface[] $items Array of items.
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemInterface[] $items Array of items.
      * @return $this
      */
     public function setItems($items)
@@ -600,7 +600,7 @@ class SalesDataShipmentInterface implements ArrayAccess
 
     /**
      * Gets tracks
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackInterface[]
      */
     public function getTracks()
     {
@@ -609,7 +609,7 @@ class SalesDataShipmentInterface implements ArrayAccess
 
     /**
      * Sets tracks
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackInterface[] $tracks Array of tracks.
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackInterface[] $tracks Array of tracks.
      * @return $this
      */
     public function setTracks($tracks)
@@ -621,7 +621,7 @@ class SalesDataShipmentInterface implements ArrayAccess
 
     /**
      * Gets comments
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentInterface[]
      */
     public function getComments()
     {
@@ -630,7 +630,7 @@ class SalesDataShipmentInterface implements ArrayAccess
 
     /**
      * Sets comments
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentInterface[] $comments Array of comments.
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentInterface[] $comments Array of comments.
      * @return $this
      */
     public function setComments($comments)
@@ -642,7 +642,7 @@ class SalesDataShipmentInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShipmentExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -651,7 +651,7 @@ class SalesDataShipmentInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShipmentExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

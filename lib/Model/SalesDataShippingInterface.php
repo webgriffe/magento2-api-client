@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,10 +55,10 @@ class SalesDataShippingInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'address' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface',
+        'address' => '\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface',
         'method' => 'string',
-        'total' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataTotalInterface',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShippingExtensionInterface'
+        'total' => '\Webgriffe\MagentoApiClient\Model\SalesDataTotalInterface',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataShippingExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -165,7 +165,7 @@ class SalesDataShippingInterface implements ArrayAccess
 
     /**
      * Gets address
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface
      */
     public function getAddress()
     {
@@ -174,7 +174,7 @@ class SalesDataShippingInterface implements ArrayAccess
 
     /**
      * Sets address
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface $address
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressInterface $address
      * @return $this
      */
     public function setAddress($address)
@@ -207,7 +207,7 @@ class SalesDataShippingInterface implements ArrayAccess
 
     /**
      * Gets total
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataTotalInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataTotalInterface
      */
     public function getTotal()
     {
@@ -216,7 +216,7 @@ class SalesDataShippingInterface implements ArrayAccess
 
     /**
      * Sets total
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataTotalInterface $total
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataTotalInterface $total
      * @return $this
      */
     public function setTotal($total)
@@ -228,7 +228,7 @@ class SalesDataShippingInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShippingExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShippingExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -237,7 +237,7 @@ class SalesDataShippingInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShippingExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShippingExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

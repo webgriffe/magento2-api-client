@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -58,7 +58,7 @@ class DirectoryDataRegionInformationInterface implements ArrayAccess
         'id' => 'string',
         'code' => 'string',
         'name' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataRegionInformationExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\DirectoryDataRegionInformationExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -246,7 +246,7 @@ class DirectoryDataRegionInformationInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataRegionInformationExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\DirectoryDataRegionInformationExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -255,7 +255,7 @@ class DirectoryDataRegionInformationInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataRegionInformationExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\DirectoryDataRegionInformationExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

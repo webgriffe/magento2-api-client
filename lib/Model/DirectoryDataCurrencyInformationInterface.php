@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -60,8 +60,8 @@ class DirectoryDataCurrencyInformationInterface implements ArrayAccess
         'defaultDisplayCurrencyCode' => 'string',
         'defaultDisplayCurrencySymbol' => 'string',
         'availableCurrencyCodes' => 'string[]',
-        'exchangeRates' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataExchangeRateInterface[]',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationExtensionInterface'
+        'exchangeRates' => '\Webgriffe\MagentoApiClient\Model\DirectoryDataExchangeRateInterface[]',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -321,7 +321,7 @@ class DirectoryDataCurrencyInformationInterface implements ArrayAccess
 
     /**
      * Gets exchangeRates
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataExchangeRateInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\DirectoryDataExchangeRateInterface[]
      */
     public function getExchangeRates()
     {
@@ -330,7 +330,7 @@ class DirectoryDataCurrencyInformationInterface implements ArrayAccess
 
     /**
      * Sets exchangeRates
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataExchangeRateInterface[] $exchangeRates The list of exchange rate information for the store.
+     * @param \Webgriffe\MagentoApiClient\Model\DirectoryDataExchangeRateInterface[] $exchangeRates The list of exchange rate information for the store.
      * @return $this
      */
     public function setExchangeRates($exchangeRates)
@@ -342,7 +342,7 @@ class DirectoryDataCurrencyInformationInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -351,7 +351,7 @@ class DirectoryDataCurrencyInformationInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\DirectoryDataCurrencyInformationExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

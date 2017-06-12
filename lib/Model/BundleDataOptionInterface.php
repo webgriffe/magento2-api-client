@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -61,8 +61,8 @@ class BundleDataOptionInterface implements ArrayAccess
         'type' => 'string',
         'position' => 'int',
         'sku' => 'string',
-        'productLinks' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataLinkInterface[]',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataOptionExtensionInterface'
+        'productLinks' => '\Webgriffe\MagentoApiClient\Model\BundleDataLinkInterface[]',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\BundleDataOptionExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -311,7 +311,7 @@ class BundleDataOptionInterface implements ArrayAccess
 
     /**
      * Gets productLinks
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataLinkInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\BundleDataLinkInterface[]
      */
     public function getProductLinks()
     {
@@ -320,7 +320,7 @@ class BundleDataOptionInterface implements ArrayAccess
 
     /**
      * Sets productLinks
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataLinkInterface[] $productLinks Product links
+     * @param \Webgriffe\MagentoApiClient\Model\BundleDataLinkInterface[] $productLinks Product links
      * @return $this
      */
     public function setProductLinks($productLinks)
@@ -332,7 +332,7 @@ class BundleDataOptionInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataOptionExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\BundleDataOptionExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -341,7 +341,7 @@ class BundleDataOptionInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataOptionExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\BundleDataOptionExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

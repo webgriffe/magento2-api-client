@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentCreationExtensionInterface**](SalesDataCreditmemoCommentCreationExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentCreationExtensionInterface**](SalesDataCreditmemoCommentCreationExtensionInterface.md) |  | [optional] 
 **comment** | **string** | Comment. | 
 **isVisibleOnFront** | **int** | Is-visible-on-storefront flag value. | 
 

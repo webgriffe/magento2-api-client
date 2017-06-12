@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **suffix** | **string** | The suffix | [optional] 
 **delimiterAtEvery** | **int** | The spacing where the delimiter should exist | [optional] 
 **delimiter** | **string** | The delimiter | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponGenerationSpecExtensionInterface**](SalesRuleDataCouponGenerationSpecExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponGenerationSpecExtensionInterface**](SalesRuleDataCouponGenerationSpecExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

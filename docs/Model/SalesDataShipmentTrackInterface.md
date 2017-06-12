@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **weight** | **float** | Weight. | 
 **qty** | **float** | Quantity. | 
 **description** | **string** | Description. | 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackExtensionInterface**](SalesDataShipmentTrackExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackExtensionInterface**](SalesDataShipmentTrackExtensionInterface.md) |  | [optional] 
 **trackNumber** | **string** | Track number. | 
 **title** | **string** | Title. | 
 **carrierCode** | **string** | Carrier code. | 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -61,20 +61,20 @@ class QuoteDataCartInterface implements ArrayAccess
         'convertedAt' => 'string',
         'isActive' => 'bool',
         'isVirtual' => 'bool',
-        'items' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]',
+        'items' => '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]',
         'itemsCount' => 'int',
         'itemsQty' => 'float',
-        'customer' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface',
-        'billingAddress' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface',
+        'customer' => '\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface',
+        'billingAddress' => '\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface',
         'reservedOrderId' => 'int',
         'origOrderId' => 'int',
-        'currency' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCurrencyInterface',
+        'currency' => '\Webgriffe\MagentoApiClient\Model\QuoteDataCurrencyInterface',
         'customerIsGuest' => 'bool',
         'customerNote' => 'string',
         'customerNoteNotify' => 'bool',
         'customerTaxClassId' => 'int',
         'storeId' => 'int',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\QuoteDataCartExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -389,7 +389,7 @@ class QuoteDataCartInterface implements ArrayAccess
 
     /**
      * Gets items
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[]
      */
     public function getItems()
     {
@@ -398,7 +398,7 @@ class QuoteDataCartInterface implements ArrayAccess
 
     /**
      * Sets items
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[] $items Array of items. Otherwise, null.
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface[] $items Array of items. Otherwise, null.
      * @return $this
      */
     public function setItems($items)
@@ -452,7 +452,7 @@ class QuoteDataCartInterface implements ArrayAccess
 
     /**
      * Gets customer
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface
      */
     public function getCustomer()
     {
@@ -461,7 +461,7 @@ class QuoteDataCartInterface implements ArrayAccess
 
     /**
      * Sets customer
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface $customer
+     * @param \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface $customer
      * @return $this
      */
     public function setCustomer($customer)
@@ -473,7 +473,7 @@ class QuoteDataCartInterface implements ArrayAccess
 
     /**
      * Gets billingAddress
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface
      */
     public function getBillingAddress()
     {
@@ -482,7 +482,7 @@ class QuoteDataCartInterface implements ArrayAccess
 
     /**
      * Sets billingAddress
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface $billingAddress
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface $billingAddress
      * @return $this
      */
     public function setBillingAddress($billingAddress)
@@ -536,7 +536,7 @@ class QuoteDataCartInterface implements ArrayAccess
 
     /**
      * Gets currency
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCurrencyInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataCurrencyInterface
      */
     public function getCurrency()
     {
@@ -545,7 +545,7 @@ class QuoteDataCartInterface implements ArrayAccess
 
     /**
      * Sets currency
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCurrencyInterface $currency
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataCurrencyInterface $currency
      * @return $this
      */
     public function setCurrency($currency)
@@ -662,7 +662,7 @@ class QuoteDataCartInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataCartExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -671,7 +671,7 @@ class QuoteDataCartInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataCartExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

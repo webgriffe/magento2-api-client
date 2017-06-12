@@ -61,7 +61,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductTierPriceManagementV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductTierPriceInterface[] catalogProductTierPriceManagementV1GetListGet($sku, $customerGroupId)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductTierPriceInterface[] catalogProductTierPriceManagementV1GetListGet($sku, $customerGroupId)
 
 
 
@@ -94,7 +94,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductTierPriceInterface[]**](../Model/CatalogDataProductTierPriceInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductTierPriceInterface[]**](../Model/CatalogDataProductTierPriceInterface.md)
 
 ### Authorization
 

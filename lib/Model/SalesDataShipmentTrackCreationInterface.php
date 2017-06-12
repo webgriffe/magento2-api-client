@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,7 +55,7 @@ class SalesDataShipmentTrackCreationInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackCreationExtensionInterface',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackCreationExtensionInterface',
         'trackNumber' => 'string',
         'title' => 'string',
         'carrierCode' => 'string'
@@ -183,7 +183,7 @@ class SalesDataShipmentTrackCreationInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackCreationExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackCreationExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -192,7 +192,7 @@ class SalesDataShipmentTrackCreationInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackCreationExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackCreationExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

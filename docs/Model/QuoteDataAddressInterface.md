@@ -25,8 +25,8 @@ Name | Type | Description | Notes
 **sameAsBilling** | **int** | Same as billing flag | [optional] 
 **customerAddressId** | **int** | Customer address id | [optional] 
 **saveInAddressBook** | **int** | Save in address book flag | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressExtensionInterface**](QuoteDataAddressExtensionInterface.md) |  | [optional] 
-**customAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]**](FrameworkAttributeInterface.md) | Custom attributes values. | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\QuoteDataAddressExtensionInterface**](QuoteDataAddressExtensionInterface.md) |  | [optional] 
+**customAttributes** | [**\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]**](FrameworkAttributeInterface.md) | Custom attributes values. | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

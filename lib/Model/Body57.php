@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body57 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'cartItem' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface'
+        'cartItem' => '\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body57 implements ArrayAccess
 
     /**
      * Gets cartItem
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface
      */
     public function getCartItem()
     {
@@ -164,7 +164,7 @@ class Body57 implements ArrayAccess
 
     /**
      * Sets cartItem
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface $cartItem
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataCartItemInterface $cartItem
      * @return $this
      */
     public function setCartItem($cartItem)

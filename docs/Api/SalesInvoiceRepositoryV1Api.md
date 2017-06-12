@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **salesInvoiceRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceInterface salesInvoiceRepositoryV1GetGet($id)
+> \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceInterface salesInvoiceRepositoryV1GetGet($id)
 
 
 
@@ -41,7 +41,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceInterface**](../Model/SalesDataInvoiceInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceInterface**](../Model/SalesDataInvoiceInterface.md)
 
 ### Authorization
 
@@ -55,7 +55,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesInvoiceRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceSearchResultInterface salesInvoiceRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceSearchResultInterface salesInvoiceRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -98,7 +98,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceSearchResultInterface**](../Model/SalesDataInvoiceSearchResultInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceSearchResultInterface**](../Model/SalesDataInvoiceSearchResultInterface.md)
 
 ### Authorization
 
@@ -112,7 +112,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesInvoiceRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceInterface salesInvoiceRepositoryV1SavePost($body)
+> \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceInterface salesInvoiceRepositoryV1SavePost($body)
 
 
 
@@ -124,7 +124,7 @@ Performs persist operations for a specified invoice.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesInvoiceRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body75(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body75 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body75(); // \Webgriffe\MagentoApiClient\Model\Body75 | 
 
 try {
     $result = $api_instance->salesInvoiceRepositoryV1SavePost($body);
@@ -139,11 +139,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body75**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body75.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body75**](../Model/\Webgriffe\MagentoApiClient\Model\Body75.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceInterface**](../Model/SalesDataInvoiceInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceInterface**](../Model/SalesDataInvoiceInterface.md)
 
 ### Authorization
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body104 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'link' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataLinkInterface',
+        'link' => '\Webgriffe\MagentoApiClient\Model\DownloadableDataLinkInterface',
         'isGlobalScopeContent' => 'bool'
     ];
 
@@ -160,7 +160,7 @@ class Body104 implements ArrayAccess
 
     /**
      * Gets link
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataLinkInterface
+     * @return \Webgriffe\MagentoApiClient\Model\DownloadableDataLinkInterface
      */
     public function getLink()
     {
@@ -169,7 +169,7 @@ class Body104 implements ArrayAccess
 
     /**
      * Sets link
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataLinkInterface $link
+     * @param \Webgriffe\MagentoApiClient\Model\DownloadableDataLinkInterface $link
      * @return $this
      */
     public function setLink($link)

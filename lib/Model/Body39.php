@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body39 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'productWebsiteLink' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductWebsiteLinkInterface'
+        'productWebsiteLink' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductWebsiteLinkInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body39 implements ArrayAccess
 
     /**
      * Gets productWebsiteLink
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductWebsiteLinkInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductWebsiteLinkInterface
      */
     public function getProductWebsiteLink()
     {
@@ -164,7 +164,7 @@ class Body39 implements ArrayAccess
 
     /**
      * Sets productWebsiteLink
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductWebsiteLinkInterface $productWebsiteLink
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductWebsiteLinkInterface $productWebsiteLink
      * @return $this
      */
     public function setProductWebsiteLink($productWebsiteLink)

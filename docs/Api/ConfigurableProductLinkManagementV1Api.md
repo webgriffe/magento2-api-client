@@ -23,7 +23,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\ConfigurableProductLinkManagementV1Api();
 $sku = "sku_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body108(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body108 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body108(); // \Webgriffe\MagentoApiClient\Model\Body108 | 
 
 try {
     $result = $api_instance->configurableProductLinkManagementV1AddChildPost($sku, $body);
@@ -39,7 +39,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **sku** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body108**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body108.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body108**](../Model/\Webgriffe\MagentoApiClient\Model\Body108.md)|  | [optional]
 
 ### Return type
 
@@ -57,7 +57,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **configurableProductLinkManagementV1GetChildrenGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface[] configurableProductLinkManagementV1GetChildrenGet($sku)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface[] configurableProductLinkManagementV1GetChildrenGet($sku)
 
 
 
@@ -88,7 +88,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface[]**](../Model/CatalogDataProductInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface[]**](../Model/CatalogDataProductInterface.md)
 
 ### Authorization
 

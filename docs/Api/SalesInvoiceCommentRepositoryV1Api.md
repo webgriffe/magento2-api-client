@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **salesInvoiceCommentRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentInterface salesInvoiceCommentRepositoryV1SavePost($body)
+> \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentInterface salesInvoiceCommentRepositoryV1SavePost($body)
 
 
 
@@ -20,7 +20,7 @@ Performs persist operations for a specified invoice comment.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesInvoiceCommentRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body76(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body76 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body76(); // \Webgriffe\MagentoApiClient\Model\Body76 | 
 
 try {
     $result = $api_instance->salesInvoiceCommentRepositoryV1SavePost($body);
@@ -35,11 +35,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body76**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body76.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body76**](../Model/\Webgriffe\MagentoApiClient\Model\Body76.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentInterface**](../Model/SalesDataInvoiceCommentInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentInterface**](../Model/SalesDataInvoiceCommentInterface.md)
 
 ### Authorization
 

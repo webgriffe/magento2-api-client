@@ -57,7 +57,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **cmsBlockRepositoryV1GetByIdGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface cmsBlockRepositoryV1GetByIdGet($blockId)
+> \Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface cmsBlockRepositoryV1GetByIdGet($blockId)
 
 
 
@@ -88,7 +88,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface**](../Model/CmsDataBlockInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface**](../Model/CmsDataBlockInterface.md)
 
 ### Authorization
 
@@ -102,7 +102,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **cmsBlockRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CmsDataBlockSearchResultsInterface cmsBlockRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\CmsDataBlockSearchResultsInterface cmsBlockRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -145,7 +145,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CmsDataBlockSearchResultsInterface**](../Model/CmsDataBlockSearchResultsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CmsDataBlockSearchResultsInterface**](../Model/CmsDataBlockSearchResultsInterface.md)
 
 ### Authorization
 
@@ -159,7 +159,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **cmsBlockRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface cmsBlockRepositoryV1SavePost($body)
+> \Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface cmsBlockRepositoryV1SavePost($body)
 
 
 
@@ -171,7 +171,7 @@ Save block.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CmsBlockRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body16(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body16 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body16(); // \Webgriffe\MagentoApiClient\Model\Body16 | 
 
 try {
     $result = $api_instance->cmsBlockRepositoryV1SavePost($body);
@@ -186,11 +186,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body16**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body16.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body16**](../Model/\Webgriffe\MagentoApiClient\Model\Body16.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface**](../Model/CmsDataBlockInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface**](../Model/CmsDataBlockInterface.md)
 
 ### Authorization
 
@@ -204,7 +204,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **cmsBlockRepositoryV1SavePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface cmsBlockRepositoryV1SavePut($id, $body)
+> \Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface cmsBlockRepositoryV1SavePut($id, $body)
 
 
 
@@ -217,7 +217,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CmsBlockRepositoryV1Api();
 $id = "id_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body17(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body17 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body17(); // \Webgriffe\MagentoApiClient\Model\Body17 | 
 
 try {
     $result = $api_instance->cmsBlockRepositoryV1SavePut($id, $body);
@@ -233,11 +233,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body17**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body17.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body17**](../Model/\Webgriffe\MagentoApiClient\Model\Body17.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface**](../Model/CmsDataBlockInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CmsDataBlockInterface**](../Model/CmsDataBlockInterface.md)
 
 ### Authorization
 

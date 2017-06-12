@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body23 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'attributeSet' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface',
+        'attributeSet' => '\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface',
         'skeletonId' => 'int'
     ];
 
@@ -166,7 +166,7 @@ class Body23 implements ArrayAccess
 
     /**
      * Gets attributeSet
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface
+     * @return \Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface
      */
     public function getAttributeSet()
     {
@@ -175,7 +175,7 @@ class Body23 implements ArrayAccess
 
     /**
      * Sets attributeSet
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface $attributeSet
+     * @param \Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface $attributeSet
      * @return $this
      */
     public function setAttributeSet($attributeSet)

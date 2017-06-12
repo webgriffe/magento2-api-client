@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **checkoutAgreementsCheckoutAgreementsRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutAgreementsDataAgreementInterface[] checkoutAgreementsCheckoutAgreementsRepositoryV1GetListGet()
+> \Webgriffe\MagentoApiClient\Model\CheckoutAgreementsDataAgreementInterface[] checkoutAgreementsCheckoutAgreementsRepositoryV1GetListGet()
 
 
 
@@ -35,7 +35,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutAgreementsDataAgreementInterface[]**](../Model/CheckoutAgreementsDataAgreementInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CheckoutAgreementsDataAgreementInterface[]**](../Model/CheckoutAgreementsDataAgreementInterface.md)
 
 ### Authorization
 

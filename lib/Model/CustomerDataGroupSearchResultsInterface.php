@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,8 +55,8 @@ class CustomerDataGroupSearchResultsInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'items' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface[]',
-        'searchCriteria' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchCriteriaInterface',
+        'items' => '\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface[]',
+        'searchCriteria' => '\Webgriffe\MagentoApiClient\Model\FrameworkSearchCriteriaInterface',
         'totalCount' => 'int'
     ];
 
@@ -178,7 +178,7 @@ class CustomerDataGroupSearchResultsInterface implements ArrayAccess
 
     /**
      * Gets items
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface[]
      */
     public function getItems()
     {
@@ -187,7 +187,7 @@ class CustomerDataGroupSearchResultsInterface implements ArrayAccess
 
     /**
      * Sets items
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface[] $items Customer groups list.
+     * @param \Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface[] $items Customer groups list.
      * @return $this
      */
     public function setItems($items)
@@ -199,7 +199,7 @@ class CustomerDataGroupSearchResultsInterface implements ArrayAccess
 
     /**
      * Gets searchCriteria
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchCriteriaInterface
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkSearchCriteriaInterface
      */
     public function getSearchCriteria()
     {
@@ -208,7 +208,7 @@ class CustomerDataGroupSearchResultsInterface implements ArrayAccess
 
     /**
      * Sets searchCriteria
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkSearchCriteriaInterface $searchCriteria
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkSearchCriteriaInterface $searchCriteria
      * @return $this
      */
     public function setSearchCriteria($searchCriteria)

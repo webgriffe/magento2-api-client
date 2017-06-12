@@ -25,7 +25,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogProductAttributeMediaGalleryManagementV1Api();
 $sku = "sku_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body29(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body29 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body29(); // \Webgriffe\MagentoApiClient\Model\Body29 | 
 
 try {
     $result = $api_instance->catalogProductAttributeMediaGalleryManagementV1CreatePost($sku, $body);
@@ -41,7 +41,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **sku** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body29**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body29.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body29**](../Model/\Webgriffe\MagentoApiClient\Model\Body29.md)|  | [optional]
 
 ### Return type
 
@@ -59,7 +59,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductAttributeMediaGalleryManagementV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface catalogProductAttributeMediaGalleryManagementV1GetGet($sku, $entryId)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface catalogProductAttributeMediaGalleryManagementV1GetGet($sku, $entryId)
 
 
 
@@ -92,7 +92,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface**](../Model/CatalogDataProductAttributeMediaGalleryEntryInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface**](../Model/CatalogDataProductAttributeMediaGalleryEntryInterface.md)
 
 ### Authorization
 
@@ -106,7 +106,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductAttributeMediaGalleryManagementV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface[] catalogProductAttributeMediaGalleryManagementV1GetListGet($sku)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface[] catalogProductAttributeMediaGalleryManagementV1GetListGet($sku)
 
 
 
@@ -137,7 +137,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface[]**](../Model/CatalogDataProductAttributeMediaGalleryEntryInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface[]**](../Model/CatalogDataProductAttributeMediaGalleryEntryInterface.md)
 
 ### Authorization
 
@@ -212,7 +212,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogProductAttributeMediaGalleryManagementV1Api();
 $sku = "sku_example"; // string | 
 $entryId = "entryId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body28(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body28 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body28(); // \Webgriffe\MagentoApiClient\Model\Body28 | 
 
 try {
     $result = $api_instance->catalogProductAttributeMediaGalleryManagementV1UpdatePut($sku, $entryId, $body);
@@ -229,7 +229,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **sku** | **string**|  |
  **entryId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body28**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body28.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body28**](../Model/\Webgriffe\MagentoApiClient\Model\Body28.md)|  | [optional]
 
 ### Return type
 

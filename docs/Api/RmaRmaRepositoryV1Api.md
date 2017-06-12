@@ -22,7 +22,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\RmaRmaRepositoryV1Api();
 $id = "id_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body133(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body133 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body133(); // \Webgriffe\MagentoApiClient\Model\Body133 | 
 
 try {
     $result = $api_instance->rmaRmaRepositoryV1DeleteDelete($id, $body);
@@ -38,7 +38,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body133**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body133.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body133**](../Model/\Webgriffe\MagentoApiClient\Model\Body133.md)|  | [optional]
 
 ### Return type
 
@@ -56,7 +56,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **rmaRmaRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface rmaRmaRepositoryV1GetGet($id)
+> \Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface rmaRmaRepositoryV1GetGet($id)
 
 
 
@@ -87,7 +87,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface**](../Model/RmaDataRmaInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\RmaDataRmaInterface**](../Model/RmaDataRmaInterface.md)
 
 ### Authorization
 

@@ -3,13 +3,13 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**shippingAssignments** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShippingAssignmentInterface[]**](SalesDataShippingAssignmentInterface.md) |  | [optional] 
-**appliedTaxes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxInterface[]**](TaxDataOrderTaxDetailsAppliedTaxInterface.md) |  | [optional] 
-**itemAppliedTaxes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsItemInterface[]**](TaxDataOrderTaxDetailsItemInterface.md) |  | [optional] 
+**shippingAssignments** | [**\Webgriffe\MagentoApiClient\Model\SalesDataShippingAssignmentInterface[]**](SalesDataShippingAssignmentInterface.md) |  | [optional] 
+**appliedTaxes** | [**\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxInterface[]**](TaxDataOrderTaxDetailsAppliedTaxInterface.md) |  | [optional] 
+**itemAppliedTaxes** | [**\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsItemInterface[]**](TaxDataOrderTaxDetailsItemInterface.md) |  | [optional] 
 **convertingFromQuote** | **bool** |  | [optional] 
 **baseCustomerBalanceAmount** | **float** |  | [optional] 
 **customerBalanceAmount** | **float** |  | [optional] 
-**giftMessage** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface**](GiftMessageDataMessageInterface.md) |  | [optional] 
+**giftMessage** | [**\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface**](GiftMessageDataMessageInterface.md) |  | [optional] 
 **gwId** | **string** |  | [optional] 
 **gwAllowGiftReceipt** | **string** |  | [optional] 
 **gwAddCard** | **string** |  | [optional] 

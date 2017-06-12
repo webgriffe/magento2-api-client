@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -99,9 +99,9 @@ class SalesDataInvoiceInterface implements ArrayAccess
         'totalQty' => 'float',
         'transactionId' => 'string',
         'updatedAt' => 'string',
-        'items' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemInterface[]',
-        'comments' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentInterface[]',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceExtensionInterface'
+        'items' => '\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemInterface[]',
+        'comments' => '\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentInterface[]',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -1322,7 +1322,7 @@ class SalesDataInvoiceInterface implements ArrayAccess
 
     /**
      * Gets items
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemInterface[]
      */
     public function getItems()
     {
@@ -1331,7 +1331,7 @@ class SalesDataInvoiceInterface implements ArrayAccess
 
     /**
      * Sets items
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemInterface[] $items Array of invoice items.
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemInterface[] $items Array of invoice items.
      * @return $this
      */
     public function setItems($items)
@@ -1343,7 +1343,7 @@ class SalesDataInvoiceInterface implements ArrayAccess
 
     /**
      * Gets comments
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentInterface[]
      */
     public function getComments()
     {
@@ -1352,7 +1352,7 @@ class SalesDataInvoiceInterface implements ArrayAccess
 
     /**
      * Sets comments
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentInterface[] $comments Array of any invoice comments. Otherwise, null.
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentInterface[] $comments Array of any invoice comments. Otherwise, null.
      * @return $this
      */
     public function setComments($comments)
@@ -1364,7 +1364,7 @@ class SalesDataInvoiceInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -1373,7 +1373,7 @@ class SalesDataInvoiceInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

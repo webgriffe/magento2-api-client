@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **checkoutTotalsInformationManagementV1CalculatePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface checkoutTotalsInformationManagementV1CalculatePost($cartId, $body)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface checkoutTotalsInformationManagementV1CalculatePost($cartId, $body)
 
 
 
@@ -22,7 +22,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CheckoutTotalsInformationManagementV1Api();
 $cartId = 56; // int | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body97(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body97 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body97(); // \Webgriffe\MagentoApiClient\Model\Body97 | 
 
 try {
     $result = $api_instance->checkoutTotalsInformationManagementV1CalculatePost($cartId, $body);
@@ -38,11 +38,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **int**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body97**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body97.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body97**](../Model/\Webgriffe\MagentoApiClient\Model\Body97.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface**](../Model/QuoteDataTotalsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface**](../Model/QuoteDataTotalsInterface.md)
 
 ### Authorization
 
@@ -56,7 +56,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **checkoutTotalsInformationManagementV1CalculatePost_0**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface checkoutTotalsInformationManagementV1CalculatePost_0($body)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface checkoutTotalsInformationManagementV1CalculatePost_0($body)
 
 
 
@@ -68,7 +68,7 @@ Calculate quote totals based on address and shipping method.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CheckoutTotalsInformationManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body98(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body98 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body98(); // \Webgriffe\MagentoApiClient\Model\Body98 | 
 
 try {
     $result = $api_instance->checkoutTotalsInformationManagementV1CalculatePost_0($body);
@@ -83,11 +83,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body98**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body98.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body98**](../Model/\Webgriffe\MagentoApiClient\Model\Body98.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface**](../Model/QuoteDataTotalsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface**](../Model/QuoteDataTotalsInterface.md)
 
 ### Authorization
 

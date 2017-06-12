@@ -11,7 +11,7 @@ Method | HTTP request | Description
 
 
 # **salesOrderRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderInterface salesOrderRepositoryV1GetGet($id)
+> \Webgriffe\MagentoApiClient\Model\SalesDataOrderInterface salesOrderRepositoryV1GetGet($id)
 
 
 
@@ -42,7 +42,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderInterface**](../Model/SalesDataOrderInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataOrderInterface**](../Model/SalesDataOrderInterface.md)
 
 ### Authorization
 
@@ -56,7 +56,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderSearchResultInterface salesOrderRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\SalesDataOrderSearchResultInterface salesOrderRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -99,7 +99,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderSearchResultInterface**](../Model/SalesDataOrderSearchResultInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataOrderSearchResultInterface**](../Model/SalesDataOrderSearchResultInterface.md)
 
 ### Authorization
 
@@ -113,7 +113,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderInterface salesOrderRepositoryV1SavePost($body)
+> \Webgriffe\MagentoApiClient\Model\SalesDataOrderInterface salesOrderRepositoryV1SavePost($body)
 
 
 
@@ -125,7 +125,7 @@ Performs persist operations for a specified order.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesOrderRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body72(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body72 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body72(); // \Webgriffe\MagentoApiClient\Model\Body72 | 
 
 try {
     $result = $api_instance->salesOrderRepositoryV1SavePost($body);
@@ -140,11 +140,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body72**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body72.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body72**](../Model/\Webgriffe\MagentoApiClient\Model\Body72.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderInterface**](../Model/SalesDataOrderInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataOrderInterface**](../Model/SalesDataOrderInterface.md)
 
 ### Authorization
 
@@ -158,7 +158,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderRepositoryV1SavePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderInterface salesOrderRepositoryV1SavePut($body)
+> \Webgriffe\MagentoApiClient\Model\SalesDataOrderInterface salesOrderRepositoryV1SavePut($body)
 
 
 
@@ -170,7 +170,7 @@ Performs persist operations for a specified order.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesOrderRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body71(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body71 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body71(); // \Webgriffe\MagentoApiClient\Model\Body71 | 
 
 try {
     $result = $api_instance->salesOrderRepositoryV1SavePut($body);
@@ -185,11 +185,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body71**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body71.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body71**](../Model/\Webgriffe\MagentoApiClient\Model\Body71.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderInterface**](../Model/SalesDataOrderInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataOrderInterface**](../Model/SalesDataOrderInterface.md)
 
 ### Authorization
 

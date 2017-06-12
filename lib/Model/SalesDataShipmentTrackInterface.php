@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -63,7 +63,7 @@ class SalesDataShipmentTrackInterface implements ArrayAccess
         'weight' => 'float',
         'qty' => 'float',
         'description' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackExtensionInterface',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackExtensionInterface',
         'trackNumber' => 'string',
         'title' => 'string',
         'carrierCode' => 'string'
@@ -421,7 +421,7 @@ class SalesDataShipmentTrackInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -430,7 +430,7 @@ class SalesDataShipmentTrackInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShipmentTrackExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

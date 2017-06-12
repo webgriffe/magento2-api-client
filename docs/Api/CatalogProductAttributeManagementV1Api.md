@@ -22,7 +22,7 @@ Assign attribute to attribute set
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogProductAttributeManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body24(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body24 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body24(); // \Webgriffe\MagentoApiClient\Model\Body24 | 
 
 try {
     $result = $api_instance->catalogProductAttributeManagementV1AssignPost($body);
@@ -37,7 +37,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body24**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body24.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body24**](../Model/\Webgriffe\MagentoApiClient\Model\Body24.md)|  | [optional]
 
 ### Return type
 
@@ -55,7 +55,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductAttributeManagementV1GetAttributesGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface[] catalogProductAttributeManagementV1GetAttributesGet($attributeSetId)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface[] catalogProductAttributeManagementV1GetAttributesGet($attributeSetId)
 
 
 
@@ -86,7 +86,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface[]**](../Model/CatalogDataProductAttributeInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface[]**](../Model/CatalogDataProductAttributeInterface.md)
 
 ### Authorization
 

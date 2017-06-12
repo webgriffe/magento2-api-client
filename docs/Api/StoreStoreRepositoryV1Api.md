@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **storeStoreRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\StoreDataStoreInterface[] storeStoreRepositoryV1GetListGet()
+> \Webgriffe\MagentoApiClient\Model\StoreDataStoreInterface[] storeStoreRepositoryV1GetListGet()
 
 
 
@@ -35,7 +35,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\StoreDataStoreInterface[]**](../Model/StoreDataStoreInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\StoreDataStoreInterface[]**](../Model/StoreDataStoreInterface.md)
 
 ### Authorization
 

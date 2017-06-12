@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -60,8 +60,8 @@ class DirectoryDataCountryInformationInterface implements ArrayAccess
         'threeLetterAbbreviation' => 'string',
         'fullNameLocale' => 'string',
         'fullNameEnglish' => 'string',
-        'availableRegions' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataRegionInformationInterface[]',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataCountryInformationExtensionInterface'
+        'availableRegions' => '\Webgriffe\MagentoApiClient\Model\DirectoryDataRegionInformationInterface[]',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\DirectoryDataCountryInformationExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -315,7 +315,7 @@ class DirectoryDataCountryInformationInterface implements ArrayAccess
 
     /**
      * Gets availableRegions
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataRegionInformationInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\DirectoryDataRegionInformationInterface[]
      */
     public function getAvailableRegions()
     {
@@ -324,7 +324,7 @@ class DirectoryDataCountryInformationInterface implements ArrayAccess
 
     /**
      * Sets availableRegions
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataRegionInformationInterface[] $availableRegions The available regions for the store.
+     * @param \Webgriffe\MagentoApiClient\Model\DirectoryDataRegionInformationInterface[] $availableRegions The available regions for the store.
      * @return $this
      */
     public function setAvailableRegions($availableRegions)
@@ -336,7 +336,7 @@ class DirectoryDataCountryInformationInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataCountryInformationExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\DirectoryDataCountryInformationExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -345,7 +345,7 @@ class DirectoryDataCountryInformationInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataCountryInformationExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\DirectoryDataCountryInformationExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

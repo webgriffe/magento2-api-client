@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -63,7 +63,7 @@ class SalesDataOrderStatusHistoryInterface implements ArrayAccess
         'isVisibleOnFront' => 'int',
         'parentId' => 'int',
         'status' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -382,7 +382,7 @@ class SalesDataOrderStatusHistoryInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -391,7 +391,7 @@ class SalesDataOrderStatusHistoryInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistoryExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

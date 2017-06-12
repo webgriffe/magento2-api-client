@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -59,7 +59,7 @@ class QuoteDataTotalSegmentInterface implements ArrayAccess
         'title' => 'string',
         'value' => 'float',
         'area' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalSegmentExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\QuoteDataTotalSegmentExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -266,7 +266,7 @@ class QuoteDataTotalSegmentInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalSegmentExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataTotalSegmentExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -275,7 +275,7 @@ class QuoteDataTotalSegmentInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalSegmentExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataTotalSegmentExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

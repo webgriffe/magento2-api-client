@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,12 +55,12 @@ class CheckoutDataShippingInformationInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'shippingAddress' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface',
-        'billingAddress' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface',
+        'shippingAddress' => '\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface',
+        'billingAddress' => '\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface',
         'shippingMethodCode' => 'string',
         'shippingCarrierCode' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataShippingInformationExtensionInterface',
-        'customAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\CheckoutDataShippingInformationExtensionInterface',
+        'customAttributes' => '\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]'
     ];
 
     public static function swaggerTypes()
@@ -193,7 +193,7 @@ class CheckoutDataShippingInformationInterface implements ArrayAccess
 
     /**
      * Gets shippingAddress
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface
      */
     public function getShippingAddress()
     {
@@ -202,7 +202,7 @@ class CheckoutDataShippingInformationInterface implements ArrayAccess
 
     /**
      * Sets shippingAddress
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface $shippingAddress
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface $shippingAddress
      * @return $this
      */
     public function setShippingAddress($shippingAddress)
@@ -214,7 +214,7 @@ class CheckoutDataShippingInformationInterface implements ArrayAccess
 
     /**
      * Gets billingAddress
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface
      */
     public function getBillingAddress()
     {
@@ -223,7 +223,7 @@ class CheckoutDataShippingInformationInterface implements ArrayAccess
 
     /**
      * Sets billingAddress
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface $billingAddress
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataAddressInterface $billingAddress
      * @return $this
      */
     public function setBillingAddress($billingAddress)
@@ -277,7 +277,7 @@ class CheckoutDataShippingInformationInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataShippingInformationExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CheckoutDataShippingInformationExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -286,7 +286,7 @@ class CheckoutDataShippingInformationInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataShippingInformationExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\CheckoutDataShippingInformationExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)
@@ -298,7 +298,7 @@ class CheckoutDataShippingInformationInterface implements ArrayAccess
 
     /**
      * Gets customAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]
      */
     public function getCustomAttributes()
     {
@@ -307,7 +307,7 @@ class CheckoutDataShippingInformationInterface implements ArrayAccess
 
     /**
      * Sets customAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[] $customAttributes Custom attributes values.
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[] $customAttributes Custom attributes values.
      * @return $this
      */
     public function setCustomAttributes($customAttributes)

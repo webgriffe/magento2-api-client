@@ -57,7 +57,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **bundleProductOptionRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataOptionInterface bundleProductOptionRepositoryV1GetGet($sku, $optionId)
+> \Webgriffe\MagentoApiClient\Model\BundleDataOptionInterface bundleProductOptionRepositoryV1GetGet($sku, $optionId)
 
 
 
@@ -90,7 +90,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataOptionInterface**](../Model/BundleDataOptionInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\BundleDataOptionInterface**](../Model/BundleDataOptionInterface.md)
 
 ### Authorization
 
@@ -104,7 +104,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **bundleProductOptionRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataOptionInterface[] bundleProductOptionRepositoryV1GetListGet($sku)
+> \Webgriffe\MagentoApiClient\Model\BundleDataOptionInterface[] bundleProductOptionRepositoryV1GetListGet($sku)
 
 
 
@@ -135,7 +135,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\BundleDataOptionInterface[]**](../Model/BundleDataOptionInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\BundleDataOptionInterface[]**](../Model/BundleDataOptionInterface.md)
 
 ### Authorization
 

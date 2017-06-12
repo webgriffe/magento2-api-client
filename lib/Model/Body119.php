@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body119 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'giftCardAccountData' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface'
+        'giftCardAccountData' => '\Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body119 implements ArrayAccess
 
     /**
      * Gets giftCardAccountData
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface
+     * @return \Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface
      */
     public function getGiftCardAccountData()
     {
@@ -164,7 +164,7 @@ class Body119 implements ArrayAccess
 
     /**
      * Sets giftCardAccountData
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface $giftCardAccountData
+     * @param \Webgriffe\MagentoApiClient\Model\GiftCardAccountDataGiftCardAccountInterface $giftCardAccountData
      * @return $this
      */
     public function setGiftCardAccountData($giftCardAccountData)

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body107 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'sample' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataSampleInterface',
+        'sample' => '\Webgriffe\MagentoApiClient\Model\DownloadableDataSampleInterface',
         'isGlobalScopeContent' => 'bool'
     ];
 
@@ -160,7 +160,7 @@ class Body107 implements ArrayAccess
 
     /**
      * Gets sample
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataSampleInterface
+     * @return \Webgriffe\MagentoApiClient\Model\DownloadableDataSampleInterface
      */
     public function getSample()
     {
@@ -169,7 +169,7 @@ class Body107 implements ArrayAccess
 
     /**
      * Sets sample
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataSampleInterface $sample
+     * @param \Webgriffe\MagentoApiClient\Model\DownloadableDataSampleInterface $sample
      * @return $this
      */
     public function setSample($sample)

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -64,7 +64,7 @@ class GiftWrappingDataWrappingInterface implements ArrayAccess
         'baseCurrencyCode' => 'string',
         'websiteIds' => 'int[]',
         'imageUrl' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -402,7 +402,7 @@ class GiftWrappingDataWrappingInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -411,7 +411,7 @@ class GiftWrappingDataWrappingInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\GiftWrappingDataWrappingExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

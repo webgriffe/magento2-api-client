@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -65,7 +65,7 @@ class SalesDataShipmentItemInterface implements ArrayAccess
         'rowTotal' => 'float',
         'sku' => 'string',
         'weight' => 'float',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemExtensionInterface',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemExtensionInterface',
         'orderItemId' => 'int',
         'qty' => 'float'
     ];
@@ -432,7 +432,7 @@ class SalesDataShipmentItemInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -441,7 +441,7 @@ class SalesDataShipmentItemInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

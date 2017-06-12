@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body75 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'entity' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceInterface'
+        'entity' => '\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body75 implements ArrayAccess
 
     /**
      * Gets entity
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceInterface
      */
     public function getEntity()
     {
@@ -164,7 +164,7 @@ class Body75 implements ArrayAccess
 
     /**
      * Sets entity
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceInterface $entity
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceInterface $entity
      * @return $this
      */
     public function setEntity($entity)

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,11 +54,11 @@ class Body81 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'items' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemCreationInterface[]',
+        'items' => '\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemCreationInterface[]',
         'notify' => 'bool',
         'appendComment' => 'bool',
-        'comment' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentCreationInterface',
-        'arguments' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCreationArgumentsInterface'
+        'comment' => '\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentCreationInterface',
+        'arguments' => '\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCreationArgumentsInterface'
     ];
 
     public static function swaggerTypes()
@@ -169,7 +169,7 @@ class Body81 implements ArrayAccess
 
     /**
      * Gets items
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemCreationInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemCreationInterface[]
      */
     public function getItems()
     {
@@ -178,7 +178,7 @@ class Body81 implements ArrayAccess
 
     /**
      * Sets items
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemCreationInterface[] $items
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemCreationInterface[] $items
      * @return $this
      */
     public function setItems($items)
@@ -232,7 +232,7 @@ class Body81 implements ArrayAccess
 
     /**
      * Gets comment
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentCreationInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentCreationInterface
      */
     public function getComment()
     {
@@ -241,7 +241,7 @@ class Body81 implements ArrayAccess
 
     /**
      * Sets comment
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentCreationInterface $comment
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentCreationInterface $comment
      * @return $this
      */
     public function setComment($comment)
@@ -253,7 +253,7 @@ class Body81 implements ArrayAccess
 
     /**
      * Gets arguments
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCreationArgumentsInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCreationArgumentsInterface
      */
     public function getArguments()
     {
@@ -262,7 +262,7 @@ class Body81 implements ArrayAccess
 
     /**
      * Sets arguments
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCreationArgumentsInterface $arguments
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCreationArgumentsInterface $arguments
      * @return $this
      */
     public function setArguments($arguments)

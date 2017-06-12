@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **checkoutPaymentInformationManagementV1GetPaymentInformationGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface checkoutPaymentInformationManagementV1GetPaymentInformationGet()
+> \Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface checkoutPaymentInformationManagementV1GetPaymentInformationGet()
 
 
 
@@ -37,7 +37,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface**](../Model/CheckoutDataPaymentDetailsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface**](../Model/CheckoutDataPaymentDetailsInterface.md)
 
 ### Authorization
 
@@ -63,7 +63,7 @@ Set payment information and place order for a specified cart.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CheckoutPaymentInformationManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body102(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body102 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body102(); // \Webgriffe\MagentoApiClient\Model\Body102 | 
 
 try {
     $result = $api_instance->checkoutPaymentInformationManagementV1SavePaymentInformationAndPlaceOrderPost($body);
@@ -78,7 +78,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body102**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body102.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body102**](../Model/\Webgriffe\MagentoApiClient\Model\Body102.md)|  | [optional]
 
 ### Return type
 
@@ -108,7 +108,7 @@ Set payment information for a specified cart.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CheckoutPaymentInformationManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body103(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body103 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body103(); // \Webgriffe\MagentoApiClient\Model\Body103 | 
 
 try {
     $result = $api_instance->checkoutPaymentInformationManagementV1SavePaymentInformationPost($body);
@@ -123,7 +123,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body103**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body103.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body103**](../Model/\Webgriffe\MagentoApiClient\Model\Body103.md)|  | [optional]
 
 ### Return type
 

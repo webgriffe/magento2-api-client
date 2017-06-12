@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **quoteGuestCartTotalManagementV1CollectTotalsPut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface quoteGuestCartTotalManagementV1CollectTotalsPut($cartId, $body)
+> \Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface quoteGuestCartTotalManagementV1CollectTotalsPut($cartId, $body)
 
 
 
@@ -21,7 +21,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuoteGuestCartTotalManagementV1Api();
 $cartId = "cartId_example"; // string | The cart ID.
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body69(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body69 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body69(); // \Webgriffe\MagentoApiClient\Model\Body69 | 
 
 try {
     $result = $api_instance->quoteGuestCartTotalManagementV1CollectTotalsPut($cartId, $body);
@@ -37,11 +37,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **string**| The cart ID. |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body69**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body69.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body69**](../Model/\Webgriffe\MagentoApiClient\Model\Body69.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface**](../Model/QuoteDataTotalsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsInterface**](../Model/QuoteDataTotalsInterface.md)
 
 ### Authorization
 

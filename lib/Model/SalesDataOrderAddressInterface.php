@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -81,7 +81,7 @@ class SalesDataOrderAddressInterface implements ArrayAccess
         'vatRequestDate' => 'string',
         'vatRequestId' => 'string',
         'vatRequestSuccess' => 'int',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -868,7 +868,7 @@ class SalesDataOrderAddressInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -877,7 +877,7 @@ class SalesDataOrderAddressInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataOrderAddressExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

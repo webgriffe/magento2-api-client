@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **catalogProductCustomOptionTypeListV1GetItemsGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionTypeInterface[] catalogProductCustomOptionTypeListV1GetItemsGet()
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionTypeInterface[] catalogProductCustomOptionTypeListV1GetItemsGet()
 
 
 
@@ -35,7 +35,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionTypeInterface[]**](../Model/CatalogDataProductCustomOptionTypeInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionTypeInterface[]**](../Model/CatalogDataProductCustomOptionTypeInterface.md)
 
 ### Authorization
 

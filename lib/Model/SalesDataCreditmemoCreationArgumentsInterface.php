@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -58,7 +58,7 @@ class SalesDataCreditmemoCreationArgumentsInterface implements ArrayAccess
         'shippingAmount' => 'float',
         'adjustmentPositive' => 'float',
         'adjustmentNegative' => 'float',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCreationArgumentsExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCreationArgumentsExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -228,7 +228,7 @@ class SalesDataCreditmemoCreationArgumentsInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCreationArgumentsExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCreationArgumentsExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -237,7 +237,7 @@ class SalesDataCreditmemoCreationArgumentsInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCreationArgumentsExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCreationArgumentsExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

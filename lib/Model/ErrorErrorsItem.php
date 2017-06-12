@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -56,7 +56,7 @@ class ErrorErrorsItem implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'message' => 'string',
-        'parameters' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorParameters'
+        'parameters' => '\Webgriffe\MagentoApiClient\Model\ErrorParameters'
     ];
 
     public static function swaggerTypes()
@@ -176,7 +176,7 @@ class ErrorErrorsItem implements ArrayAccess
 
     /**
      * Gets parameters
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorParameters
+     * @return \Webgriffe\MagentoApiClient\Model\ErrorParameters
      */
     public function getParameters()
     {
@@ -185,7 +185,7 @@ class ErrorErrorsItem implements ArrayAccess
 
     /**
      * Sets parameters
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\ErrorParameters $parameters
+     * @param \Webgriffe\MagentoApiClient\Model\ErrorParameters $parameters
      * @return $this
      */
     public function setParameters($parameters)

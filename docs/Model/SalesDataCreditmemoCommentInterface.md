@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **isCustomerNotified** | **int** | Is-customer-notified flag value. | 
 **isVisibleOnFront** | **int** | Is-visible-on-storefront flag value. | 
 **parentId** | **int** | Parent ID. | 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentExtensionInterface**](SalesDataCreditmemoCommentExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentExtensionInterface**](SalesDataCreditmemoCommentExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

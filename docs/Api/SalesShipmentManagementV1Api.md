@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **salesShipmentManagementV1GetCommentsListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentSearchResultInterface salesShipmentManagementV1GetCommentsListGet($id)
+> \Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentSearchResultInterface salesShipmentManagementV1GetCommentsListGet($id)
 
 
 
@@ -41,7 +41,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentSearchResultInterface**](../Model/SalesDataShipmentCommentSearchResultInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataShipmentCommentSearchResultInterface**](../Model/SalesDataShipmentCommentSearchResultInterface.md)
 
 ### Authorization
 

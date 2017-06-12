@@ -11,7 +11,7 @@ Method | HTTP request | Description
 
 
 # **catalogInventoryStockRegistryV1GetLowStockItemsGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusCollectionInterface catalogInventoryStockRegistryV1GetLowStockItemsGet($scopeId, $qty, $currentPage, $pageSize)
+> \Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusCollectionInterface catalogInventoryStockRegistryV1GetLowStockItemsGet($scopeId, $qty, $currentPage, $pageSize)
 
 
 
@@ -48,7 +48,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusCollectionInterface**](../Model/CatalogInventoryDataStockStatusCollectionInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusCollectionInterface**](../Model/CatalogInventoryDataStockStatusCollectionInterface.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogInventoryStockRegistryV1GetStockItemBySkuGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface catalogInventoryStockRegistryV1GetStockItemBySkuGet($productSku, $scopeId)
+> \Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface catalogInventoryStockRegistryV1GetStockItemBySkuGet($productSku, $scopeId)
 
 
 
@@ -95,7 +95,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface**](../Model/CatalogInventoryDataStockItemInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockItemInterface**](../Model/CatalogInventoryDataStockItemInterface.md)
 
 ### Authorization
 
@@ -109,7 +109,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogInventoryStockRegistryV1GetStockStatusBySkuGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusInterface catalogInventoryStockRegistryV1GetStockStatusBySkuGet($productSku, $scopeId)
+> \Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusInterface catalogInventoryStockRegistryV1GetStockStatusBySkuGet($productSku, $scopeId)
 
 
 
@@ -142,7 +142,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusInterface**](../Model/CatalogInventoryDataStockStatusInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogInventoryDataStockStatusInterface**](../Model/CatalogInventoryDataStockStatusInterface.md)
 
 ### Authorization
 
@@ -170,7 +170,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogInventoryStockRegistryV1Api();
 $productSku = "productSku_example"; // string | 
 $itemId = "itemId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body41(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body41 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body41(); // \Webgriffe\MagentoApiClient\Model\Body41 | 
 
 try {
     $result = $api_instance->catalogInventoryStockRegistryV1UpdateStockItemBySkuPut($productSku, $itemId, $body);
@@ -187,7 +187,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **productSku** | **string**|  |
  **itemId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body41**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body41.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body41**](../Model/\Webgriffe\MagentoApiClient\Model\Body41.md)|  | [optional]
 
 ### Return type
 

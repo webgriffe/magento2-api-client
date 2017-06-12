@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body34 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'option' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface'
+        'option' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body34 implements ArrayAccess
 
     /**
      * Gets option
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface
      */
     public function getOption()
     {
@@ -164,7 +164,7 @@ class Body34 implements ArrayAccess
 
     /**
      * Sets option
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface $option
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionInterface $option
      * @return $this
      */
     public function setOption($option)

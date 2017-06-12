@@ -71,7 +71,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogProductLinkRepositoryV1Api();
 $sku = "sku_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body35(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body35 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body35(); // \Webgriffe\MagentoApiClient\Model\Body35 | 
 
 try {
     $result = $api_instance->catalogProductLinkRepositoryV1SavePut($sku, $body);
@@ -87,7 +87,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **sku** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body35**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body35.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body35**](../Model/\Webgriffe\MagentoApiClient\Model\Body35.md)|  | [optional]
 
 ### Return type
 

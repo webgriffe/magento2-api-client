@@ -21,7 +21,7 @@ Add new option for bundle product
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\BundleProductOptionManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body44(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body44 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body44(); // \Webgriffe\MagentoApiClient\Model\Body44 | 
 
 try {
     $result = $api_instance->bundleProductOptionManagementV1SavePost($body);
@@ -36,7 +36,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body44**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body44.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body44**](../Model/\Webgriffe\MagentoApiClient\Model\Body44.md)|  | [optional]
 
 ### Return type
 
@@ -67,7 +67,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\BundleProductOptionManagementV1Api();
 $optionId = "optionId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body45(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body45 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body45(); // \Webgriffe\MagentoApiClient\Model\Body45 | 
 
 try {
     $result = $api_instance->bundleProductOptionManagementV1SavePut($optionId, $body);
@@ -83,7 +83,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **optionId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body45**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body45.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body45**](../Model/\Webgriffe\MagentoApiClient\Model\Body45.md)|  | [optional]
 
 ### Return type
 

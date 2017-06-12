@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **catalogCategoryAttributeOptionManagementV1GetItemsGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface[] catalogCategoryAttributeOptionManagementV1GetItemsGet($attributeCode)
+> \Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface[] catalogCategoryAttributeOptionManagementV1GetItemsGet($attributeCode)
 
 
 
@@ -39,7 +39,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface[]**](../Model/EavDataAttributeOptionInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\EavDataAttributeOptionInterface[]**](../Model/EavDataAttributeOptionInterface.md)
 
 ### Authorization
 

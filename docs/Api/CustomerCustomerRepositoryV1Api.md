@@ -58,7 +58,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerCustomerRepositoryV1GetByIdGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface customerCustomerRepositoryV1GetByIdGet($customerId)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface customerCustomerRepositoryV1GetByIdGet($customerId)
 
 
 
@@ -89,7 +89,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface**](../Model/CustomerDataCustomerInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface**](../Model/CustomerDataCustomerInterface.md)
 
 ### Authorization
 
@@ -103,7 +103,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerCustomerRepositoryV1GetByIdGet_0**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface customerCustomerRepositoryV1GetByIdGet_0()
+> \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface customerCustomerRepositoryV1GetByIdGet_0()
 
 
 
@@ -130,7 +130,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface**](../Model/CustomerDataCustomerInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface**](../Model/CustomerDataCustomerInterface.md)
 
 ### Authorization
 
@@ -144,7 +144,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerCustomerRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerSearchResultsInterface customerCustomerRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerSearchResultsInterface customerCustomerRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -187,7 +187,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerSearchResultsInterface**](../Model/CustomerDataCustomerSearchResultsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerSearchResultsInterface**](../Model/CustomerDataCustomerSearchResultsInterface.md)
 
 ### Authorization
 
@@ -201,7 +201,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerCustomerRepositoryV1SavePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface customerCustomerRepositoryV1SavePut($id, $body)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface customerCustomerRepositoryV1SavePut($id, $body)
 
 
 
@@ -214,7 +214,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CustomerCustomerRepositoryV1Api();
 $id = "id_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body4(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body4 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body4(); // \Webgriffe\MagentoApiClient\Model\Body4 | 
 
 try {
     $result = $api_instance->customerCustomerRepositoryV1SavePut($id, $body);
@@ -230,11 +230,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body4**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body4.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body4**](../Model/\Webgriffe\MagentoApiClient\Model\Body4.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface**](../Model/CustomerDataCustomerInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface**](../Model/CustomerDataCustomerInterface.md)
 
 ### Authorization
 
@@ -248,7 +248,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerCustomerRepositoryV1SavePut_0**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface customerCustomerRepositoryV1SavePut_0($body)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface customerCustomerRepositoryV1SavePut_0($body)
 
 
 
@@ -260,7 +260,7 @@ Create or update a customer.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CustomerCustomerRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body5(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body5 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body5(); // \Webgriffe\MagentoApiClient\Model\Body5 | 
 
 try {
     $result = $api_instance->customerCustomerRepositoryV1SavePut_0($body);
@@ -275,11 +275,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body5**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body5.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body5**](../Model/\Webgriffe\MagentoApiClient\Model\Body5.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface**](../Model/CustomerDataCustomerInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataCustomerInterface**](../Model/CustomerDataCustomerInterface.md)
 
 ### Authorization
 

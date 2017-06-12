@@ -57,7 +57,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesRuleCouponRepositoryV1GetByIdGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface salesRuleCouponRepositoryV1GetByIdGet($couponId)
+> \Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface salesRuleCouponRepositoryV1GetByIdGet($couponId)
 
 
 
@@ -88,7 +88,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface**](../Model/SalesRuleDataCouponInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface**](../Model/SalesRuleDataCouponInterface.md)
 
 ### Authorization
 
@@ -102,7 +102,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesRuleCouponRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponSearchResultInterface salesRuleCouponRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponSearchResultInterface salesRuleCouponRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -145,7 +145,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponSearchResultInterface**](../Model/SalesRuleDataCouponSearchResultInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponSearchResultInterface**](../Model/SalesRuleDataCouponSearchResultInterface.md)
 
 ### Authorization
 
@@ -159,7 +159,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesRuleCouponRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface salesRuleCouponRepositoryV1SavePost($body)
+> \Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface salesRuleCouponRepositoryV1SavePost($body)
 
 
 
@@ -171,7 +171,7 @@ Save a coupon.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesRuleCouponRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body90(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body90 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body90(); // \Webgriffe\MagentoApiClient\Model\Body90 | 
 
 try {
     $result = $api_instance->salesRuleCouponRepositoryV1SavePost($body);
@@ -186,11 +186,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body90**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body90.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body90**](../Model/\Webgriffe\MagentoApiClient\Model\Body90.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface**](../Model/SalesRuleDataCouponInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface**](../Model/SalesRuleDataCouponInterface.md)
 
 ### Authorization
 
@@ -204,7 +204,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesRuleCouponRepositoryV1SavePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface salesRuleCouponRepositoryV1SavePut($couponId, $body)
+> \Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface salesRuleCouponRepositoryV1SavePut($couponId, $body)
 
 
 
@@ -217,7 +217,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesRuleCouponRepositoryV1Api();
 $couponId = "couponId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body89(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body89 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body89(); // \Webgriffe\MagentoApiClient\Model\Body89 | 
 
 try {
     $result = $api_instance->salesRuleCouponRepositoryV1SavePut($couponId, $body);
@@ -233,11 +233,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **couponId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body89**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body89.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body89**](../Model/\Webgriffe\MagentoApiClient\Model\Body89.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface**](../Model/SalesRuleDataCouponInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponInterface**](../Model/SalesRuleDataCouponInterface.md)
 
 ### Authorization
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -58,7 +58,7 @@ class CatalogDataProductCustomOptionTypeInterface implements ArrayAccess
         'label' => 'string',
         'code' => 'string',
         'group' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionTypeExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionTypeExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -246,7 +246,7 @@ class CatalogDataProductCustomOptionTypeInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionTypeExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionTypeExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -255,7 +255,7 @@ class CatalogDataProductCustomOptionTypeInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionTypeExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductCustomOptionTypeExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

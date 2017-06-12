@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 **position** | **int** | Category position | 
 **level** | **int** | Category level | 
 **productCount** | **int** | Product count | 
-**childrenData** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryTreeInterface[]**](CatalogDataCategoryTreeInterface.md) |  | 
+**childrenData** | [**\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryTreeInterface[]**](CatalogDataCategoryTreeInterface.md) |  | 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

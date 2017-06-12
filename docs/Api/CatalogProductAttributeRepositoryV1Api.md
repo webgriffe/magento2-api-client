@@ -57,7 +57,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductAttributeRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface catalogProductAttributeRepositoryV1GetGet($attributeCode)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface catalogProductAttributeRepositoryV1GetGet($attributeCode)
 
 
 
@@ -88,7 +88,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface**](../Model/CatalogDataProductAttributeInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface**](../Model/CatalogDataProductAttributeInterface.md)
 
 ### Authorization
 
@@ -102,7 +102,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductAttributeRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeSearchResultsInterface catalogProductAttributeRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeSearchResultsInterface catalogProductAttributeRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -145,7 +145,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeSearchResultsInterface**](../Model/CatalogDataProductAttributeSearchResultsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeSearchResultsInterface**](../Model/CatalogDataProductAttributeSearchResultsInterface.md)
 
 ### Authorization
 
@@ -159,7 +159,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductAttributeRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface catalogProductAttributeRepositoryV1SavePost($body)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface catalogProductAttributeRepositoryV1SavePost($body)
 
 
 
@@ -171,7 +171,7 @@ Save attribute data
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogProductAttributeRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body21(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body21 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body21(); // \Webgriffe\MagentoApiClient\Model\Body21 | 
 
 try {
     $result = $api_instance->catalogProductAttributeRepositoryV1SavePost($body);
@@ -186,11 +186,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body21**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body21.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body21**](../Model/\Webgriffe\MagentoApiClient\Model\Body21.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface**](../Model/CatalogDataProductAttributeInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface**](../Model/CatalogDataProductAttributeInterface.md)
 
 ### Authorization
 
@@ -204,7 +204,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductAttributeRepositoryV1SavePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface catalogProductAttributeRepositoryV1SavePut($attributeCode, $body)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface catalogProductAttributeRepositoryV1SavePut($attributeCode, $body)
 
 
 
@@ -217,7 +217,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogProductAttributeRepositoryV1Api();
 $attributeCode = "attributeCode_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body20(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body20 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body20(); // \Webgriffe\MagentoApiClient\Model\Body20 | 
 
 try {
     $result = $api_instance->catalogProductAttributeRepositoryV1SavePut($attributeCode, $body);
@@ -233,11 +233,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **attributeCode** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body20**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body20.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body20**](../Model/\Webgriffe\MagentoApiClient\Model\Body20.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface**](../Model/CatalogDataProductAttributeInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface**](../Model/CatalogDataProductAttributeInterface.md)
 
 ### Authorization
 

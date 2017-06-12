@@ -56,7 +56,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogCategoryRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface catalogCategoryRepositoryV1GetGet($categoryId, $storeId)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface catalogCategoryRepositoryV1GetGet($categoryId, $storeId)
 
 
 
@@ -89,7 +89,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface**](../Model/CatalogDataCategoryInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface**](../Model/CatalogDataCategoryInterface.md)
 
 ### Authorization
 
@@ -103,7 +103,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogCategoryRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface catalogCategoryRepositoryV1SavePost($body)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface catalogCategoryRepositoryV1SavePost($body)
 
 
 
@@ -115,7 +115,7 @@ Create category service
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogCategoryRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body30(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body30 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body30(); // \Webgriffe\MagentoApiClient\Model\Body30 | 
 
 try {
     $result = $api_instance->catalogCategoryRepositoryV1SavePost($body);
@@ -130,11 +130,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body30**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body30.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body30**](../Model/\Webgriffe\MagentoApiClient\Model\Body30.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface**](../Model/CatalogDataCategoryInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface**](../Model/CatalogDataCategoryInterface.md)
 
 ### Authorization
 
@@ -148,7 +148,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogCategoryRepositoryV1SavePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface catalogCategoryRepositoryV1SavePut($id, $body)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface catalogCategoryRepositoryV1SavePut($id, $body)
 
 
 
@@ -161,7 +161,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogCategoryRepositoryV1Api();
 $id = "id_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body31(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body31 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body31(); // \Webgriffe\MagentoApiClient\Model\Body31 | 
 
 try {
     $result = $api_instance->catalogCategoryRepositoryV1SavePut($id, $body);
@@ -177,11 +177,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body31**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body31.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body31**](../Model/\Webgriffe\MagentoApiClient\Model\Body31.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface**](../Model/CatalogDataCategoryInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataCategoryInterface**](../Model/CatalogDataCategoryInterface.md)
 
 ### Authorization
 

@@ -27,7 +27,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesOrderManagementV1Api();
 $id = 56; // int | The order ID.
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body73(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body73 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body73(); // \Webgriffe\MagentoApiClient\Model\Body73 | 
 
 try {
     $result = $api_instance->salesOrderManagementV1AddCommentPost($id, $body);
@@ -43,7 +43,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**| The order ID. |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body73**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body73.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body73**](../Model/\Webgriffe\MagentoApiClient\Model\Body73.md)|  | [optional]
 
 ### Return type
 
@@ -106,7 +106,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderManagementV1GetCommentsListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistorySearchResultInterface salesOrderManagementV1GetCommentsListGet($id)
+> \Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistorySearchResultInterface salesOrderManagementV1GetCommentsListGet($id)
 
 
 
@@ -137,7 +137,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistorySearchResultInterface**](../Model/SalesDataOrderStatusHistorySearchResultInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataOrderStatusHistorySearchResultInterface**](../Model/SalesDataOrderStatusHistorySearchResultInterface.md)
 
 ### Authorization
 

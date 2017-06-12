@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **catalogProductLinkTypeListV1GetItemAttributesGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkAttributeInterface[] catalogProductLinkTypeListV1GetItemAttributesGet($type)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkAttributeInterface[] catalogProductLinkTypeListV1GetItemAttributesGet($type)
 
 
 
@@ -40,7 +40,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkAttributeInterface[]**](../Model/CatalogDataProductLinkAttributeInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkAttributeInterface[]**](../Model/CatalogDataProductLinkAttributeInterface.md)
 
 ### Authorization
 
@@ -54,7 +54,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogProductLinkTypeListV1GetItemsGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkTypeInterface[] catalogProductLinkTypeListV1GetItemsGet()
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkTypeInterface[] catalogProductLinkTypeListV1GetItemsGet()
 
 
 
@@ -81,7 +81,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkTypeInterface[]**](../Model/CatalogDataProductLinkTypeInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductLinkTypeInterface[]**](../Model/CatalogDataProductLinkTypeInterface.md)
 
 ### Authorization
 

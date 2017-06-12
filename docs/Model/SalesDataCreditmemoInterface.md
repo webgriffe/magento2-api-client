@@ -51,9 +51,9 @@ Name | Type | Description | Notes
 **taxAmount** | **float** | Credit memo tax amount. | [optional] 
 **transactionId** | **string** | Credit memo transaction ID. | [optional] 
 **updatedAt** | **string** | Credit memo updated-at timestamp. | [optional] 
-**items** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemInterface[]**](SalesDataCreditmemoItemInterface.md) | Array of credit memo items. | 
-**comments** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentInterface[]**](SalesDataCreditmemoCommentInterface.md) | Array of any credit memo comments. Otherwise, null. | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoExtensionInterface**](SalesDataCreditmemoExtensionInterface.md) |  | [optional] 
+**items** | [**\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemInterface[]**](SalesDataCreditmemoItemInterface.md) | Array of credit memo items. | 
+**comments** | [**\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentInterface[]**](SalesDataCreditmemoCommentInterface.md) | Array of any credit memo comments. Otherwise, null. | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoExtensionInterface**](SalesDataCreditmemoExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

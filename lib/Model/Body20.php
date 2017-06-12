@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body20 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'attribute' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface'
+        'attribute' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body20 implements ArrayAccess
 
     /**
      * Gets attribute
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface
      */
     public function getAttribute()
     {
@@ -164,7 +164,7 @@ class Body20 implements ArrayAccess
 
     /**
      * Sets attribute
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface $attribute
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeInterface $attribute
      * @return $this
      */
     public function setAttribute($attribute)

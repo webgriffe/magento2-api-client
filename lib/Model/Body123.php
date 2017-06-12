@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body123 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'giftMessage' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface'
+        'giftMessage' => '\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body123 implements ArrayAccess
 
     /**
      * Gets giftMessage
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface
+     * @return \Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface
      */
     public function getGiftMessage()
     {
@@ -164,7 +164,7 @@ class Body123 implements ArrayAccess
 
     /**
      * Sets giftMessage
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface $giftMessage
+     * @param \Webgriffe\MagentoApiClient\Model\GiftMessageDataMessageInterface $giftMessage
      * @return $this
      */
     public function setGiftMessage($giftMessage)

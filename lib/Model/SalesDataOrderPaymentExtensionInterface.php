@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,7 +55,7 @@ class SalesDataOrderPaymentExtensionInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'vaultPaymentToken' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\VaultDataPaymentTokenInterface'
+        'vaultPaymentToken' => '\Webgriffe\MagentoApiClient\Model\VaultDataPaymentTokenInterface'
     ];
 
     public static function swaggerTypes()
@@ -150,7 +150,7 @@ class SalesDataOrderPaymentExtensionInterface implements ArrayAccess
 
     /**
      * Gets vaultPaymentToken
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\VaultDataPaymentTokenInterface
+     * @return \Webgriffe\MagentoApiClient\Model\VaultDataPaymentTokenInterface
      */
     public function getVaultPaymentToken()
     {
@@ -159,7 +159,7 @@ class SalesDataOrderPaymentExtensionInterface implements ArrayAccess
 
     /**
      * Sets vaultPaymentToken
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\VaultDataPaymentTokenInterface $vaultPaymentToken
+     * @param \Webgriffe\MagentoApiClient\Model\VaultDataPaymentTokenInterface $vaultPaymentToken
      * @return $this
      */
     public function setVaultPaymentToken($vaultPaymentToken)

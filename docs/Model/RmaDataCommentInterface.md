@@ -11,8 +11,8 @@ Name | Type | Description | Notes
 **visibleOnFront** | **bool** | Is_visible_on_front | 
 **status** | **string** | Status | 
 **admin** | **bool** | Is_admin | 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataCommentExtensionInterface**](RmaDataCommentExtensionInterface.md) |  | [optional] 
-**customAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]**](FrameworkAttributeInterface.md) | Custom attributes values. | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\RmaDataCommentExtensionInterface**](RmaDataCommentExtensionInterface.md) |  | [optional] 
+**customAttributes** | [**\Webgriffe\MagentoApiClient\Model\FrameworkAttributeInterface[]**](FrameworkAttributeInterface.md) | Custom attributes values. | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

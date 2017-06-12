@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,7 +55,7 @@ class QuoteDataCartExtensionInterface implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'shippingAssignments' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingAssignmentInterface[]'
+        'shippingAssignments' => '\Webgriffe\MagentoApiClient\Model\QuoteDataShippingAssignmentInterface[]'
     ];
 
     public static function swaggerTypes()
@@ -150,7 +150,7 @@ class QuoteDataCartExtensionInterface implements ArrayAccess
 
     /**
      * Gets shippingAssignments
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingAssignmentInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataShippingAssignmentInterface[]
      */
     public function getShippingAssignments()
     {
@@ -159,7 +159,7 @@ class QuoteDataCartExtensionInterface implements ArrayAccess
 
     /**
      * Sets shippingAssignments
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataShippingAssignmentInterface[] $shippingAssignments
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataShippingAssignmentInterface[] $shippingAssignments
      * @return $this
      */
     public function setShippingAssignments($shippingAssignments)

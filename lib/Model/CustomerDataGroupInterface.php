@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -59,7 +59,7 @@ class CustomerDataGroupInterface implements ArrayAccess
         'code' => 'string',
         'taxClassId' => 'int',
         'taxClassName' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\CustomerDataGroupExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -266,7 +266,7 @@ class CustomerDataGroupInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataGroupExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -275,7 +275,7 @@ class CustomerDataGroupInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\CustomerDataGroupExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

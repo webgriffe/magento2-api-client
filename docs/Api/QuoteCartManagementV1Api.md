@@ -27,7 +27,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuoteCartManagementV1Api();
 $cartId = 56; // int | The cart ID.
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body46(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body46 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body46(); // \Webgriffe\MagentoApiClient\Model\Body46 | 
 
 try {
     $result = $api_instance->quoteCartManagementV1AssignCustomerPut($cartId, $body);
@@ -43,7 +43,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **int**| The cart ID. |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body46**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body46.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body46**](../Model/\Webgriffe\MagentoApiClient\Model\Body46.md)|  | [optional]
 
 ### Return type
 
@@ -188,7 +188,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **quoteCartManagementV1GetCartForCustomerGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface quoteCartManagementV1GetCartForCustomerGet()
+> \Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface quoteCartManagementV1GetCartForCustomerGet()
 
 
 
@@ -215,7 +215,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface**](../Model/QuoteDataCartInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\QuoteDataCartInterface**](../Model/QuoteDataCartInterface.md)
 
 ### Authorization
 
@@ -241,7 +241,7 @@ Places an order for a specified cart.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuoteCartManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body48(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body48 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body48(); // \Webgriffe\MagentoApiClient\Model\Body48 | 
 
 try {
     $result = $api_instance->quoteCartManagementV1PlaceOrderPut($body);
@@ -256,7 +256,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body48**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body48.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body48**](../Model/\Webgriffe\MagentoApiClient\Model\Body48.md)|  | [optional]
 
 ### Return type
 
@@ -287,7 +287,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\QuoteCartManagementV1Api();
 $cartId = 56; // int | The cart ID.
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body49(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body49 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body49(); // \Webgriffe\MagentoApiClient\Model\Body49 | 
 
 try {
     $result = $api_instance->quoteCartManagementV1PlaceOrderPut_0($cartId, $body);
@@ -303,7 +303,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **int**| The cart ID. |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body49**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body49.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body49**](../Model/\Webgriffe\MagentoApiClient\Model\Body49.md)|  | [optional]
 
 ### Return type
 

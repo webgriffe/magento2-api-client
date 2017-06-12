@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **customerGroupManagementV1GetDefaultGroupGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface customerGroupManagementV1GetDefaultGroupGet($storeId)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface customerGroupManagementV1GetDefaultGroupGet($storeId)
 
 
 
@@ -41,7 +41,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface**](../Model/CustomerDataGroupInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface**](../Model/CustomerDataGroupInterface.md)
 
 ### Authorization
 
@@ -55,7 +55,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerGroupManagementV1GetDefaultGroupGet_0**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface customerGroupManagementV1GetDefaultGroupGet_0($storeId)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface customerGroupManagementV1GetDefaultGroupGet_0($storeId)
 
 
 
@@ -86,7 +86,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface**](../Model/CustomerDataGroupInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataGroupInterface**](../Model/CustomerDataGroupInterface.md)
 
 ### Authorization
 

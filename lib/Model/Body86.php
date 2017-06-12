@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,11 +55,11 @@ class Body86 implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'capture' => 'bool',
-        'items' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemCreationInterface[]',
+        'items' => '\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemCreationInterface[]',
         'notify' => 'bool',
         'appendComment' => 'bool',
-        'comment' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentCreationInterface',
-        'arguments' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCreationArgumentsInterface'
+        'comment' => '\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentCreationInterface',
+        'arguments' => '\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCreationArgumentsInterface'
     ];
 
     public static function swaggerTypes()
@@ -195,7 +195,7 @@ class Body86 implements ArrayAccess
 
     /**
      * Gets items
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemCreationInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemCreationInterface[]
      */
     public function getItems()
     {
@@ -204,7 +204,7 @@ class Body86 implements ArrayAccess
 
     /**
      * Sets items
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemCreationInterface[] $items
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceItemCreationInterface[] $items
      * @return $this
      */
     public function setItems($items)
@@ -258,7 +258,7 @@ class Body86 implements ArrayAccess
 
     /**
      * Gets comment
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentCreationInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentCreationInterface
      */
     public function getComment()
     {
@@ -267,7 +267,7 @@ class Body86 implements ArrayAccess
 
     /**
      * Sets comment
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentCreationInterface $comment
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentCreationInterface $comment
      * @return $this
      */
     public function setComment($comment)
@@ -279,7 +279,7 @@ class Body86 implements ArrayAccess
 
     /**
      * Gets arguments
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCreationArgumentsInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCreationArgumentsInterface
      */
     public function getArguments()
     {
@@ -288,7 +288,7 @@ class Body86 implements ArrayAccess
 
     /**
      * Sets arguments
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCreationArgumentsInterface $arguments
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCreationArgumentsInterface $arguments
      * @return $this
      */
     public function setArguments($arguments)

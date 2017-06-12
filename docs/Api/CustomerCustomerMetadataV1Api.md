@@ -11,7 +11,7 @@ Method | HTTP request | Description
 
 
 # **customerCustomerMetadataV1GetAllAttributesMetadataGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAttributeMetadataInterface[] customerCustomerMetadataV1GetAllAttributesMetadataGet()
+> \Webgriffe\MagentoApiClient\Model\CustomerDataAttributeMetadataInterface[] customerCustomerMetadataV1GetAllAttributesMetadataGet()
 
 
 
@@ -38,7 +38,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAttributeMetadataInterface[]**](../Model/CustomerDataAttributeMetadataInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataAttributeMetadataInterface[]**](../Model/CustomerDataAttributeMetadataInterface.md)
 
 ### Authorization
 
@@ -52,7 +52,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerCustomerMetadataV1GetAttributeMetadataGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAttributeMetadataInterface customerCustomerMetadataV1GetAttributeMetadataGet($attributeCode)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataAttributeMetadataInterface customerCustomerMetadataV1GetAttributeMetadataGet($attributeCode)
 
 
 
@@ -83,7 +83,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAttributeMetadataInterface**](../Model/CustomerDataAttributeMetadataInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataAttributeMetadataInterface**](../Model/CustomerDataAttributeMetadataInterface.md)
 
 ### Authorization
 
@@ -97,7 +97,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerCustomerMetadataV1GetAttributesGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAttributeMetadataInterface[] customerCustomerMetadataV1GetAttributesGet($formCode)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataAttributeMetadataInterface[] customerCustomerMetadataV1GetAttributesGet($formCode)
 
 
 
@@ -128,7 +128,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAttributeMetadataInterface[]**](../Model/CustomerDataAttributeMetadataInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataAttributeMetadataInterface[]**](../Model/CustomerDataAttributeMetadataInterface.md)
 
 ### Authorization
 
@@ -142,7 +142,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerCustomerMetadataV1GetCustomAttributesMetadataGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAttributeMetadataInterface[] customerCustomerMetadataV1GetCustomAttributesMetadataGet($dataInterfaceName)
+> \Webgriffe\MagentoApiClient\Model\CustomerDataAttributeMetadataInterface[] customerCustomerMetadataV1GetCustomAttributesMetadataGet($dataInterfaceName)
 
 
 
@@ -173,7 +173,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataAttributeMetadataInterface[]**](../Model/CustomerDataAttributeMetadataInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CustomerDataAttributeMetadataInterface[]**](../Model/CustomerDataAttributeMetadataInterface.md)
 
 ### Authorization
 

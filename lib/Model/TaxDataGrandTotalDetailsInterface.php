@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -56,7 +56,7 @@ class TaxDataGrandTotalDetailsInterface implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'amount' => 'float',
-        'rates' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataGrandTotalRatesInterface[]',
+        'rates' => '\Webgriffe\MagentoApiClient\Model\TaxDataGrandTotalRatesInterface[]',
         'groupId' => 'int'
     ];
 
@@ -199,7 +199,7 @@ class TaxDataGrandTotalDetailsInterface implements ArrayAccess
 
     /**
      * Gets rates
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataGrandTotalRatesInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\TaxDataGrandTotalRatesInterface[]
      */
     public function getRates()
     {
@@ -208,7 +208,7 @@ class TaxDataGrandTotalDetailsInterface implements ArrayAccess
 
     /**
      * Sets rates
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataGrandTotalRatesInterface[] $rates Tax rates info
+     * @param \Webgriffe\MagentoApiClient\Model\TaxDataGrandTotalRatesInterface[] $rates Tax rates info
      * @return $this
      */
     public function setRates($rates)

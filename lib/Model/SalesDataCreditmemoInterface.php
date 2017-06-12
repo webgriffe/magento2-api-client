@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -103,9 +103,9 @@ class SalesDataCreditmemoInterface implements ArrayAccess
         'taxAmount' => 'float',
         'transactionId' => 'string',
         'updatedAt' => 'string',
-        'items' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemInterface[]',
-        'comments' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentInterface[]',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoExtensionInterface'
+        'items' => '\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemInterface[]',
+        'comments' => '\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentInterface[]',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -1420,7 +1420,7 @@ class SalesDataCreditmemoInterface implements ArrayAccess
 
     /**
      * Gets items
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemInterface[]
      */
     public function getItems()
     {
@@ -1429,7 +1429,7 @@ class SalesDataCreditmemoInterface implements ArrayAccess
 
     /**
      * Sets items
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemInterface[] $items Array of credit memo items.
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoItemInterface[] $items Array of credit memo items.
      * @return $this
      */
     public function setItems($items)
@@ -1441,7 +1441,7 @@ class SalesDataCreditmemoInterface implements ArrayAccess
 
     /**
      * Gets comments
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentInterface[]
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentInterface[]
      */
     public function getComments()
     {
@@ -1450,7 +1450,7 @@ class SalesDataCreditmemoInterface implements ArrayAccess
 
     /**
      * Sets comments
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentInterface[] $comments Array of any credit memo comments. Otherwise, null.
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoCommentInterface[] $comments Array of any credit memo comments. Otherwise, null.
      * @return $this
      */
     public function setComments($comments)
@@ -1462,7 +1462,7 @@ class SalesDataCreditmemoInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -1471,7 +1471,7 @@ class SalesDataCreditmemoInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataCreditmemoExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

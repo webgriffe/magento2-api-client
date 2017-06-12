@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -66,7 +66,7 @@ class RmaDataItemInterface implements ArrayAccess
         'condition' => 'string',
         'resolution' => 'string',
         'status' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataItemExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\RmaDataItemExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -502,7 +502,7 @@ class RmaDataItemInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataItemExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\RmaDataItemExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -511,7 +511,7 @@ class RmaDataItemInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\RmaDataItemExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\RmaDataItemExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -63,7 +63,7 @@ class QuoteDataCurrencyInterface implements ArrayAccess
         'storeToQuoteRate' => 'float',
         'baseToGlobalRate' => 'float',
         'baseToQuoteRate' => 'float',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCurrencyExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\QuoteDataCurrencyExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -358,7 +358,7 @@ class QuoteDataCurrencyInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCurrencyExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataCurrencyExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -367,7 +367,7 @@ class QuoteDataCurrencyInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataCurrencyExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataCurrencyExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

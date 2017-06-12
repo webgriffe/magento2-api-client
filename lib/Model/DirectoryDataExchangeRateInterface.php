@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -57,7 +57,7 @@ class DirectoryDataExchangeRateInterface implements ArrayAccess
     protected static $swaggerTypes = [
         'currencyTo' => 'string',
         'rate' => 'float',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataExchangeRateExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\DirectoryDataExchangeRateExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -214,7 +214,7 @@ class DirectoryDataExchangeRateInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataExchangeRateExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\DirectoryDataExchangeRateExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -223,7 +223,7 @@ class DirectoryDataExchangeRateInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DirectoryDataExchangeRateExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\DirectoryDataExchangeRateExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

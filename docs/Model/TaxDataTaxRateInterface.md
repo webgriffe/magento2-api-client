@@ -13,8 +13,8 @@ Name | Type | Description | Notes
 **zipTo** | **int** | Zip range to | [optional] 
 **rate** | **float** | Tax rate in percentage | 
 **code** | **string** | Tax rate code | 
-**titles** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateTitleInterface[]**](TaxDataTaxRateTitleInterface.md) | Tax rate titles | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateExtensionInterface**](TaxDataTaxRateExtensionInterface.md) |  | [optional] 
+**titles** | [**\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateTitleInterface[]**](TaxDataTaxRateTitleInterface.md) | Tax rate titles | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\TaxDataTaxRateExtensionInterface**](TaxDataTaxRateExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

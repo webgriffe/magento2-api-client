@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -73,7 +73,7 @@ class SalesDataTotalInterface implements ArrayAccess
         'shippingRefunded' => 'float',
         'shippingTaxAmount' => 'float',
         'shippingTaxRefunded' => 'float',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataTotalExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\SalesDataTotalExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -618,7 +618,7 @@ class SalesDataTotalInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataTotalExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\SalesDataTotalExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -627,7 +627,7 @@ class SalesDataTotalInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataTotalExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\SalesDataTotalExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

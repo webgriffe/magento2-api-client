@@ -11,7 +11,7 @@ Method | HTTP request | Description
 
 
 # **salesInvoiceManagementV1GetCommentsListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentSearchResultInterface salesInvoiceManagementV1GetCommentsListGet($id)
+> \Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentSearchResultInterface salesInvoiceManagementV1GetCommentsListGet($id)
 
 
 
@@ -42,7 +42,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentSearchResultInterface**](../Model/SalesDataInvoiceCommentSearchResultInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesDataInvoiceCommentSearchResultInterface**](../Model/SalesDataInvoiceCommentSearchResultInterface.md)
 
 ### Authorization
 

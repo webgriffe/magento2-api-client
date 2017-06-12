@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **checkoutGuestPaymentInformationManagementV1GetPaymentInformationGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface checkoutGuestPaymentInformationManagementV1GetPaymentInformationGet($cartId)
+> \Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface checkoutGuestPaymentInformationManagementV1GetPaymentInformationGet($cartId)
 
 
 
@@ -41,7 +41,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface**](../Model/CheckoutDataPaymentDetailsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CheckoutDataPaymentDetailsInterface**](../Model/CheckoutDataPaymentDetailsInterface.md)
 
 ### Authorization
 
@@ -68,7 +68,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CheckoutGuestPaymentInformationManagementV1Api();
 $cartId = "cartId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body100(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body100 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body100(); // \Webgriffe\MagentoApiClient\Model\Body100 | 
 
 try {
     $result = $api_instance->checkoutGuestPaymentInformationManagementV1SavePaymentInformationAndPlaceOrderPost($cartId, $body);
@@ -84,7 +84,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body100**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body100.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body100**](../Model/\Webgriffe\MagentoApiClient\Model\Body100.md)|  | [optional]
 
 ### Return type
 
@@ -115,7 +115,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CheckoutGuestPaymentInformationManagementV1Api();
 $cartId = "cartId_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body101(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body101 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body101(); // \Webgriffe\MagentoApiClient\Model\Body101 | 
 
 try {
     $result = $api_instance->checkoutGuestPaymentInformationManagementV1SavePaymentInformationPost($cartId, $body);
@@ -131,7 +131,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **cartId** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body101**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body101.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body101**](../Model/\Webgriffe\MagentoApiClient\Model\Body101.md)|  | [optional]
 
 ### Return type
 

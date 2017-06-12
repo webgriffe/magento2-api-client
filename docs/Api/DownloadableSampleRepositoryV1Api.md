@@ -56,7 +56,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **downloadableSampleRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataSampleInterface[] downloadableSampleRepositoryV1GetListGet($sku)
+> \Webgriffe\MagentoApiClient\Model\DownloadableDataSampleInterface[] downloadableSampleRepositoryV1GetListGet($sku)
 
 
 
@@ -87,7 +87,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataSampleInterface[]**](../Model/DownloadableDataSampleInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\DownloadableDataSampleInterface[]**](../Model/DownloadableDataSampleInterface.md)
 
 ### Authorization
 
@@ -114,7 +114,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\DownloadableSampleRepositoryV1Api();
 $sku = "sku_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body106(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body106 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body106(); // \Webgriffe\MagentoApiClient\Model\Body106 | 
 
 try {
     $result = $api_instance->downloadableSampleRepositoryV1SavePost($sku, $body);
@@ -130,7 +130,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **sku** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body106**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body106.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body106**](../Model/\Webgriffe\MagentoApiClient\Model\Body106.md)|  | [optional]
 
 ### Return type
 
@@ -162,7 +162,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 $api_instance = new Webgriffe\MagentoApiClient\Api\DownloadableSampleRepositoryV1Api();
 $sku = "sku_example"; // string | 
 $id = "id_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body107(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body107 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body107(); // \Webgriffe\MagentoApiClient\Model\Body107 | 
 
 try {
     $result = $api_instance->downloadableSampleRepositoryV1SavePut($sku, $id, $body);
@@ -179,7 +179,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **sku** | **string**|  |
  **id** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body107**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body107.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body107**](../Model/\Webgriffe\MagentoApiClient\Model\Body107.md)|  | [optional]
 
 ### Return type
 

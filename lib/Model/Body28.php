@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -54,7 +54,7 @@ class Body28 implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'entry' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface'
+        'entry' => '\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface'
     ];
 
     public static function swaggerTypes()
@@ -155,7 +155,7 @@ class Body28 implements ArrayAccess
 
     /**
      * Gets entry
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface
      */
     public function getEntry()
     {
@@ -164,7 +164,7 @@ class Body28 implements ArrayAccess
 
     /**
      * Sets entry
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface $entry
+     * @param \Webgriffe\MagentoApiClient\Model\CatalogDataProductAttributeMediaGalleryEntryInterface $entry
      * @return $this
      */
     public function setEntry($entry)

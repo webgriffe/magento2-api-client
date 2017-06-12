@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **configurableProductConfigurableProductManagementV1GenerateVariationPut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface[] configurableProductConfigurableProductManagementV1GenerateVariationPut($body)
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface[] configurableProductConfigurableProductManagementV1GenerateVariationPut($body)
 
 
 
@@ -20,7 +20,7 @@ Generate variation based on same product
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\ConfigurableProductConfigurableProductManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body109(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body109 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body109(); // \Webgriffe\MagentoApiClient\Model\Body109 | 
 
 try {
     $result = $api_instance->configurableProductConfigurableProductManagementV1GenerateVariationPut($body);
@@ -35,11 +35,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body109**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body109.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body109**](../Model/\Webgriffe\MagentoApiClient\Model\Body109.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface[]**](../Model/CatalogDataProductInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductInterface[]**](../Model/CatalogDataProductInterface.md)
 
 ### Authorization
 

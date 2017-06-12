@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -58,7 +58,7 @@ class CustomerDataRegionInterface implements ArrayAccess
         'regionCode' => 'string',
         'region' => 'string',
         'regionId' => 'int',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataRegionExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\CustomerDataRegionExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -246,7 +246,7 @@ class CustomerDataRegionInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataRegionExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CustomerDataRegionExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -255,7 +255,7 @@ class CustomerDataRegionInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CustomerDataRegionExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\CustomerDataRegionExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

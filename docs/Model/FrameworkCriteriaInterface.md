@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **mapperInterfaceName** | **string** | Associated Mapper Interface name | 
-**criteriaList** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkCriteriaInterface[]**](FrameworkCriteriaInterface.md) | Criteria objects added to current Composite Criteria | 
+**criteriaList** | [**\Webgriffe\MagentoApiClient\Model\FrameworkCriteriaInterface[]**](FrameworkCriteriaInterface.md) | Criteria objects added to current Composite Criteria | 
 **filters** | **string[]** | List of filters | 
 **orders** | **string[]** | Ordering criteria | 
 **limit** | **string[]** | Limit | 

@@ -57,7 +57,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **taxTaxRuleRepositoryV1GetGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface taxTaxRuleRepositoryV1GetGet($ruleId)
+> \Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface taxTaxRuleRepositoryV1GetGet($ruleId)
 
 
 
@@ -88,7 +88,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface**](../Model/TaxDataTaxRuleInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface**](../Model/TaxDataTaxRuleInterface.md)
 
 ### Authorization
 
@@ -102,7 +102,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **taxTaxRuleRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleSearchResultsInterface taxTaxRuleRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
+> \Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleSearchResultsInterface taxTaxRuleRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage)
 
 
 
@@ -145,7 +145,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleSearchResultsInterface**](../Model/TaxDataTaxRuleSearchResultsInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleSearchResultsInterface**](../Model/TaxDataTaxRuleSearchResultsInterface.md)
 
 ### Authorization
 
@@ -159,7 +159,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **taxTaxRuleRepositoryV1SavePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface taxTaxRuleRepositoryV1SavePost($body)
+> \Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface taxTaxRuleRepositoryV1SavePost($body)
 
 
 
@@ -171,7 +171,7 @@ Save TaxRule
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\TaxTaxRuleRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body115(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body115 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body115(); // \Webgriffe\MagentoApiClient\Model\Body115 | 
 
 try {
     $result = $api_instance->taxTaxRuleRepositoryV1SavePost($body);
@@ -186,11 +186,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body115**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body115.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body115**](../Model/\Webgriffe\MagentoApiClient\Model\Body115.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface**](../Model/TaxDataTaxRuleInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface**](../Model/TaxDataTaxRuleInterface.md)
 
 ### Authorization
 
@@ -204,7 +204,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **taxTaxRuleRepositoryV1SavePut**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface taxTaxRuleRepositoryV1SavePut($body)
+> \Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface taxTaxRuleRepositoryV1SavePut($body)
 
 
 
@@ -216,7 +216,7 @@ Save TaxRule
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\TaxTaxRuleRepositoryV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body114(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body114 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body114(); // \Webgriffe\MagentoApiClient\Model\Body114 | 
 
 try {
     $result = $api_instance->taxTaxRuleRepositoryV1SavePut($body);
@@ -231,11 +231,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body114**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body114.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body114**](../Model/\Webgriffe\MagentoApiClient\Model\Body114.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface**](../Model/TaxDataTaxRuleInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\TaxDataTaxRuleInterface**](../Model/TaxDataTaxRuleInterface.md)
 
 ### Authorization
 

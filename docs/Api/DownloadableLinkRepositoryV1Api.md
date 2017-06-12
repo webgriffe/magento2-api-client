@@ -56,7 +56,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **downloadableLinkRepositoryV1GetListGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataLinkInterface[] downloadableLinkRepositoryV1GetListGet($sku)
+> \Webgriffe\MagentoApiClient\Model\DownloadableDataLinkInterface[] downloadableLinkRepositoryV1GetListGet($sku)
 
 
 
@@ -87,7 +87,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\DownloadableDataLinkInterface[]**](../Model/DownloadableDataLinkInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\DownloadableDataLinkInterface[]**](../Model/DownloadableDataLinkInterface.md)
 
 ### Authorization
 
@@ -114,7 +114,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\DownloadableLinkRepositoryV1Api();
 $sku = "sku_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body104(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body104 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body104(); // \Webgriffe\MagentoApiClient\Model\Body104 | 
 
 try {
     $result = $api_instance->downloadableLinkRepositoryV1SavePost($sku, $body);
@@ -130,7 +130,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **sku** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body104**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body104.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body104**](../Model/\Webgriffe\MagentoApiClient\Model\Body104.md)|  | [optional]
 
 ### Return type
 
@@ -162,7 +162,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 $api_instance = new Webgriffe\MagentoApiClient\Api\DownloadableLinkRepositoryV1Api();
 $sku = "sku_example"; // string | 
 $id = "id_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body105(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body105 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body105(); // \Webgriffe\MagentoApiClient\Model\Body105 | 
 
 try {
     $result = $api_instance->downloadableLinkRepositoryV1SavePut($sku, $id, $body);
@@ -179,7 +179,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **sku** | **string**|  |
  **id** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body105**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body105.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body105**](../Model/\Webgriffe\MagentoApiClient\Model\Body105.md)|  | [optional]
 
 ### Return type
 

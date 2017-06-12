@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **catalogAttributeSetManagementV1CreatePost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface catalogAttributeSetManagementV1CreatePost($body)
+> \Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface catalogAttributeSetManagementV1CreatePost($body)
 
 
 
@@ -20,7 +20,7 @@ Create attribute set from data
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogAttributeSetManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body23(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body23 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body23(); // \Webgriffe\MagentoApiClient\Model\Body23 | 
 
 try {
     $result = $api_instance->catalogAttributeSetManagementV1CreatePost($body);
@@ -35,11 +35,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body23**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body23.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body23**](../Model/\Webgriffe\MagentoApiClient\Model\Body23.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface**](../Model/EavDataAttributeSetInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\EavDataAttributeSetInterface**](../Model/EavDataAttributeSetInterface.md)
 
 ### Authorization
 

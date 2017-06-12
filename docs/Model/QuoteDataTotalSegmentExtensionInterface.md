@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**taxGrandtotalDetails** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataGrandTotalDetailsInterface[]**](TaxDataGrandTotalDetailsInterface.md) |  | [optional] 
+**taxGrandtotalDetails** | [**\Webgriffe\MagentoApiClient\Model\TaxDataGrandTotalDetailsInterface[]**](TaxDataGrandTotalDetailsInterface.md) |  | [optional] 
 **giftCards** | **string** |  | [optional] 
 **gwOrderId** | **string** |  | [optional] 
 **gwItemIds** | **string[]** |  | [optional] 

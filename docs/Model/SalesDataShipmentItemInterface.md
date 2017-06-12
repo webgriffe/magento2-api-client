@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 **rowTotal** | **float** | Row total. | [optional] 
 **sku** | **string** | SKU. | [optional] 
 **weight** | **float** | Weight. | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemExtensionInterface**](SalesDataShipmentItemExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesDataShipmentItemExtensionInterface**](SalesDataShipmentItemExtensionInterface.md) |  | [optional] 
 **orderItemId** | **int** | Order item ID. | 
 **qty** | **float** | Quantity. | 
 

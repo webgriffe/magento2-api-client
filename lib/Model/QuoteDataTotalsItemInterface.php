@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -75,7 +75,7 @@ class QuoteDataTotalsItemInterface implements ArrayAccess
         'options' => 'string',
         'weeeTaxAppliedAmount' => 'float',
         'weeeTaxApplied' => 'string',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsItemExtensionInterface',
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsItemExtensionInterface',
         'name' => 'string'
     ];
 
@@ -729,7 +729,7 @@ class QuoteDataTotalsItemInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsItemExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\QuoteDataTotalsItemExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -738,7 +738,7 @@ class QuoteDataTotalsItemInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\QuoteDataTotalsItemExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\QuoteDataTotalsItemExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

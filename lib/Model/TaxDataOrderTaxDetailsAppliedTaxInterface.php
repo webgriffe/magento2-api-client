@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -60,7 +60,7 @@ class TaxDataOrderTaxDetailsAppliedTaxInterface implements ArrayAccess
         'percent' => 'float',
         'amount' => 'float',
         'baseAmount' => 'float',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -292,7 +292,7 @@ class TaxDataOrderTaxDetailsAppliedTaxInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -301,7 +301,7 @@ class TaxDataOrderTaxDetailsAppliedTaxInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\TaxDataOrderTaxDetailsAppliedTaxExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

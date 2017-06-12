@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **catalogProductTypeListV1GetProductTypesGet**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductTypeInterface[] catalogProductTypeListV1GetProductTypesGet()
+> \Webgriffe\MagentoApiClient\Model\CatalogDataProductTypeInterface[] catalogProductTypeListV1GetProductTypesGet()
 
 
 
@@ -35,7 +35,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CatalogDataProductTypeInterface[]**](../Model/CatalogDataProductTypeInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\CatalogDataProductTypeInterface[]**](../Model/CatalogDataProductTypeInterface.md)
 
 ### Authorization
 

@@ -21,7 +21,7 @@ Name | Type | Description | Notes
 **shippingRefunded** | **float** | Shipping refunded amount. | [optional] 
 **shippingTaxAmount** | **float** | Shipping tax amount. | [optional] 
 **shippingTaxRefunded** | **float** | Shipping tax refunded amount. | [optional] 
-**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesDataTotalExtensionInterface**](SalesDataTotalExtensionInterface.md) |  | [optional] 
+**extensionAttributes** | [**\Webgriffe\MagentoApiClient\Model\SalesDataTotalExtensionInterface**](SalesDataTotalExtensionInterface.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

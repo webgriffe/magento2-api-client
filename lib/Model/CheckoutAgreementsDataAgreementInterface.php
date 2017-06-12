@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -63,7 +63,7 @@ class CheckoutAgreementsDataAgreementInterface implements ArrayAccess
         'isActive' => 'bool',
         'isHtml' => 'bool',
         'mode' => 'int',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutAgreementsDataAgreementExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\CheckoutAgreementsDataAgreementExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -400,7 +400,7 @@ class CheckoutAgreementsDataAgreementInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutAgreementsDataAgreementExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\CheckoutAgreementsDataAgreementExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -409,7 +409,7 @@ class CheckoutAgreementsDataAgreementInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\CheckoutAgreementsDataAgreementExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\CheckoutAgreementsDataAgreementExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

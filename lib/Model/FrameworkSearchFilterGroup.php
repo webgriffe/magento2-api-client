@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -55,7 +55,7 @@ class FrameworkSearchFilterGroup implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'filters' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkFilter[]'
+        'filters' => '\Webgriffe\MagentoApiClient\Model\FrameworkFilter[]'
     ];
 
     public static function swaggerTypes()
@@ -150,7 +150,7 @@ class FrameworkSearchFilterGroup implements ArrayAccess
 
     /**
      * Gets filters
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkFilter[]
+     * @return \Webgriffe\MagentoApiClient\Model\FrameworkFilter[]
      */
     public function getFilters()
     {
@@ -159,7 +159,7 @@ class FrameworkSearchFilterGroup implements ArrayAccess
 
     /**
      * Sets filters
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\FrameworkFilter[] $filters A list of filters in this group
+     * @param \Webgriffe\MagentoApiClient\Model\FrameworkFilter[] $filters A list of filters in this group
      * @return $this
      */
     public function setFilters($filters)

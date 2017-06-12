@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **salesRuleCouponManagementV1DeleteByCodesPost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponMassDeleteResultInterface salesRuleCouponManagementV1DeleteByCodesPost($body)
+> \Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponMassDeleteResultInterface salesRuleCouponManagementV1DeleteByCodesPost($body)
 
 
 
@@ -22,7 +22,7 @@ Delete coupon by coupon codes.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesRuleCouponManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body93(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body93 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body93(); // \Webgriffe\MagentoApiClient\Model\Body93 | 
 
 try {
     $result = $api_instance->salesRuleCouponManagementV1DeleteByCodesPost($body);
@@ -37,11 +37,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body93**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body93.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body93**](../Model/\Webgriffe\MagentoApiClient\Model\Body93.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponMassDeleteResultInterface**](../Model/SalesRuleDataCouponMassDeleteResultInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponMassDeleteResultInterface**](../Model/SalesRuleDataCouponMassDeleteResultInterface.md)
 
 ### Authorization
 
@@ -55,7 +55,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesRuleCouponManagementV1DeleteByIdsPost**
-> \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponMassDeleteResultInterface salesRuleCouponManagementV1DeleteByIdsPost($body)
+> \Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponMassDeleteResultInterface salesRuleCouponManagementV1DeleteByIdsPost($body)
 
 
 
@@ -67,7 +67,7 @@ Delete coupon by coupon ids.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesRuleCouponManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body92(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body92 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body92(); // \Webgriffe\MagentoApiClient\Model\Body92 | 
 
 try {
     $result = $api_instance->salesRuleCouponManagementV1DeleteByIdsPost($body);
@@ -82,11 +82,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body92**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body92.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body92**](../Model/\Webgriffe\MagentoApiClient\Model\Body92.md)|  | [optional]
 
 ### Return type
 
-[**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponMassDeleteResultInterface**](../Model/SalesRuleDataCouponMassDeleteResultInterface.md)
+[**\Webgriffe\MagentoApiClient\Model\SalesRuleDataCouponMassDeleteResultInterface**](../Model/SalesRuleDataCouponMassDeleteResultInterface.md)
 
 ### Authorization
 
@@ -112,7 +112,7 @@ Generate coupon for a rule
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\SalesRuleCouponManagementV1Api();
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body91(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body91 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body91(); // \Webgriffe\MagentoApiClient\Model\Body91 | 
 
 try {
     $result = $api_instance->salesRuleCouponManagementV1GeneratePost($body);
@@ -127,7 +127,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body91**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body91.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body91**](../Model/\Webgriffe\MagentoApiClient\Model\Body91.md)|  | [optional]
 
 ### Return type
 

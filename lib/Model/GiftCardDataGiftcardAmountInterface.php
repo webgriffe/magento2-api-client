@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model;
+namespace Webgriffe\MagentoApiClient\Model;
 
 use \ArrayAccess;
 
@@ -59,7 +59,7 @@ class GiftCardDataGiftcardAmountInterface implements ArrayAccess
         'websiteId' => 'int',
         'value' => 'float',
         'websiteValue' => 'float',
-        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardDataGiftcardAmountExtensionInterface'
+        'extensionAttributes' => '\Webgriffe\MagentoApiClient\Model\GiftCardDataGiftcardAmountExtensionInterface'
     ];
 
     public static function swaggerTypes()
@@ -278,7 +278,7 @@ class GiftCardDataGiftcardAmountInterface implements ArrayAccess
 
     /**
      * Gets extensionAttributes
-     * @return \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardDataGiftcardAmountExtensionInterface
+     * @return \Webgriffe\MagentoApiClient\Model\GiftCardDataGiftcardAmountExtensionInterface
      */
     public function getExtensionAttributes()
     {
@@ -287,7 +287,7 @@ class GiftCardDataGiftcardAmountInterface implements ArrayAccess
 
     /**
      * Sets extensionAttributes
-     * @param \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\GiftCardDataGiftcardAmountExtensionInterface $extensionAttributes
+     * @param \Webgriffe\MagentoApiClient\Model\GiftCardDataGiftcardAmountExtensionInterface $extensionAttributes
      * @return $this
      */
     public function setExtensionAttributes($extensionAttributes)

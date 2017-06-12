@@ -70,7 +70,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogProductWebsiteLinkRepositoryV1Api();
 $sku = "sku_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body40(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body40 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body40(); // \Webgriffe\MagentoApiClient\Model\Body40 | 
 
 try {
     $result = $api_instance->catalogProductWebsiteLinkRepositoryV1SavePost($sku, $body);
@@ -86,7 +86,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **sku** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body40**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body40.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body40**](../Model/\Webgriffe\MagentoApiClient\Model\Body40.md)|  | [optional]
 
 ### Return type
 
@@ -117,7 +117,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 $api_instance = new Webgriffe\MagentoApiClient\Api\CatalogProductWebsiteLinkRepositoryV1Api();
 $sku = "sku_example"; // string | 
-$body = new \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body39(); // \Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body39 | 
+$body = new \Webgriffe\MagentoApiClient\Model\Body39(); // \Webgriffe\MagentoApiClient\Model\Body39 | 
 
 try {
     $result = $api_instance->catalogProductWebsiteLinkRepositoryV1SavePut($sku, $body);
@@ -133,7 +133,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **sku** | **string**|  |
- **body** | [**\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body39**](../Model/\Webgriffe\MagentoApiClient\Webgriffe\MagentoApiClient\Model\Body39.md)|  | [optional]
+ **body** | [**\Webgriffe\MagentoApiClient\Model\Body39**](../Model/\Webgriffe\MagentoApiClient\Model\Body39.md)|  | [optional]
 
 ### Return type
 
